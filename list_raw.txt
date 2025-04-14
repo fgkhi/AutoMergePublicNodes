@@ -350,5 +350,5 @@ vless://459b4a80-bd61-4ecd-a26b-e9c1809d9e45@shenzhou05.mysynology.net:49699?all
 vless://459b4a80-bd61-4ecd-a26b-e9c1809d9e45@shenzhou05.mysynology.net:29023?allowInsecure=0&sni=www.amazon.com&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#14%7CCN_speednode_0046
 vless://2d9798a1-6f27-4d8c-8f89-0d4147ae7cd2@152.42.218.33:443?allowInsecure=1&sni=fonts.googleapis.com&type=ws&host=fonts.googleapis.com&path=/security=tls#14%7CSG_speednode_0049
 vless://d9074e14-c4e4-4e58-8fff-3727e83af868@170.114.45.6:80?allowInsecure=1&sni=free.pranithsandaruwan.shop&type=ws&host=free.pranithsandaruwan.shop&path=/fp=chrome#14%7CUS_speednode_0067
-ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8765?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202504140137024-Zlzv0ZMcwk.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
 ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8775?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202504140137024-Zlzv0ZMcwk.download.microsoft.com#%E7%BE%8E%E5%9B%BD4%7C%40ripaojiedian
+ss://cmM0LW1kNTplZmFuY2N5dW4@cn01.efan8867801.xyz:8765?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3D202504140137024-Zlzv0ZMcwk.download.microsoft.com#%E6%97%A5%E6%9C%AC%7C%40ripaojiedian
