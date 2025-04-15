@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: b0d73366-f5ea-4f23-a07d-982c9a92dccc
+  password: 09e07b7b-41e0-4735-96c3-dc5f2725fa2c
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: b0d73366-f5ea-4f23-a07d-982c9a92dccc
+  password: 09e07b7b-41e0-4735-96c3-dc5f2725fa2c
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: b0d73366-f5ea-4f23-a07d-982c9a92dccc
+  password: 09e07b7b-41e0-4735-96c3-dc5f2725fa2c
   port: 36175
   server: free.2weradf.xyz
   type: ss
@@ -108,21 +108,21 @@ proxies:
     path: '%2Ffree.server.techsonicpremium.shop'
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 01 | 1x SG
-  password: f9f02215-0fb7-4270-95d8-08994f99a51b
+  password: a16c92ca-3766-4466-b4e8-502ec380f8fa
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 02 | 1x SG
-  password: f9f02215-0fb7-4270-95d8-08994f99a51b
+  password: a16c92ca-3766-4466-b4e8-502ec380f8fa
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|🇸🇬新加坡 03 | 1x SG
-  password: f9f02215-0fb7-4270-95d8-08994f99a51b
+  password: a16c92ca-3766-4466-b4e8-502ec380f8fa
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
