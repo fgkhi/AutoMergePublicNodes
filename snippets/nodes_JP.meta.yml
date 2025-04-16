@@ -1,191 +1,69 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 01 | 1x JP
-  password: 96b89e52-ecd6-49bb-9c7f-2b78c56a3870
+  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 02 | 1x JP
-  password: 96b89e52-ecd6-49bb-9c7f-2b78c56a3870
+  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇯🇵 日本 03 | 1x JP
-  password: 96b89e52-ecd6-49bb-9c7f-2b78c56a3870
+  password: 0ace78a2-38d1-40ea-9745-15f2a6a34986
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 01 | 1x JP
-  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
+  password: 89339d4c-dd27-4f13-b536-90813fc9e169
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 02 | 1x JP
-  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
+  password: 89339d4c-dd27-4f13-b536-90813fc9e169
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 1|🇯🇵日本 03 | 1x JP
-  password: 6cb593f6-b5f4-4cc9-9da0-bda01ed58c82
+  password: 89339d4c-dd27-4f13-b536-90813fc9e169
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0016
-  network: tcp
-  port: 25768
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: bsuqian01.dynu.net
-  servername: www.nvidia.com
+- name: 2|🇯🇵1 |  2.9MB/s
+  network: ws
+  port: 443
+  server: ashton.ns.cloudflare.com
+  servername: vc.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 2|🇯🇵2 |  2.4MB/s
-  network: ws
-  port: 443
-  server: 162.159.193.194
-  servername: ZyzZzoAO.puTAta.eu.ORg
-  tls: true
-  type: vless
-  udp: false
-  uuid: 103104c5-a3f5-4c48-8d8f-a72a56959799
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: zyzzzoao.putata.eu.org
-    path: /N5Ank0DUsNvJIVyL?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 2,12|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.179.174.138
-  tfo: false
-  type: ss
-- allowInsecure: ''
-  name: 2|🇯🇵4 |  4.4MB/s
-  network: tcp
-  password: '!!str 74260698218909400'
-  port: 443
-  server: smooth-imp.shiner427.skin
-  skip-cert-verify: false
-  sni: smooth-imp.shiner427.skin
-  tls: true
-  type: trojan
+      Host: vc.ylka.dpdns.org
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 2,13|日本4|@ripaojiedian
-  network: tcp
-  port: '17233'
-  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
-  servername: ''
-  skip-cert-verify: true
+  name: 2|🇯🇵2 |  3.1MB/s
+  port: 17233
+  server: 50ec05bc-sutj40-tdcdb7-1k27l.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-  ws-headers:
-    Host: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
-  ws-path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0015
-  network: tcp
-  port: 13989
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: gateway.icloud.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇯🇵7 |  6.0MB/s
-  network: tcp
-  port: 14548
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: csuzhou01.1cooldns.com
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 2|🇯🇵8 |  3.6MB/s
-  network: ws
-  port: 443
-  server: 104.17.11.155
-  servername: ZYZzZoAO.PuTATa.EU.org
-  tls: true
-  type: vless
-  udp: false
-  uuid: 103104c5-a3f5-4c48-8d8f-a72a56959799
-  ws-opts:
-    headers:
-      Host: zyzzzoao.putata.eu.org
-    path: /eR9eo6sq6TUid1Fe?ed=2560
-- client-fingerprint: randomized
-  flow: ''
-  mode: ''
-  name: 2|🇯🇵9 |  4.1MB/s
-  network: ws
-  port: 443
-  server: 172.66.46.247
-  servername: MiSTliNK-CL9.pAgEs.Dev
-  tls: true
-  type: vless
-  udp: false
-  uuid: 321cc007-bb85-41c9-b686-1f45cf5174e0
-  ws-opts:
-    headers:
-      Host: mistlink-cl9.pages.dev
-    path: /ERlnnsHzyLczPW3c?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇯🇵10 |  4.1MB/s
-  network: tcp
-  port: 16497
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: zhee01.dynu.net
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 2|🇯🇵11 |  6.2MB/s
-  network: tcp
-  port: 17278
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: shenzhou05.mysynology.net
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 2|🇯🇵12 |  1.4MB/s
+  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
+- name: 2|🇯🇵3 |  6.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -195,21 +73,43 @@ proxies:
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - client-fingerprint: chrome
-  flow: ''
-  mode: ''
-  name: 2|🇯🇵13 |  1.5MB/s
-  network: ws
-  port: 443
-  server: 172.66.47.92
-  servername: Work-YUU00.pageS.dEv
+  flow: xtls-rprx-vision
+  name: 2|🇯🇵4 |  5.0MB/s
+  network: tcp
+  port: 48121
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: beiyong.dynuddns.net
+  servername: www.nvidia.com
   tls: true
   type: vless
-  udp: false
-  uuid: 49d4b99d-7d99-416a-9778-2c75d79100bb
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇯🇵5 |  5.1MB/s
+  network: tcp
+  port: 10635
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- name: 2|🇯🇵6 |  3.7MB/s
+  network: ws
+  port: 443
+  server: iplocation.io
+  servername: vc.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      Host: work-yuu00.pages.dev
-    path: ''
+      Host: vc.ylka.dpdns.org
+    path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 2,14|CN_speednode_0008
@@ -224,25 +124,21 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- alterId: 0
-  cipher: auto
-  name: 2|🇯🇵15 |  3.8MB/s
-  port: 17233
-  server: 2a070f4a-suvds0-tdcdb7-1k27l.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 2|🇯🇵16 |  4.3MB/s
-  port: 17233
-  server: 50ec05bc-sutj40-tdcdb7-1k27l.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵18 |  5.8MB/s
+  name: 2|🇯🇵8 |  6.3MB/s
+  network: tcp
+  port: 11839
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: gysz0000.dynu.net
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 2|🇯🇵9 |  5.4MB/s
   network: tcp
   port: 35659
   reality-opts:
@@ -252,17 +148,59 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- alterId: 0
+  cipher: auto
+  name: 2,13|日本4|@ripaojiedian
+  network: tcp
+  port: '17233'
+  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+  ws-headers:
+    Host: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇯🇵11 |  2.6MB/s
+  network: tcp
+  port: 17233
+  raw:
+    add: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
+    aid: 0
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
+    net: tcp
+    path: ''
+    port: 17233
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵19 |  5.8MB/s
+  name: 2,14|CN_speednode_0016
   network: tcp
-  port: 48121
+  port: 25768
   reality-opts:
     public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: beiyong.dynuddns.net
+  server: bsuqian01.dynu.net
   servername: www.nvidia.com
+  skip-cert-verify: true
   tls: true
   type: vless
+  udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: rc4-md5
   client-fingerprint: chrome
@@ -319,6 +257,14 @@ proxies:
     headers:
       Host: ji0612e.nfjunka.xyz
     path: /?ed=2560&proxyip=103.232.213.117:8080
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.179.174.138
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   name: 13|日本2|@ripaojiedian
