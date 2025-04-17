@@ -1,14 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: 19dd841a-1faf-4015-9e3e-a2a2cabc5be4
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: b7a52bbe-aced-48b7-9ea4-88c6cafc4e62
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: b7a52bbe-aced-48b7-9ea4-88c6cafc4e62
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: ff0b0590-3500-4546-9255-e357cd8d277f
   port: 36141
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 19dd841a-1faf-4015-9e3e-a2a2cabc5be4
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: ff0b0590-3500-4546-9255-e357cd8d277f
   port: 36271
   server: free.2weradf.xyz
   type: ss
@@ -16,7 +30,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇬🇧1 |  5.4MB/s
+  name: 2|🇬🇧1 |  5.4MB/s
   network: ws
   port: 443
   server: 199.34.228.162
@@ -32,7 +46,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 1679
   flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0023
+  name: 2,14|CN_speednode_0023
   network: tcp
   port: 65053
   reality-opts:
@@ -49,7 +63,7 @@ proxies:
   grpc-opts:
     grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
   mode: gun
-  name: 1|🇬🇧3 |  1.1MB/s
+  name: 2|🇬🇧3 |  1.1MB/s
   network: grpc
   port: 1210
   reality-opts:
@@ -64,7 +78,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇬🇧4 |  5.0MB/s
+  name: 2|🇬🇧4 |  5.0MB/s
   network: ws
   port: 443
   server: 199.34.228.171
@@ -79,7 +93,7 @@ proxies:
     path: /Telegram@V2ray_Alpha
 - flow: ''
   mode: ''
-  name: 1|🇬🇧5 |  5.4MB/s
+  name: 2|🇬🇧5 |  5.4MB/s
   network: ws
   port: 443
   server: 104.16.189.41
@@ -92,7 +106,7 @@ proxies:
     headers:
       Host: cr7.traneh.dpdns.org
     path: sinavm-sinavm/?ed=2560
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -100,17 +114,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰香港 01 | 1x HK
-  password: 9911055b-ca19-4e39-8069-4c07712babcc
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: 9911055b-ca19-4e39-8069-4c07712babcc
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
