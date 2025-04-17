@@ -1,20 +1,13 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: e5c771ed-bd65-425a-9a38-85354bd190b7
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 21f0ff3d-e573-4dc7-a1a9-baa06ff74291
+  name: 0|🇩🇪德国 01 | 1x DE
+  password: a93bcfa4-71b9-4c24-a82d-657bd08107bf
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪1 |  4.8MB/s
+  name: 1|🇩🇪1 |  4.8MB/s
   password: zqNBkZNoXgqtiD0wo49QdY
   port: 12240
   server: 95.164.16.152
@@ -22,7 +15,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪2 |  5.7MB/s
+  name: 1|🇩🇪2 |  5.7MB/s
   network: ws
   port: 15379
   server: 188.245.183.122
@@ -35,7 +28,7 @@ proxies:
     path: /@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram,@V2RAXX-telegram?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇩🇪3 |  5.4MB/s
+  name: 1|🇩🇪3 |  5.4MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -48,7 +41,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪4 |  4.2MB/s
+  name: 1|🇩🇪4 |  4.2MB/s
   network: ws
   port: 443
   server: 91.107.131.31
@@ -64,7 +57,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪5 |  5.7MB/s
+  name: 1|🇩🇪5 |  5.7MB/s
   network: ws
   port: 2082
   server: 104.17.147.22
@@ -80,7 +73,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪6 |  2.4MB/s
+  name: 1|🇩🇪6 |  2.4MB/s
   network: ws
   port: 8080
   server: 104.19.54.50
@@ -93,3 +86,10 @@ proxies:
     headers:
       Host: www.speedtest.net.www.zula.ir.cloudflare.com.www.parsvds.ir.svgspeedtest.net.
     path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: e89d961b-ce65-4df1-ad7b-ec4330a3d45c
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

@@ -1,55 +1,34 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 01 | 1x JP
-  password: e5c771ed-bd65-425a-9a38-85354bd190b7
-  port: 36111
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 02 | 1x JP
-  password: e5c771ed-bd65-425a-9a38-85354bd190b7
-  port: 36113
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 03 | 1x JP
-  password: e5c771ed-bd65-425a-9a38-85354bd190b7
-  port: 36115
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 01 | 1x JP
-  password: 21f0ff3d-e573-4dc7-a1a9-baa06ff74291
+  name: 0|🇯🇵日本 01 | 1x JP
+  password: a93bcfa4-71b9-4c24-a82d-657bd08107bf
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 02 | 1x JP
-  password: 21f0ff3d-e573-4dc7-a1a9-baa06ff74291
+  name: 0|🇯🇵日本 02 | 1x JP
+  password: a93bcfa4-71b9-4c24-a82d-657bd08107bf
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 03 | 1x JP
-  password: 21f0ff3d-e573-4dc7-a1a9-baa06ff74291
+  name: 0|🇯🇵日本 03 | 1x JP
+  password: a93bcfa4-71b9-4c24-a82d-657bd08107bf
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵1 |  4.7MB/s
+  name: 1|🇯🇵1 |  4.7MB/s
   port: 17233
   server: 464fd463-sutj40-svphz8-1nhwh.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 3a3ef54c-eb42-11ed-9bf0-f23c91369f2d
-- name: 2,14|JP_speednode_0040
+- name: 1,13|JP_speednode_0040
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jp104-cdn-route.couldflare-cdn.com
@@ -61,7 +40,7 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
-  name: 2,13|日本4|@ripaojiedian
+  name: 1,12|日本4|@ripaojiedian
   network: tcp
   port: '17233'
   server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
@@ -72,7 +51,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2|🇯🇵4 |  5.9MB/s
+  name: 1|🇯🇵4 |  5.9MB/s
   port: 17233
   server: b14e2931-suvds0-sutgau-1r62f.cm5.p5pv.com
   tls: false
@@ -80,7 +59,7 @@ proxies:
   uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0013
+  name: 1,13|CN_speednode_0013
   network: tcp
   port: 31735
   reality-opts:
@@ -94,7 +73,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵6 |  4.2MB/s
+  name: 1|🇯🇵6 |  4.2MB/s
   port: 17233
   server: 2a070f4a-suvds0-tdcdb7-1k27l.cm5.p5pv.com
   tls: false
@@ -103,7 +82,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2,12|🇯🇵 日本4|@ripaojiedian
+  name: 1,11|🇯🇵 日本4|@ripaojiedian
   port: 17233
   server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
   skip-cert-verify: false
@@ -113,7 +92,7 @@ proxies:
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵8 |  4.4MB/s
+  name: 1|🇯🇵8 |  4.4MB/s
   port: 17233
   server: 76c85625-sutj40-t1k53r-1jm8i.cm5.p5pv.com
   tls: false
@@ -121,7 +100,7 @@ proxies:
   uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0014
+  name: 1,13|CN_speednode_0014
   network: tcp
   port: 48121
   reality-opts:
@@ -135,7 +114,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵10 |  6.1MB/s
+  name: 1|🇯🇵10 |  6.1MB/s
   network: tcp
   port: 25768
   reality-opts:
@@ -147,7 +126,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵11 |  6.1MB/s
+  name: 1|🇯🇵11 |  6.1MB/s
   network: tcp
   port: 11839
   reality-opts:
@@ -159,7 +138,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0020
+  name: 1,13|CN_speednode_0020
   network: tcp
   port: 13989
   reality-opts:
@@ -173,7 +152,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵13 |  5.0MB/s
+  name: 1|🇯🇵13 |  5.0MB/s
   port: 17233
   server: 50ec05bc-sutj40-tdcdb7-1k27l.cm5.p5pv.com
   tls: false
@@ -181,7 +160,7 @@ proxies:
   uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵14 |  2.7MB/s
+  name: 1|🇯🇵14 |  2.7MB/s
   port: 17233
   server: 929e4f8a-sutj40-sutgau-1r62f.cm5.p5pv.com
   tls: false
@@ -189,7 +168,7 @@ proxies:
   uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵15 |  6.2MB/s
+  name: 1|🇯🇵15 |  6.2MB/s
   network: tcp
   port: 17278
   reality-opts:
@@ -201,7 +180,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 2|🇯🇵16 |  4.7MB/s
+  name: 1|🇯🇵16 |  4.7MB/s
   port: 17233
   server: db99765c-suvds0-svgpxu-y2gs.cm5.p5pv.com
   tls: false
@@ -209,7 +188,7 @@ proxies:
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇯🇵17 |  2.6MB/s
+  name: 1|🇯🇵17 |  2.6MB/s
   network: tcp
   port: 35659
   reality-opts:
@@ -221,7 +200,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -234,7 +213,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 11|🇯🇵 日本2|@ripaojiedian
   port: 23919
   server: hzz9.fgmcx.top
   skip-cert-verify: false
@@ -243,7 +222,7 @@ proxies:
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - client-fingerprint: chrome
-  name: 12|🇯🇵 日本3|@ripaojiedian
+  name: 11|🇯🇵 日本3|@ripaojiedian
   password: '!!str 74260696553770700'
   port: 443
   server: robust-redfish.shiner427.skin
@@ -252,7 +231,7 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本特殊|@ripaojiedian
+  name: 11|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 13.212.201.91
@@ -260,7 +239,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|日本2|@ripaojiedian
+  name: 12|日本2|@ripaojiedian
   network: tcp
   port: '23919'
   server: hzz9.fgmcx.top
@@ -268,13 +247,13 @@ proxies:
   tls: false
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-- name: 13|日本3|@ripaojiedian
+- name: 12|日本3|@ripaojiedian
   network: tcp
   password: '!!str 74260696553770700'
   port: 443
   server: robust-redfish.shiner427.skin
   type: trojan
-- name: 14|JP_speednode_0037
+- name: 13|JP_speednode_0037
   network: ws
   port: 443
   server: 141.147.188.120
@@ -290,7 +269,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|JP_speednode_0038
+  name: 13|JP_speednode_0038
   port: 19085
   reality-opts:
     public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
@@ -303,7 +282,7 @@ proxies:
   uuid: 3c5640c5-0e1b-4081-f174-0361c3c94d14
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 14|JP_speednode_0039
+  name: 13|JP_speednode_0039
   port: 443
   reality-opts:
     public-key: _zJXh1QBg7D0lcPUFPrxPh7Zfqu1wK0sX8W0AQNIRg0
@@ -314,7 +293,7 @@ proxies:
   type: vless
   udp: true
   uuid: 5a132527-c9ef-4066-8b1a-5584ff5dfb10
-- name: 14|JP_speednode_0041
+- name: 13|JP_speednode_0041
   network: ws
   port: 443
   server: 154.92.9.2
@@ -328,7 +307,7 @@ proxies:
     headers:
       Host: digitalscientificresearchgroup.ir
     path: /Telegram@V2ray_Alpha
-- name: 14|JP_speednode_0042
+- name: 13|JP_speednode_0042
   network: ws
   port: 443
   server: 154.92.9.1
@@ -342,7 +321,7 @@ proxies:
     headers:
       Host: digitalscientificresearchgroup.ir
     path: /Telegram@V2ray_Alpha
-- name: 14|JP_speednode_0043
+- name: 13|JP_speednode_0043
   network: ws
   port: 443
   server: 156.59.125.66
@@ -356,3 +335,24 @@ proxies:
     headers:
       Host: hk.mehun.me
     path: /bing
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本 01 | 1x JP
+  password: e89d961b-ce65-4df1-ad7b-ec4330a3d45c
+  port: 36111
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本 02 | 1x JP
+  password: e89d961b-ce65-4df1-ad7b-ec4330a3d45c
+  port: 36113
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本 03 | 1x JP
+  password: e89d961b-ce65-4df1-ad7b-ec4330a3d45c
+  port: 36115
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

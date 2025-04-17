@@ -1,28 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 | 1x HK
-  password: e5c771ed-bd65-425a-9a38-85354bd190b7
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: e5c771ed-bd65-425a-9a38-85354bd190b7
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 21f0ff3d-e573-4dc7-a1a9-baa06ff74291
+  name: 0|🇭🇰香港 01 | 1x HK
+  password: a93bcfa4-71b9-4c24-a82d-657bd08107bf
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 21f0ff3d-e573-4dc7-a1a9-baa06ff74291
+  name: 0|🇬🇧英国家宽 01 | 1x UK
+  password: a93bcfa4-71b9-4c24-a82d-657bd08107bf
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
@@ -32,7 +18,7 @@ proxies:
   grpc-opts:
     grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
   mode: gun
-  name: 2|🇬🇧1 |  5.8MB/s
+  name: 1|🇬🇧1 |  5.8MB/s
   network: grpc
   port: 1210
   reality-opts:
@@ -47,7 +33,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 1679
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0028
+  name: 1,13|CN_speednode_0028
   network: tcp
   port: 65053
   reality-opts:
@@ -61,7 +47,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇬🇧3 |  4.8MB/s
+  name: 1|🇬🇧3 |  4.8MB/s
   network: tcp
   port: 35311
   reality-opts:
@@ -73,7 +59,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0032
+  name: 1,13|CN_speednode_0032
   network: tcp
   port: 32055
   reality-opts:
@@ -85,7 +71,7 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -95,7 +81,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|GB_speednode_0034
+  name: 13|GB_speednode_0034
   port: 8989
   reality-opts:
     public-key: TfbgQiZ2DOhCTDVLjx5Gwc5WHFSlQ_LXhyzKUEGR6mc
@@ -106,3 +92,17 @@ proxies:
   type: vless
   udp: true
   uuid: 409ef7ff-6449-4b9a-9db9-775927a1a925
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 01 | 1x HK
+  password: e89d961b-ce65-4df1-ad7b-ec4330a3d45c
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
+  password: e89d961b-ce65-4df1-ad7b-ec4330a3d45c
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
