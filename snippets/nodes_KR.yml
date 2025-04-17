@@ -1,19 +1,5 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: 30bf35cd-0a34-435c-beb1-ae127775c613
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: 30bf35cd-0a34-435c-beb1-ae127775c613
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 1|🇰🇷6 |  1.6MB/s
+- name: 0|🇰🇷6 |  1.6MB/s
   network: ws
   password: amclubs
   port: 2096
@@ -27,6 +13,20 @@ proxies:
     headers:
       Host: tran.amclubstest.nyc.mn
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 01 | 1x KR
+  password: f07b40cd-9f3c-4943-8b5c-31728aeeeb76
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷韩国 02 | 1x KR
+  password: f07b40cd-9f3c-4943-8b5c-31728aeeeb76
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 11|🇰🇷 韩国特殊|@ripaojiedian
@@ -35,17 +35,3 @@ proxies:
   server: 18.182.9.120
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: 2de68614-354b-49bc-b72b-8d256903ff86
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: 2de68614-354b-49bc-b72b-8d256903ff86
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
