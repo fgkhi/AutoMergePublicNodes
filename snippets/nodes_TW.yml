@@ -1,8 +1,29 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 01 | 1x TW
+  password: 7d31cb25-7f6b-4b13-b7d4-a66d2bfd8b8f
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 02 | 1x TW
+  password: 7d31cb25-7f6b-4b13-b7d4-a66d2bfd8b8f
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼 台湾 03 | 1x TW
+  password: 7d31cb25-7f6b-4b13-b7d4-a66d2bfd8b8f
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇹🇼 台湾|@ripaojiedian
+  name: 11|🇹🇼 台湾|@ripaojiedian
   port: 45078
   server: haa.dashuai.cyou
   skip-cert-verify: false
@@ -13,7 +34,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 10|🇹🇼 台湾2|@ripaojiedian
+  name: 11|🇹🇼 台湾2|@ripaojiedian
   network: ws
   port: 46005
   server: fadawtawd.zhangwei.li
@@ -28,7 +49,7 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 11|台湾|@ripaojiedian
+  name: 12|台湾|@ripaojiedian
   network: tcp
   port: '45078'
   server: haa.dashuai.cyou
@@ -38,7 +59,7 @@ proxies:
   uuid: 9a1322b0-9c6e-433c-8fb3-d7690b3093f2
 - alterId: 0
   cipher: auto
-  name: 11|台湾2|@ripaojiedian
+  name: 12|台湾2|@ripaojiedian
   network: ws
   port: '46005'
   server: fadawtawd.zhangwei.li
@@ -51,43 +72,22 @@ proxies:
       Host: ''
     path: /zh-cn
 - cipher: chacha20-ietf-poly1305
-  name: 13|🇹🇼 台湾 01 | 1x TW
-  password: a09066cf-e753-4a59-8323-066ff00f4d60
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇹🇼 台湾 02 | 1x TW
-  password: a09066cf-e753-4a59-8323-066ff00f4d60
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇹🇼 台湾 03 | 1x TW
-  password: a09066cf-e753-4a59-8323-066ff00f4d60
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 01 | 1x TW
-  password: b37af17d-ee3e-40d9-88d1-84ece071b11a
+  password: 5b69acc6-c4f6-4047-9cc3-77d5619e3c27
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 02 | 1x TW
-  password: b37af17d-ee3e-40d9-88d1-84ece071b11a
+  password: 5b69acc6-c4f6-4047-9cc3-77d5619e3c27
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇹🇼台湾 03 | 1x TW
-  password: b37af17d-ee3e-40d9-88d1-84ece071b11a
+  password: 5b69acc6-c4f6-4047-9cc3-77d5619e3c27
   port: 31245
   server: free.2apzhfa.xyz
   type: ss

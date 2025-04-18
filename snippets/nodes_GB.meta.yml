@@ -51,7 +51,21 @@ proxies:
     headers:
       Host: digitalscientificresearchgroup.ir
     path: /Telegram🇨🇳@WangCai2
-- name: 9|Hysteria 🇬🇧 @v2meowcf
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰 香港 01 | 1x HK
+  password: 7d31cb25-7f6b-4b13-b7d4-a66d2bfd8b8f
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
+  password: 7d31cb25-7f6b-4b13-b7d4-a66d2bfd8b8f
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -61,7 +75,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 12|GB_speednode_0034
+  name: 13|GB_speednode_0034
   port: 8989
   reality-opts:
     public-key: TfbgQiZ2DOhCTDVLjx5Gwc5WHFSlQ_LXhyzKUEGR6mc
@@ -73,29 +87,15 @@ proxies:
   udp: true
   uuid: 409ef7ff-6449-4b9a-9db9-775927a1a925
 - cipher: chacha20-ietf-poly1305
-  name: 13|🇭🇰 香港 01 | 1x HK
-  password: a09066cf-e753-4a59-8323-066ff00f4d60
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 13|🇬🇧 英国住宅IP 01 | 1x UK
-  password: a09066cf-e753-4a59-8323-066ff00f4d60
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: 14|🇭🇰香港 01 | 1x HK
-  password: b37af17d-ee3e-40d9-88d1-84ece071b11a
+  password: 5b69acc6-c4f6-4047-9cc3-77d5619e3c27
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 14|🇬🇧英国家宽 01 | 1x UK
-  password: b37af17d-ee3e-40d9-88d1-84ece071b11a
+  password: 5b69acc6-c4f6-4047-9cc3-77d5619e3c27
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
