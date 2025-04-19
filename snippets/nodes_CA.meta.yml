@@ -1,7 +1,28 @@
 proxies:
+- name: 1|🇨🇦1 |  4.0MB/s
+  network: ws
+  port: 4434
+  server: 193.122.115.67
+  servername: bn.ylks0033.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      Host: bn.ylks0033.dpdns.org
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 1|🇨🇦2 |  2.6MB/s
+  password: 7f744c6e-7f17-416e-9ea7-5d5e6482b705
+  port: 34016
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: 1|🇨🇦1 |  5.5MB/s
+  name: 1|🇨🇦3 |  5.1MB/s
   network: ws
   port: 30825
   server: v25.heduian.link
@@ -13,17 +34,10 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- name: 1|🇨🇦2 |  3.3MB/s
-  network: ws
-  port: 443
-  server: 45.67.215.114
-  servername: bn.ylks0033.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: 554aa75e-9e79-43b1-ab71-8d3be4e220b1
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      Host: bn.ylks0033.dpdns.org
-    path: /?ed=2560

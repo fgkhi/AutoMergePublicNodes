@@ -1,16 +1,8 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 1|🇩🇪7 |  5.2MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪德国 01 | 1x DE
+  password: 554aa75e-9e79-43b1-ab71-8d3be4e220b1
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: 03ed39b1-e55d-39f4-a5e0-d5d2e49dfe3b
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /

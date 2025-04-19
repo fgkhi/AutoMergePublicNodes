@@ -1,8 +1,35 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 1|🇸🇬2 |  6.1MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21114
+  server: okanc.node-is.green
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 01 | 1x SG
+  password: 554aa75e-9e79-43b1-ab71-8d3be4e220b1
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 02 | 1x SG
+  password: 554aa75e-9e79-43b1-ab71-8d3be4e220b1
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇸🇬新加坡 03 | 1x SG
+  password: 554aa75e-9e79-43b1-ab71-8d3be4e220b1
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '8000'
   server: v7.nmcf.me
@@ -19,7 +46,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   port: 41902
   server: 183.236.51.38
   skip-cert-verify: false
@@ -29,7 +56,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 3.38.94.160
@@ -37,7 +64,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|新加坡2|@ripaojiedian
+  name: 13|新加坡2|@ripaojiedian
   network: tcp
   port: '41902'
   server: 183.236.51.38
