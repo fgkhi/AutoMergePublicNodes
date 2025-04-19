@@ -1,49 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 01 | 1x TW
-  password: 2772d488-1a29-4c32-b6ec-cab338a34c9a
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 02 | 1x TW
-  password: 2772d488-1a29-4c32-b6ec-cab338a34c9a
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼台湾 03 | 1x TW
-  password: 2772d488-1a29-4c32-b6ec-cab338a34c9a
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 01 | 1x TW
-  password: cc10b503-ec85-42dc-b10a-1449f41ecaf3
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 02 | 1x TW
-  password: cc10b503-ec85-42dc-b10a-1449f41ecaf3
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼 台湾 03 | 1x TW
-  password: cc10b503-ec85-42dc-b10a-1449f41ecaf3
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2,14|CN_speednode_0019
+  name: 1,13|CN_speednode_0019
   network: tcp
   port: 13263
   reality-opts:
@@ -57,7 +15,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 2|🇹🇼2 |  1.5MB/s
+  name: 1|🇹🇼2 |  1.5MB/s
   network: tcp
   port: 47531
   reality-opts:
@@ -68,7 +26,7 @@ proxies:
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
-  name: 2|🇹🇼3 |  1.2MB/s
+  name: 1|🇹🇼3 |  1.2MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -80,7 +38,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇹🇼 台湾|@ripaojiedian
+  name: 11|🇹🇼 台湾|@ripaojiedian
   port: 45078
   server: haa.dashuai.cyou
   skip-cert-verify: false
@@ -89,7 +47,7 @@ proxies:
   type: vmess
   uuid: ced0060e-ae26-4f08-a96d-a5edbce6dd16
 - client-fingerprint: chrome
-  name: 12,13|台湾2|@ripaojiedian
+  name: 11,12|台湾2|@ripaojiedian
   network: tcp
   password: d5826953-96a0-4e2e-ad04-638668222256
   port: 27201
@@ -99,7 +57,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 13|台湾|@ripaojiedian
+  name: 12|台湾|@ripaojiedian
   network: tcp
   port: '45078'
   server: haa.dashuai.cyou
