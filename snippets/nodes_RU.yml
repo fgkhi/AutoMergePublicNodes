@@ -1,15 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: ac478e75-f801-4761-83bf-f7aa9d445aef
-  port: 31511
-  server: free.2apzhfa.xyz
+  name: 2|🇷🇺1 |  4.9MB/s
+  password: RlXx45ZGy1Q12wFyEUBQNQ
+  port: 64300
+  server: 81.94.158.148
   type: ss
-  udp: true
-- name: 1|🇷🇺5 |  2.8MB/s
-  password: b5ed5203-8eb4-4fd2-ada4-a7b6bdbf1d1c
-  port: 46925
-  server: sla.cn.964e995b760.gogodns.xin
-  skip-cert-verify: true
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
