@@ -1,69 +1,71 @@
 proxies:
-- name: 2|🇺🇸2 |  3.0MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 7d77801e-ef80-48e4-a115-424bfbf901e0
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 7d77801e-ef80-48e4-a115-424bfbf901e0
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 7d77801e-ef80-48e4-a115-424bfbf901e0
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 3919191e-289f-415e-9245-41aa6bfdffc7
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 3919191e-289f-415e-9245-41aa6bfdffc7
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸 美国 03 | 1x US Washington
+  password: 3919191e-289f-415e-9245-41aa6bfdffc7
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: aes-128-cfb
+  name: 2|🇺🇸3 |  5.4MB/s
+  password: shadowsocks
+  port: 443
+  server: 184.170.241.194
+  type: ss
+- alterId: '2'
+  cipher: auto
+  name: 2|🇺🇸15 |  5.2MB/s
+  network: ws
+  port: '30808'
+  server: v8.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: baidu.com
+    path: /oooo
+- name: 2|🇺🇸18 |  1.8MB/s
   password: 038f067a-213a-4c7d-89d7-e8fdeebcfe71
   port: 27301
   server: sla.cn.964e995b760.gogodns.xin
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- cipher: aes-128-cfb
-  name: 2|🇺🇸5 |  5.6MB/s
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- name: 2|🇺🇸7 |  5.9MB/s
-  network: ws
-  password: f82fb954-06a1-4f0b-9180-17e07585b61f
-  port: 443
-  server: 172.67.212.82
-  skip-cert-verify: false
-  sni: 6tghjk.131.pp.ua
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 6tghjk.131.pp.ua
-    path: '%2FYu29UN3Yz8hcnI3SlZor0'
-- alterId: 2
-  cipher: auto
-  name: 2|🇺🇸10 |  4.3MB/s
-  network: ws
-  port: 30808
-  server: v8.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: '2'
-  cipher: auto
-  name: 2|🇺🇸13 |  2.9MB/s
-  network: ws
-  port: '30829'
-  server: v29.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: ocbc.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸20 |  6.0MB/s
-  network: ws
-  port: 8443
-  server: skk.moe
-  servername: digitaloceanus.lzj520hxw.dpdns.org
-  tls: true
-  type: vmess
-  uuid: ba516af9-329e-4c5c-8ff6-dc59f563269e
-  ws-opts:
-    headers:
-      Host: digitaloceanus.lzj520hxw.dpdns.org
-    path: ba516af9-329e-4c5c-8ff6-dc59f563269e-vm
-- name: 2|🇺🇸22 |  5.8MB/s
+- name: 2|🇺🇸24 |  3.9MB/s
   password: fc1148e1-d0a8-4e8f-88ea-fefbeb7ed38d
   port: 34014
   server: sla.cn.964e995b760.gogodns.xin
