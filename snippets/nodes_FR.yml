@@ -1,5 +1,5 @@
 proxies:
-- name: 1|🇫🇷2 |  5.6MB/s
+- name: 2|🇫🇷2 |  5.6MB/s
   password: 37268e16-8fa3-479f-a0eb-f2e1cc6f8b7c
   port: 43498
   server: sla.cn.964e995b760.gogodns.xin
@@ -7,7 +7,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 1|🇫🇷4 |  4.2MB/s
+  name: 2|🇫🇷4 |  4.2MB/s
   network: tcp
   port: 17235
   server: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com

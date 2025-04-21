@@ -1,14 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 62a31b12-eadc-4e60-a1df-518648779929
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - country: 🇷🇺RU
   delay: 1055
-  name: 1|🇷🇺1 |  5.6MB/s
+  name: 2|🇷🇺1 |  5.6MB/s
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
@@ -20,17 +13,10 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 1|🇷🇺2 |  5.2MB/s
+  name: 2|🇷🇺2 |  5.2MB/s
   port: 10803
   server: 185.22.155.71
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria
   up: 1000 Mbps
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇷🇺 俄罗斯 01 | 1x RU
-  password: 1d259734-d8e9-4956-9eb0-1ea368dab301
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
