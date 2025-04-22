@@ -1,22 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 01 | 1x KR
-  password: c7f9bacb-d546-43eb-9dad-339ecf7fdf16
-  port: 31311
-  server: free.2apzhfa.xyz
+  name: 0|🇰🇷 韩国 01 | 1x KR
+  password: 0a33ddd9-82a1-4e22-b2a1-1aff44e1269b
+  port: 36311
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷韩国 02 | 1x KR
-  password: c7f9bacb-d546-43eb-9dad-339ecf7fdf16
-  port: 31313
-  server: free.2apzhfa.xyz
+  name: 0|🇰🇷 韩国 02 | 1x KR
+  password: 0a33ddd9-82a1-4e22-b2a1-1aff44e1269b
+  port: 36313
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇰🇷1 |  1.9MB/s
+  name: 2|🇰🇷1 |  1.9MB/s
   network: ws
   port: 2052
   server: 216.24.57.6
@@ -32,7 +32,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1,13|NL_speednode_0035
+  name: 2,14|NL_speednode_0035
   network: ws
   port: 80
   server: 45.131.4.194
@@ -48,23 +48,9 @@ proxies:
     path: /Telegram🇨🇳@WangCai2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 43.203.202.53
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: d29c4319-4499-4a3e-824b-7bfdaa4e01ed
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 02 | 1x KR
-  password: d29c4319-4499-4a3e-824b-7bfdaa4e01ed
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
