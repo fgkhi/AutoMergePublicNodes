@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇨🇦 加拿大 01 | 1x CA
-  password: 85303093-919e-4135-a5bd-a624671f0708
+  password: d6c7d8e4-a63f-451e-998a-6e3401c01d13
   port: 36441
   server: free.2weradf.xyz
   type: ss
@@ -35,6 +35,13 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: 92cc95d3-ca2b-4b91-afd7-1c9cfafa7619
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|CA_speednode_0001
