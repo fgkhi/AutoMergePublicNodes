@@ -1,21 +1,20 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 2d09e1e0-40c1-45e2-95e0-b40c2cac08e3
+  password: e6c73d9b-2c14-491d-9295-ea5e7dffa7bb
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: d693d78b-a5ba-4280-a16b-16e3087e19ed
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+- name: 1|🇷🇺2 |  4.1MB/s
+  password: 8daad5d4-4ebd-41e1-b308-1371377a4f11
+  port: 46925
+  server: sla.cn.964e995b760.gogodns.xin
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 2|🇷🇺2 |  4.3MB/s
+  name: 1|🇷🇺5 |  2.4MB/s
   network: ws
   port: 22021
   raw:
@@ -41,9 +40,3 @@ proxies:
   uuid: 9221b966-7f2f-4f1b-a80f-fa1d4c8cd834
   ws-opts:
     path: /
-- name: 2|🇷🇺4 |  4.7MB/s
-  password: 8daad5d4-4ebd-41e1-b308-1371377a4f11
-  port: 46925
-  server: sla.cn.964e995b760.gogodns.xin
-  sni: q08m.vgraxiw73s.hasyaf.cn
-  type: trojan
