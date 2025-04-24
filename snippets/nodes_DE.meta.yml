@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: 91494495-fd28-4452-9236-2d7be118229e
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: 550ac2f9-f1a2-455c-bdc3-1351f7dbf2a9
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -9,7 +9,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪1 |  4.9MB/s
+  name: 2|🇩🇪1 |  4.9MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -25,7 +25,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪2 |  5.7MB/s
+  name: 2|🇩🇪2 |  5.7MB/s
   network: ws
   port: 2087
   server: 185.146.173.63
@@ -41,7 +41,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪3 |  3.8MB/s
+  name: 2|🇩🇪3 |  3.8MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -59,7 +59,7 @@ proxies:
   grpc-opts:
     grpc-service-name: 7594vless
   mode: ''
-  name: 1|🇩🇪4 |  3.4MB/s
+  name: 2|🇩🇪4 |  3.4MB/s
   network: grpc
   port: 7594
   reality-opts:
@@ -74,7 +74,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪5 |  2.6MB/s
+  name: 2|🇩🇪5 |  2.6MB/s
   network: ws
   port: 2087
   server: 104.17.148.22
@@ -90,7 +90,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪6 |  5.6MB/s
+  name: 2|🇩🇪6 |  5.6MB/s
   network: ws
   port: 13438
   server: 23.88.44.129
@@ -104,7 +104,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪7 |  5.7MB/s
+  name: 2|🇩🇪7 |  5.7MB/s
   network: ws
   port: 2087
   server: 185.146.173.63
@@ -120,7 +120,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪8 |  5.8MB/s
+  name: 2|🇩🇪8 |  5.8MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -136,7 +136,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪9 |  5.5MB/s
+  name: 2|🇩🇪9 |  5.5MB/s
   network: ws
   port: 2053
   server: tify-binex-join.espikernajafi.ir
@@ -150,7 +150,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪10 |  4.9MB/s
+  name: 2|🇩🇪10 |  4.9MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -168,7 +168,7 @@ proxies:
   grpc-opts:
     grpc-service-name: 7594vless
   mode: ''
-  name: 1|🇩🇪11 |  1.0MB/s
+  name: 2|🇩🇪11 |  1.0MB/s
   network: grpc
   port: 7594
   reality-opts:
@@ -183,7 +183,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪12 |  5.7MB/s
+  name: 2|🇩🇪12 |  5.7MB/s
   network: ws
   port: 8443
   server: 185.146.173.37
@@ -199,7 +199,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪13 |  5.5MB/s
+  name: 2|🇩🇪13 |  5.5MB/s
   network: ws
   port: 13438
   server: V2RAXX-channel.cataba.ir
@@ -213,7 +213,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪14 |  5.7MB/s
+  name: 2|🇩🇪14 |  5.7MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -230,7 +230,7 @@ proxies:
   grpc-opts:
     grpc-service-name: 7594vless
   mode: gun
-  name: 1|🇩🇪15 |  3.6MB/s
+  name: 2|🇩🇪15 |  3.6MB/s
   network: grpc
   port: 7594
   reality-opts:
@@ -245,7 +245,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪16 |  4.5MB/s
+  name: 2|🇩🇪16 |  4.5MB/s
   network: ws
   port: 2087
   server: 185.146.173.37
@@ -261,7 +261,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪17 |  5.1MB/s
+  name: 2|🇩🇪17 |  5.1MB/s
   network: ws
   port: 2096
   server: 104.17.147.22
@@ -277,7 +277,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪18 |  5.8MB/s
+  name: 2|🇩🇪18 |  5.8MB/s
   network: ws
   port: 2087
   server: 104.17.147.22
@@ -293,7 +293,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪19 |  2.7MB/s
+  name: 2|🇩🇪19 |  2.7MB/s
   network: ws
   port: 8443
   server: www.speedtest.net
@@ -309,7 +309,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪20 |  5.7MB/s
+  name: 2|🇩🇪20 |  5.7MB/s
   network: ws
   port: 80
   server: 104.18.31.5
@@ -325,7 +325,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪21 |  1.9MB/s
+  name: 2|🇩🇪21 |  1.9MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -340,7 +340,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇩🇪22 |  5.0MB/s
+  name: 2|🇩🇪22 |  5.0MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -350,13 +350,6 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪 德国 01 | 1x DE
-  password: 34fc9c35-7436-4b73-a859-3566fdc73f62
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alpn:
   - h3
   name: 10|🇩🇪@𝗦𝗶𝗡𝗔𝗩𝗠👈کانال تلگرام
