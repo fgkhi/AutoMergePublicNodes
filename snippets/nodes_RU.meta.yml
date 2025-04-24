@@ -1,21 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: deab0633-e256-40d5-b89a-743e5f328c36
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺 俄罗斯 01 | 1x RU
-  password: f2215ae0-2932-4569-9e67-789c94b5e463
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - auth: dongtaiwang.com
   delay: 1637
-  name: 2|🇷🇺1 |  1.3MB/s
+  name: 0|🇷🇺1 |  1.3MB/s
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
@@ -26,7 +12,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇷🇺2 |  3.0MB/s
+  name: 0|🇷🇺2 |  3.0MB/s
   network: ws
   port: 2096
   server: void.crehistory.org
@@ -37,7 +23,7 @@ proxies:
   uuid: 84fcffc1-4f4f-4b66-bd2c-31a59681268b
   ws-opts:
     path: /
-- name: '11|Channel id: @ARGO_VPN1🇷🇺'
+- name: '9|Channel id: @ARGO_VPN1🇷🇺'
   password: dongtaiwang.com
   port: 12904
   server: 46.17.41.5
@@ -45,3 +31,17 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 13|🇷🇺俄罗斯 01 | 1x RU
+  password: 6021dd3e-332e-4fb6-be79-be980825ab58
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇷🇺 俄罗斯 01 | 1x RU
+  password: 3038d3e1-b7b3-4902-867b-669fe039d032
+  port: 36511
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
