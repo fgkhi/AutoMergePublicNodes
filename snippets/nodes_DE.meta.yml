@@ -1,22 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 | 1x DE
-  password: 6f560b48-7c77-469d-9d90-cb48ea97bef7
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 1a216fd6-3879-447b-a0af-7b4272f47c44
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪1 |  2.5MB/s
+  name: 0|🇩🇪1 |  2.5MB/s
   network: ws
   port: 8880
   server: parspack.com
@@ -32,7 +18,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪2 |  5.8MB/s
+  name: 0|🇩🇪2 |  5.8MB/s
   network: ws
   port: 2087
   server: 104.17.148.22
@@ -50,7 +36,7 @@ proxies:
   grpc-opts:
     grpc-service-name: Go4HFJDtQYDNh5HQII31
   mode: ''
-  name: 2|🇩🇪3 |  2.2MB/s
+  name: 0|🇩🇪3 |  2.2MB/s
   network: grpc
   port: 110
   reality-opts:
@@ -65,7 +51,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪4 |  5.5MB/s
+  name: 0|🇩🇪4 |  5.5MB/s
   network: ws
   port: 80
   server: 104.18.31.5
@@ -81,7 +67,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪5 |  5.8MB/s
+  name: 0|🇩🇪5 |  5.8MB/s
   network: ws
   port: 8443
   server: 185.146.173.37
@@ -97,7 +83,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪6 |  5.6MB/s
+  name: 0|🇩🇪6 |  5.6MB/s
   network: ws
   port: 2087
   server: 185.146.173.37
@@ -113,7 +99,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪7 |  5.7MB/s
+  name: 0|🇩🇪7 |  5.7MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -129,7 +115,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪8 |  5.8MB/s
+  name: 0|🇩🇪8 |  5.8MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -145,7 +131,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪9 |  5.7MB/s
+  name: 0|🇩🇪9 |  5.7MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
