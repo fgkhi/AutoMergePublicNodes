@@ -1,42 +1,52 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: 4523817c-bb67-4084-96a6-6c12699de49e
+  password: a9b5c2d8-a0ab-466b-9f24-09795818e5f4
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: 4523817c-bb67-4084-96a6-6c12699de49e
+  password: a9b5c2d8-a0ab-466b-9f24-09795818e5f4
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: bb896786-b618-4aa7-8a4f-d48e948040fa
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 02 | 1x KR
+  password: bb896786-b618-4aa7-8a4f-d48e948040fa
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇰🇷1 |  2.2MB/s
+  name: 2|🇰🇷1 |  5.2MB/s
   password: qwerREWQ@@
-  port: 61004
-  server: p232.panda004.net
+  port: 58487
+  server: p230.panda004.net
   tfo: true
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|🇰🇷2 |  1.3MB/s
-  network: tcp
-  port: 17232
-  server: 33e096fb-sva740-sxnljm-1jr1u.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-  ws-headers:
-    Host: 33e096fb-sva740-sxnljm-1jr1u.cm5.p5pv.com
-  ws-path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 2|🇰🇷2 |  1.7MB/s
+  password: qwerREWQ@@
+  port: 8772
+  server: p235.panda004.net
+  tfo: true
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 11,12|韩国|@ripaojiedian
+  name: 12,13|韩国|@ripaojiedian
   network: tcp
   password: 74fa3b6c-e333-49f4-ab15-9549fc53cf42
   port: 46668
@@ -46,7 +56,7 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.180.243.85
