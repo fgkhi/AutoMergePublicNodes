@@ -1,16 +1,30 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: 637d28fa-a5ce-4c0f-aa8e-23efcbf2e874
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: 9e21f727-8a52-4ff6-830d-18ae202febc9
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 637d28fa-a5ce-4c0f-aa8e-23efcbf2e874
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: 9e21f727-8a52-4ff6-830d-18ae202febc9
   port: 36145
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: b4a05f73-86c6-4b20-b89b-5c4d03d47685
+  port: 31143
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: b4a05f73-86c6-4b20-b89b-5c4d03d47685
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
@@ -64,7 +78,7 @@ proxies:
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 12,13,14|CN_speednode_0028
+  name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
@@ -72,7 +86,6 @@ proxies:
   skip-cert-verify: false
   sni: hk-13-568.flztjc.net
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
