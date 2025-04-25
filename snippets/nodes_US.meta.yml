@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: acb9648c-4b2a-4f15-8304-a8c3bfc1dcc2
+  password: 0e138c6a-3d9a-4463-95ab-3f709dc7bab6
   port: 36211
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: acb9648c-4b2a-4f15-8304-a8c3bfc1dcc2
+  password: 0e138c6a-3d9a-4463-95ab-3f709dc7bab6
   port: 36213
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: acb9648c-4b2a-4f15-8304-a8c3bfc1dcc2
+  password: 0e138c6a-3d9a-4463-95ab-3f709dc7bab6
   port: 36215
   server: free.2weradf.xyz
   type: ss
@@ -107,7 +107,7 @@ proxies:
   skip-cert-verify: true
   sni: www.apple.com
   type: hysteria2
-- name: 1,14|US_speednode_0071
+- name: 1,13|US_speednode_0071
   password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
   port: 443
   server: c795e23c-sva740-sxnljm-1jr1u.los.gotochinatown.net
@@ -133,7 +133,7 @@ proxies:
   skip-cert-verify: true
   sni: tv.apple.com
   type: hysteria2
-- name: '1,11|Channel id: @ARGO_VPN1🇺🇸 #1'
+- name: '1,10|Channel id: @ARGO_VPN1🇺🇸 #1'
   password: dongtaiwang.com
   port: 65232
   server: 108.181.5.130
@@ -349,7 +349,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 1396
   flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0032
+  name: 1,13|CN_speednode_0032
   network: tcp
   port: 38302
   reality-opts:
@@ -563,7 +563,7 @@ proxies:
     headers:
       Host: hozori.ir
     path: /xVzTiAjXOMalQIj4?ed=8080
-- name: '1,11|Channel id: @ARGO_VPN1🇺🇸'
+- name: '1,10|Channel id: @ARGO_VPN1🇺🇸'
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
   port: 47262
   server: 64.181.204.186
@@ -594,31 +594,10 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 01 | 1x US Los Angeles
-  password: 99906b76-b0ba-48e7-8bba-c42ce40bf991
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 99906b76-b0ba-48e7-8bba-c42ce40bf991
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇺🇸美国 03 | 1x US Washington
-  password: 99906b76-b0ba-48e7-8bba-c42ce40bf991
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国|@ripaojiedian
+  name: 11|🇺🇸 美国|@ripaojiedian
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
@@ -628,7 +607,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -641,7 +620,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国3|@ripaojiedian
+  name: 11,12|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -657,7 +636,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 13|美国|@ripaojiedian
+  name: 12|美国|@ripaojiedian
   network: tcp
   port: '44015'
   server: 120.198.71.219
@@ -665,7 +644,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|US_speednode_0070
+- name: 13|US_speednode_0070
   network: ws
   port: 443
   server: 192.200.160.119
@@ -679,7 +658,7 @@ proxies:
     headers:
       Host: sv.ylka.dpdns.org
     path: /?ed=2560
-- name: 14|US_speednode_0072
+- name: 13|US_speednode_0072
   network: ws
   port: 2052
   server: 14.102.228.75
@@ -693,3 +672,24 @@ proxies:
     headers:
       Host: sPeedtest2.sbs.us.vless.sitespeedtest.net
     path: /vless#@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL,@V2RAY_SPATIAL
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 4f2680c9-41d3-4f10-9d86-5e7950a6c41b
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 4f2680c9-41d3-4f10-9d86-5e7950a6c41b
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 4f2680c9-41d3-4f10-9d86-5e7950a6c41b
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

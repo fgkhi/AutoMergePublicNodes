@@ -1,7 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: 0e138c6a-3d9a-4463-95ab-3f709dc7bab6
+  port: 36141
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 0|🇬🇧 英国住宅IP 01 | 1x UK
-  password: acb9648c-4b2a-4f15-8304-a8c3bfc1dcc2
+  password: 0e138c6a-3d9a-4463-95ab-3f709dc7bab6
   port: 36271
   server: free.2weradf.xyz
   type: ss
@@ -44,7 +51,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0048
+  name: 1,13|CN_speednode_0048
   network: tcp
   port: 65053
   reality-opts:
@@ -83,21 +90,7 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s30.elitemizban.ir
     path: ''
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇭🇰香港 01 | 1x HK
-  password: 99906b76-b0ba-48e7-8bba-c42ce40bf991
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇬🇧英国家宽 01 | 1x UK
-  password: 99906b76-b0ba-48e7-8bba-c42ce40bf991
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 11|Hysteria 🇬🇧 @v2meowcf
+- name: 10|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -107,7 +100,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|GB_speednode_0058
+  name: 13|GB_speednode_0058
   port: 55799
   reality-opts:
     public-key: LBvEFKpH7REwityPTJqYPhEJ7MaIqcuIRL01VPzcpAs
@@ -119,3 +112,17 @@ proxies:
   type: vless
   udp: true
   uuid: 43589def-fa09-47e3-b44e-7f6e069f470d
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰香港 01 | 1x HK
+  password: 4f2680c9-41d3-4f10-9d86-5e7950a6c41b
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧英国家宽 01 | 1x UK
+  password: 4f2680c9-41d3-4f10-9d86-5e7950a6c41b
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true

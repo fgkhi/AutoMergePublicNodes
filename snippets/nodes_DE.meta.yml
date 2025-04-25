@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: acb9648c-4b2a-4f15-8304-a8c3bfc1dcc2
+  password: 0e138c6a-3d9a-4463-95ab-3f709dc7bab6
   port: 36471
   server: free.2weradf.xyz
   type: ss
@@ -232,14 +232,7 @@ proxies:
     headers:
       Host: GgGgr.PaGES.dEV
     path: /Telegram@proxy_mtm/?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 99906b76-b0ba-48e7-8bba-c42ce40bf991
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -248,3 +241,10 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: 4f2680c9-41d3-4f10-9d86-5e7950a6c41b
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
