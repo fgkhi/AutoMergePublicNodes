@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: d7fae962-3473-4793-9039-dac75d05e7dd
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: db20dae0-8f06-4c36-a02b-e08cf1f34561
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -9,7 +9,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪1 |  4.7MB/s
+  name: 2|🇩🇪1 |  4.7MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -25,7 +25,7 @@ proxies:
 - client-fingerprint: randomized
   flow: ''
   mode: ''
-  name: 1|🇩🇪2 |  1.6MB/s
+  name: 2|🇩🇪2 |  1.6MB/s
   network: ws
   port: 8880
   server: 104.17.147.22
@@ -41,7 +41,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪3 |  1.9MB/s
+  name: 2|🇩🇪3 |  1.9MB/s
   network: ws
   port: 443
   server: 188.114.97.3
@@ -56,7 +56,7 @@ proxies:
     path: /Telegram@V2ray_Alpha/?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇩🇪4 |  1.5MB/s
+  name: 2|🇩🇪4 |  1.5MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -69,7 +69,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪5 |  3.8MB/s
+  name: 2|🇩🇪5 |  3.8MB/s
   network: ws
   port: 2096
   server: 104.17.148.22
@@ -87,7 +87,7 @@ proxies:
   grpc-opts:
     grpc-service-name: Tok
   mode: ''
-  name: 1|🇩🇪6 |  5.7MB/s
+  name: 2|🇩🇪6 |  5.7MB/s
   network: grpc
   port: 22000
   reality-opts:
@@ -102,7 +102,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪7 |  3.6MB/s
+  name: 2|🇩🇪7 |  3.6MB/s
   network: ws
   port: 2087
   server: 185.146.173.37
@@ -120,7 +120,7 @@ proxies:
   grpc-opts:
     grpc-service-name: 7594vless
   mode: ''
-  name: 1|🇩🇪8 |  4.7MB/s
+  name: 2|🇩🇪8 |  4.7MB/s
   network: grpc
   port: 7594
   reality-opts:
@@ -135,7 +135,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪9 |  3.3MB/s
+  name: 2|🇩🇪9 |  3.3MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -151,7 +151,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪10 |  3.6MB/s
+  name: 2|🇩🇪10 |  3.6MB/s
   network: ws
   port: 2096
   server: 104.17.147.22
@@ -166,7 +166,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇩🇪11 |  1.7MB/s
+  name: 2|🇩🇪11 |  1.7MB/s
   network: ws
   port: 443
   server: 172.67.71.217
@@ -181,7 +181,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪12 |  5.5MB/s
+  name: 2|🇩🇪12 |  5.5MB/s
   network: ws
   port: 2087
   server: 185.146.173.63
@@ -194,7 +194,7 @@ proxies:
     headers:
       Host: Tp006QvT2l.GoLaBkAsHaNiZ.iNfO
     path: /
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -203,10 +203,3 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 784c5f10-fae6-415a-8623-4ea55299f408
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

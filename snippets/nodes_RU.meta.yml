@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: d7fae962-3473-4793-9039-dac75d05e7dd
+  name: 1|🇷🇺俄罗斯 01 | 1x RU
+  password: db20dae0-8f06-4c36-a02b-e08cf1f34561
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
@@ -10,7 +10,7 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 1|🇷🇺1 |  1.1MB/s
+  name: 2|🇷🇺1 |  1.1MB/s
   port: 10803
   server: 185.22.155.71
   skip-cert-verify: true
@@ -19,7 +19,7 @@ proxies:
   up: 1000 Mbps
 - auth: dongtaiwang.com
   delay: 1637
-  name: 1|🇷🇺2 |  5.5MB/s
+  name: 2|🇷🇺2 |  5.5MB/s
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
@@ -27,7 +27,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
   udp: true
-- name: '10|Channel id: @ARGO_VPN1🇷🇺'
+- name: '11|Channel id: @ARGO_VPN1🇷🇺'
   password: dongtaiwang.com
   port: 12904
   server: 46.17.41.5
@@ -35,10 +35,3 @@ proxies:
   sni: apple.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺 俄罗斯 01 | 1x RU
-  password: 784c5f10-fae6-415a-8623-4ea55299f408
-  port: 36511
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
