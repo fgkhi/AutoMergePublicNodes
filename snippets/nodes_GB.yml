@@ -1,31 +1,24 @@
 proxies:
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 1|🇬🇧2 |  5.4MB/s
+  password: idd8ND5E
+  port: 31321
+  server: 13.41.208.251
+  tfo: true
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 971c3e58-d673-4ed0-a515-451f6506a519
+  name: 2|🇭🇰香港 01 | 1x HK
+  password: 5ffd793d-62e4-4c89-9179-0d12973856ae
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 971c3e58-d673-4ed0-a515-451f6506a519
+  name: 2|🇬🇧英国家宽 01 | 1x UK
+  password: 5ffd793d-62e4-4c89-9179-0d12973856ae
   port: 31271
   server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 104d955f-7638-4845-b330-1d3445115882
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 2|🇬🇧2 |  5.4MB/s
-  password: idd8ND5E
-  port: 31321
-  server: 13.41.208.251
-  tfo: true
   type: ss
   udp: true
