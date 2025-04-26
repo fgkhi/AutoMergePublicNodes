@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: 3213f448-0166-4876-b491-cbc1a3fa92a7
+  password: 6a1d7a77-6142-48f2-891a-ac662a8290c8
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
@@ -9,7 +9,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪1 |  5.7MB/s
+  name: 1|🇩🇪1 |  5.7MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -25,7 +25,7 @@ proxies:
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   mode: ''
-  name: 2|🇩🇪2 |  4.0MB/s
+  name: 1|🇩🇪2 |  4.0MB/s
   network: tcp
   port: 443
   server: 204.10.194.78
@@ -34,7 +34,7 @@ proxies:
   type: vless
   udp: false
   uuid: e31f0562-6a2a-46fa-8c59-131a265e8faf
-- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
@@ -43,3 +43,10 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: bc4782be-bf15-486d-b4ff-d4789d5d0dbe
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
