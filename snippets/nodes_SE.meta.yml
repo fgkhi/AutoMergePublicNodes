@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🌀6-SE |  3.6MB/s
+  name: 1|🌀6-SE |  3.6MB/s
   network: ws
   port: 443
   server: zula.ir
