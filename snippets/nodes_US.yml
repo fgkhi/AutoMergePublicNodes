@@ -1,28 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
-  password: d38c722c-59c3-4605-870d-b9172e4870ee
-  port: 36211
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 01 | 1x US Los Angeles
+  password: 45e4f8eb-4649-44a8-9780-3cca4add998f
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: d38c722c-59c3-4605-870d-b9172e4870ee
-  port: 36213
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 45e4f8eb-4649-44a8-9780-3cca4add998f
+  port: 31213
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 | 1x US Washington
-  password: d38c722c-59c3-4605-870d-b9172e4870ee
-  port: 36215
-  server: free.2weradf.xyz
+  name: 0|🇺🇸美国 03 | 1x US Washington
+  password: 45e4f8eb-4649-44a8-9780-3cca4add998f
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸1 |  5.9MB/s
+  name: 2|🇺🇸1 |  5.9MB/s
   network: tcp
   port: 5229
   server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
@@ -35,7 +35,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸2 |  5.7MB/s
+  name: 2|🇺🇸2 |  5.7MB/s
   network: tcp
   port: 5228
   server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
@@ -50,7 +50,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 1|🇺🇸3 |  5.2MB/s
+  name: 2|🇺🇸3 |  5.2MB/s
   network: ws
   port: 443
   server: xcf037.facai2024.com
@@ -65,7 +65,7 @@ proxies:
     path: /d9863037
 - alterId: '0'
   cipher: auto
-  name: 1|🇺🇸5 |  4.5MB/s
+  name: 2|🇺🇸5 |  4.5MB/s
   network: ws
   port: '443'
   server: xc011-2.meiziba5566.com
@@ -77,14 +77,14 @@ proxies:
       host: xc011-2.meiziba5566.com
     path: /xc1234
 - cipher: aes-256-cfb
-  name: 1|🇺🇸7 |  5.7MB/s
+  name: 2|🇺🇸7 |  5.7MB/s
   password: amazonskr05
   port: 443
   server: 54.201.49.196
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸11 |  2.7MB/s
+  name: 2|🇺🇸11 |  2.7MB/s
   network: ws
   port: 443
   server: hk2.rtmp.online
@@ -97,7 +97,7 @@ proxies:
   ws-path: /
 - alterId: 2
   cipher: auto
-  name: 1|🇺🇸12 |  5.7MB/s
+  name: 2|🇺🇸12 |  5.7MB/s
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -110,7 +110,7 @@ proxies:
   ws-path: /
 - alterId: 64
   cipher: auto
-  name: 1|🇺🇸13 |  5.2MB/s
+  name: 2|🇺🇸13 |  5.2MB/s
   network: tcp
   port: 50009
   server: 142.4.116.177
@@ -122,7 +122,7 @@ proxies:
     Host: 142.4.116.177
   ws-path: /
 - cipher: aes-256-cfb
-  name: 1|🇺🇸15 |  5.5MB/s
+  name: 2|🇺🇸15 |  5.5MB/s
   password: amazonskr05
   port: 443
   server: 52.27.107.177
@@ -130,7 +130,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇺🇸17 |  5.6MB/s
+  name: 2|🇺🇸17 |  5.6MB/s
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -144,7 +144,7 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
-- name: 1|🇺🇸18 |  3.5MB/s
+- name: 2|🇺🇸18 |  3.5MB/s
   network: ws
   password: 5453ae26-250d-4e79-b4ec-016baf806865
   port: 443
@@ -157,7 +157,7 @@ proxies:
     path: /OYzPAeaZdXUq2d6J3gc4aj
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸21 |  4.4MB/s
+  name: 2|🇺🇸21 |  4.4MB/s
   network: ws
   port: 443
   server: yymg02.haibo168.com
@@ -171,7 +171,7 @@ proxies:
     path: /yymg1234
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸22 |  5.7MB/s
+  name: 2|🇺🇸22 |  5.7MB/s
   network: tcp
   port: 5229
   server: 6faf81e8-svdwg0-t1bnjq-1krtb.cu.plebai.net
@@ -180,7 +180,7 @@ proxies:
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 2
   cipher: auto
-  name: 1|🇺🇸26 |  3.2MB/s
+  name: 2|🇺🇸26 |  3.2MB/s
   network: ws
   port: 22643
   server: tk.hzlt.tkddns.xyz
@@ -193,7 +193,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸31 |  5.4MB/s
+  name: 2|🇺🇸31 |  5.4MB/s
   network: tcp
   port: 25646
   server: 157.254.227.168
@@ -206,7 +206,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 1|🇺🇸32 |  3.6MB/s
+  name: 2|🇺🇸32 |  3.6MB/s
   network: tcp
   port: '5228'
   server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
@@ -214,7 +214,7 @@ proxies:
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 2
   cipher: auto
-  name: 1|🇺🇸36 |  3.5MB/s
+  name: 2|🇺🇸36 |  3.5MB/s
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -229,7 +229,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸40 |  5.8MB/s
+  name: 2|🇺🇸40 |  5.8MB/s
   port: 23602
   server: 38.102.235.36
   tls: false
@@ -238,7 +238,7 @@ proxies:
 - alterId: 2
   cipher: auto
   delay: 1928
-  name: 1|🇺🇸41 |  2.4MB/s
+  name: 2|🇺🇸41 |  2.4MB/s
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -253,7 +253,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸42 |  2.7MB/s
+  name: 2|🇺🇸42 |  2.7MB/s
   network: tcp
   port: 49930
   server: 65.75.194.28
@@ -270,7 +270,7 @@ proxies:
   delay: 2373
   h2-opts: {}
   http-opts: {}
-  name: 1|🇺🇸44 |  3.9MB/s
+  name: 2|🇺🇸44 |  3.9MB/s
   network: ws
   port: 443
   server: codepen.io
@@ -283,20 +283,20 @@ proxies:
     headers:
       HOST: fastclubcloud.alpha-panel.ir
     path: /1WWeeRtTt.131.PP.ua/h7Rcu0y30lhjdVjJ3gc4aj
-- name: 1|🇺🇸47 |  5.6MB/s
+- name: 2|🇺🇸47 |  5.6MB/s
   password: MzzpigzES9
   port: 43208
   server: 192.243.113.109
   skip-cert-verify: true
   type: trojan
-- name: 1|🇺🇸50 |  5.7MB/s
+- name: 2|🇺🇸50 |  5.7MB/s
   password: ay3riKse0A
   port: 41864
   server: 23.106.153.91
   skip-cert-verify: true
   type: trojan
 - cipher: aes-256-cfb
-  name: 1|🇺🇸52 |  4.8MB/s
+  name: 2|🇺🇸52 |  4.8MB/s
   password: amazonskr05
   port: 443
   server: 35.89.247.87
@@ -305,7 +305,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 1|🇺🇸55 |  1.5MB/s
+  name: 2|🇺🇸55 |  1.5MB/s
   network: ws
   port: 22642
   server: tk.hzlt.tkddns.xyz
@@ -320,7 +320,7 @@ proxies:
     path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1,11|🇰🇷 韩国特殊|@ripaojiedian
+  name: 2,12|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 54.213.242.191
@@ -328,7 +328,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|🇺🇸59 |  5.3MB/s
+  name: 2|🇺🇸59 |  5.3MB/s
   network: ws
   port: 443
   server: xc147-2.meiziba5566.com
@@ -343,7 +343,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国|@ripaojiedian
+  name: 12|🇺🇸 美国|@ripaojiedian
   port: 44015
   server: 120.198.71.219
   skip-cert-verify: false
@@ -353,7 +353,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -366,7 +366,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国3|@ripaojiedian
+  name: 12,13|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -382,7 +382,7 @@ proxies:
     path: /oooo
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国4|@ripaojiedian
+  name: 12|🇺🇸 美国4|@ripaojiedian
   password: 82401cca-92d1-4220-9367-1cb52832bf59
   port: 16109
   server: 183.240.116.150
@@ -390,7 +390,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|美国|@ripaojiedian
+  name: 13|美国|@ripaojiedian
   network: tcp
   port: '44015'
   server: 120.198.71.219

@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,13|CH_speednode_0001
+  name: 2,14|CH_speednode_0001
   network: tcp
   port: 443
   server: yapc-1.afshin.ir
@@ -14,7 +14,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇨🇭2 |  5.8MB/s
+  name: 2|🇨🇭2 |  5.8MB/s
   network: tcp
   port: 59838
   reality-opts:
@@ -27,7 +27,7 @@ proxies:
   udp: false
   uuid: f28b23ed-6eb2-da9a-c112-6918a83654a6
 - flow: xtls-rprx-vision
-  name: 1|🇨🇭3 |  2.2MB/s
+  name: 2|🇨🇭3 |  2.2MB/s
   network: tcp
   port: 443
   server: 152.67.68.116
