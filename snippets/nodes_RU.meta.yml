@@ -1,9 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺俄罗斯 01 | 1x RU
-  password: 4c52bcc4-450e-4c97-9161-244c70bf76c4
-  port: 31511
-  server: free.2apzhfa.xyz
+  name: 0|🇷🇺 俄罗斯 01 | 1x RU
+  password: 2af5f1c7-c3f9-4f2b-b8ac-cf46e2016a1c
+  port: 36511
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - auth: dongtaiwang.com
@@ -82,9 +82,9 @@ proxies:
   type: hysteria
   up: 1000 Mbps
 - cipher: chacha20-ietf-poly1305
-  name: 2|🇷🇺 俄罗斯 01 | 1x RU
-  password: 42f4ce4e-a59b-4114-924a-2dbfe2e22efe
-  port: 36511
-  server: free.2weradf.xyz
+  name: 14|🇷🇺俄罗斯 01 | 1x RU
+  password: 9abfcde4-7ff4-4b0a-8f42-5d672bb1b002
+  port: 31511
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
