@@ -1,19 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: c6ce00cc-ee18-4ccc-a4bf-3b5e5e532b90
+  password: 30de56ed-feba-4160-b103-fbd53c31af54
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 71baf410-80c7-4e53-955d-294d8897db75
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 2|🇩🇪1 |  2.8MB/s
+- name: 1|🇩🇪1 |  2.8MB/s
   network: ws
   port: 2096
   server: 104.17.148.22
@@ -27,7 +20,7 @@ proxies:
     headers:
       Host: DrOt0Ai1Oq.DeRaKhT.iNfO
     path: /
-- name: 2|🇩🇪2 |  4.1MB/s
+- name: 1|🇩🇪2 |  4.1MB/s
   network: ws
   port: 8443
   server: www.speedtest.net
@@ -44,7 +37,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 2|🇩🇪3 |  5.6MB/s
+  name: 1|🇩🇪3 |  5.6MB/s
   network: ws
   port: 8443
   server: zula.ir
@@ -60,7 +53,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 2|🇩🇪4 |  2.6MB/s
+  name: 1|🇩🇪4 |  2.6MB/s
   network: ws
   port: 443
   server: www.speedtest.net
@@ -76,7 +69,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 2|🇩🇪5 |  2.8MB/s
+  name: 1|🇩🇪5 |  2.8MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -91,7 +84,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 2|🇩🇪6 |  3.8MB/s
+  name: 1|🇩🇪6 |  3.8MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -103,6 +96,13 @@ proxies:
   type: vless
   udp: false
   uuid: ac5ef6ff-4df5-4615-8e8b-3819497f5776
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇩🇪 德国 01 | 1x DE
+  password: 78ed80a6-b8ad-4b51-8fed-44605c53837f
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 14|DE_speednode_0035
   port: 51212
   server: 194.55.13.118
