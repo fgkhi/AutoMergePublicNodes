@@ -1,15 +1,22 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪 德国 01 | 1x DE
-  password: 35614cef-5b4b-4ca8-a247-489d1f4d8c37
+  password: 5ae0a937-d581-4e08-90be-9279cdc35aab
   port: 36471
   server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: ff1265da-e5f4-468e-b3ac-cbb614bbeb8b
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪1 |  5.1MB/s
+  name: 2|🇩🇪1 |  5.1MB/s
   network: ws
   port: 2096
   server: 199.34.228.71
@@ -25,7 +32,7 @@ proxies:
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇩🇪2 |  4.4MB/s
+  name: 2|🇩🇪2 |  4.4MB/s
   network: tcp
   port: 443
   server: 204.10.194.78
@@ -37,7 +44,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪3 |  3.8MB/s
+  name: 2|🇩🇪3 |  3.8MB/s
   network: ws
   port: 443
   server: 104.17.147.22
@@ -52,7 +59,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇩🇪4 |  4.1MB/s
+  name: 2|🇩🇪4 |  4.1MB/s
   network: tcp
   port: 58031
   reality-opts:
@@ -65,7 +72,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇩🇪5 |  5.6MB/s
+  name: 2|🇩🇪5 |  5.6MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -80,7 +87,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪6 |  3.1MB/s
+  name: 2|🇩🇪6 |  3.1MB/s
   network: ws
   port: 443
   server: 172.67.202.125
@@ -96,7 +103,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇩🇪7 |  3.2MB/s
+  name: 2|🇩🇪7 |  3.2MB/s
   network: ws
   port: 8880
   server: www.speedtest.net
@@ -112,7 +119,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 1|🇩🇪8 |  1.5MB/s
+  name: 2|🇩🇪8 |  1.5MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -127,7 +134,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 1|🇩🇪9 |  5.1MB/s
+  name: 2|🇩🇪9 |  5.1MB/s
   network: ws
   port: 2087
   server: www.speedtest.net
@@ -140,13 +147,6 @@ proxies:
     headers:
       Host: mahdi.filmekade.ru
     path: /telegram----------------v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---------------v2ryNG01---v2ryNG01--v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01v2ryNG01----v2ryNG01----v2ryNG01---v2ryNG01---v2ryNG01---v2ryNG01?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇩🇪德国 01 | 1x DE
-  password: 91cd748c-95e9-4357-94a0-fb9296e126b2
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: 14|DE_speednode_0035
   port: 51212
   server: 194.55.13.118

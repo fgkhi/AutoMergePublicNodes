@@ -1,28 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 01 | 1x SG
-  password: 35614cef-5b4b-4ca8-a247-489d1f4d8c37
+  password: 5ae0a937-d581-4e08-90be-9279cdc35aab
   port: 36171
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 02 | 1x SG
-  password: 35614cef-5b4b-4ca8-a247-489d1f4d8c37
+  password: 5ae0a937-d581-4e08-90be-9279cdc35aab
   port: 36173
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇸🇬 新加坡 03 | 1x SG
-  password: 35614cef-5b4b-4ca8-a247-489d1f4d8c37
+  password: 5ae0a937-d581-4e08-90be-9279cdc35aab
   port: 36175
   server: free.2weradf.xyz
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: ff1265da-e5f4-468e-b3ac-cbb614bbeb8b
+  port: 31171
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: ff1265da-e5f4-468e-b3ac-cbb614bbeb8b
+  port: 31173
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: ff1265da-e5f4-468e-b3ac-cbb614bbeb8b
+  port: 31175
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇸🇬1 |  3.2MB/s
+  name: 2|🇸🇬1 |  3.2MB/s
   network: tcp
   port: 56127
   reality-opts:
@@ -35,7 +56,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 1924
   flow: xtls-rprx-vision
-  name: 1,14|CN_speednode_0015
+  name: 2,14|CN_speednode_0015
   network: tcp
   port: 29877
   reality-opts:
@@ -49,7 +70,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 0
   cipher: auto
-  name: 1|🇸🇬3 |  5.5MB/s
+  name: 2|🇸🇬3 |  5.5MB/s
   network: tcp
   port: 17231
   server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
@@ -62,7 +83,7 @@ proxies:
   ws-path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇸🇬4 |  6.1MB/s
+  name: 2|🇸🇬4 |  6.1MB/s
   network: tcp
   port: 10778
   reality-opts:
@@ -74,7 +95,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇸🇬5 |  6.1MB/s
+  name: 2|🇸🇬5 |  6.1MB/s
   network: tcp
   port: 10778
   reality-opts:
@@ -87,7 +108,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇸🇬6 |  3.8MB/s
+  name: 2|🇸🇬6 |  3.8MB/s
   network: ws
   port: 80
   server: 170.114.46.6
@@ -100,27 +121,6 @@ proxies:
     headers:
       Host: free.pranithsandaruwan.cfd
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 01 | 1x SG
-  password: 91cd748c-95e9-4357-94a0-fb9296e126b2
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 02 | 1x SG
-  password: 91cd748c-95e9-4357-94a0-fb9296e126b2
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬新加坡 03 | 1x SG
-  password: 91cd748c-95e9-4357-94a0-fb9296e126b2
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
