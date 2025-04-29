@@ -1,4 +1,18 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 01 | 1x KR
+  password: 2631f617-45f4-4f67-a2aa-6d8390cb222d
+  port: 31311
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇰🇷韩国 02 | 1x KR
+  password: 2631f617-45f4-4f67-a2aa-6d8390cb222d
+  port: 31313
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 1|🇰🇷1 |  5.5MB/s
@@ -14,24 +28,10 @@ proxies:
   port: 11389
   server: 221.150.109.89
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 01 | 1x KR
-  password: b3d3fcb2-ebf0-4ec2-b015-c50b5ebaf7a7
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇰🇷 韩国 02 | 1x KR
-  password: b3d3fcb2-ebf0-4ec2-b015-c50b5ebaf7a7
-  port: 36313
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|韩国|@ripaojiedian
+  name: 11,12|韩国|@ripaojiedian
   network: ws
   port: '443'
   server: cg1c16.waimaoglobaldirect.cc
@@ -47,9 +47,23 @@ proxies:
     path: /api/v1/graphql
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国2|@ripaojiedian
+  name: 11|🇰🇷 韩国2|@ripaojiedian
   password: qwerREWQ@@
   port: 4857
   server: 125.141.26.12
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 01 | 1x KR
+  password: 3d4c8449-fa1c-4238-899d-8c64f3904119
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 02 | 1x KR
+  password: 3d4c8449-fa1c-4238-899d-8c64f3904119
+  port: 36313
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
