@@ -1,7 +1,28 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 01 | 1x TW
+  password: ff96802c-a090-48c0-8e65-3ff2774a0592
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 02 | 1x TW
+  password: ff96802c-a090-48c0-8e65-3ff2774a0592
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇹🇼台湾 03 | 1x TW
+  password: ff96802c-a090-48c0-8e65-3ff2774a0592
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,13|CN_speednode_0007
+  name: 2,14|CN_speednode_0007
   network: tcp
   port: 15842
   reality-opts:
@@ -15,7 +36,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,13|CN_speednode_0013
+  name: 2,14|CN_speednode_0013
   network: tcp
   port: 15823
   reality-opts:
@@ -29,7 +50,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇹🇼3 |  5.9MB/s
+  name: 2|🇹🇼3 |  5.9MB/s
   network: tcp
   port: 12477
   reality-opts:
@@ -41,7 +62,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 0|🇹🇼4 |  5.2MB/s
+  name: 2|🇹🇼4 |  5.2MB/s
   password: 3ba409f5-e03e-4cf1-8c2e-91c0d281e9a1
   port: 16944
   server: hm.huamao888.top
@@ -49,7 +70,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇹🇼5 |  4.4MB/s
+  name: 2|🇹🇼5 |  4.4MB/s
   network: tcp
   port: 41572
   reality-opts:
@@ -59,24 +80,3 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: d8ff37b4-6256-46b7-96a6-7ab7d9a7ab2c
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: d8ff37b4-6256-46b7-96a6-7ab7d9a7ab2c
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: d8ff37b4-6256-46b7-96a6-7ab7d9a7ab2c
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

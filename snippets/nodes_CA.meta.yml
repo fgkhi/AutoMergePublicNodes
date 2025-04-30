@@ -1,5 +1,12 @@
 proxies:
-- name: 0|🇨🇦1 |  5.2MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇨🇦加拿大 01 | 1x CA
+  password: ff96802c-a090-48c0-8e65-3ff2774a0592
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2|🇨🇦1 |  5.2MB/s
   network: ws
   port: 443
   server: 69.84.182.141
@@ -15,7 +22,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0|🇨🇦2 |  1.3MB/s
+  name: 2|🇨🇦2 |  1.3MB/s
   network: tcp
   port: 16011
   reality-opts:
@@ -25,10 +32,3 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: d8ff37b4-6256-46b7-96a6-7ab7d9a7ab2c
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true

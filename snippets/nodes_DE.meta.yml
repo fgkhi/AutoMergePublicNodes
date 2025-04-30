@@ -1,8 +1,15 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇩🇪德国 01 | 1x DE
+  password: ff96802c-a090-48c0-8e65-3ff2774a0592
+  port: 31471
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪1 |  5.4MB/s
+  name: 2|🇩🇪1 |  5.4MB/s
   network: tcp
   port: 8443
   reality-opts:
@@ -17,7 +24,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪2 |  5.8MB/s
+  name: 2|🇩🇪2 |  5.8MB/s
   network: ws
   port: 8443
   server: www.speedtest.net
@@ -33,7 +40,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪3 |  5.8MB/s
+  name: 2|🇩🇪3 |  5.8MB/s
   network: tcp
   port: 443
   reality-opts:
@@ -48,7 +55,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪4 |  5.4MB/s
+  name: 2|🇩🇪4 |  5.4MB/s
   network: ws
   port: 2096
   server: www.speedtest.net
@@ -64,7 +71,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪5 |  5.8MB/s
+  name: 2|🇩🇪5 |  5.8MB/s
   network: ws
   port: 2082
   server: 104.17.147.22
@@ -80,7 +87,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪6 |  4.4MB/s
+  name: 2|🇩🇪6 |  4.4MB/s
   network: tcp
   port: 8443
   reality-opts:
@@ -95,7 +102,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪7 |  2.9MB/s
+  name: 2|🇩🇪7 |  2.9MB/s
   network: ws
   port: 8443
   server: 104.17.147.22
@@ -111,7 +118,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪8 |  5.7MB/s
+  name: 2|🇩🇪8 |  5.7MB/s
   network: tcp
   port: 1300
   reality-opts:
@@ -126,7 +133,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪9 |  5.3MB/s
+  name: 2|🇩🇪9 |  5.3MB/s
   network: tcp
   port: 8443
   reality-opts:
@@ -141,7 +148,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪10 |  5.5MB/s
+  name: 2|🇩🇪10 |  5.5MB/s
   network: tcp
   port: 8443
   reality-opts:
@@ -156,7 +163,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪11 |  4.5MB/s
+  name: 2|🇩🇪11 |  4.5MB/s
   network: tcp
   port: 8443
   reality-opts:
@@ -171,7 +178,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪12 |  1.9MB/s
+  name: 2|🇩🇪12 |  1.9MB/s
   network: ws
   port: 80
   server: www.speedtest.net
@@ -187,7 +194,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪13 |  5.7MB/s
+  name: 2|🇩🇪13 |  5.7MB/s
   network: tcp
   port: 7022
   reality-opts:
@@ -202,7 +209,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪14 |  2.4MB/s
+  name: 2|🇩🇪14 |  2.4MB/s
   network: ''
   port: 443
   server: 204.10.194.78
@@ -213,7 +220,7 @@ proxies:
   uuid: 7a12ccb8-c431-4cc0-ace9-a994cc4b2ca7
 - flow: ''
   mode: ''
-  name: 0|🇩🇪15 |  4.9MB/s
+  name: 2|🇩🇪15 |  4.9MB/s
   network: ws
   port: 2096
   server: cpuhot.boshrachoice.ir
@@ -229,7 +236,7 @@ proxies:
   grpc-opts:
     grpc-service-name: 7594vless
   mode: gun
-  name: 0|🇩🇪16 |  5.2MB/s
+  name: 2|🇩🇪16 |  5.2MB/s
   network: grpc
   port: 7594
   reality-opts:
@@ -244,7 +251,7 @@ proxies:
 - client-fingerprint: randomized
   flow: ''
   mode: ''
-  name: 0|🇩🇪17 |  5.0MB/s
+  name: 2|🇩🇪17 |  5.0MB/s
   network: ws
   port: 8880
   server: 104.17.148.22
@@ -260,7 +267,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪18 |  2.3MB/s
+  name: 2|🇩🇪18 |  2.3MB/s
   network: tcp
   port: 8443
   reality-opts:
@@ -275,7 +282,7 @@ proxies:
 - client-fingerprint: chrome
   flow: ''
   mode: ''
-  name: 0|🇩🇪19 |  3.5MB/s
+  name: 2|🇩🇪19 |  3.5MB/s
   network: tcp
   port: 15110
   reality-opts:
@@ -290,7 +297,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪20 |  1.2MB/s
+  name: 2|🇩🇪20 |  1.2MB/s
   network: ws
   port: 2096
   server: 199.34.228.71
@@ -306,7 +313,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 0|🇩🇪21 |  5.5MB/s
+  name: 2|🇩🇪21 |  5.5MB/s
   network: ws
   port: 8443
   server: www.speedtest.net
@@ -322,7 +329,7 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   mode: ''
-  name: 0|🇩🇪22 |  3.5MB/s
+  name: 2|🇩🇪22 |  3.5MB/s
   network: tcp
   port: 8443
   reality-opts:
@@ -334,14 +341,7 @@ proxies:
   type: vless
   udp: false
   uuid: 3f789164-ca20-4041-89c0-bc553819970c
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: d8ff37b4-6256-46b7-96a6-7ab7d9a7ab2c
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- name: 9|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
+- name: 10|🇩🇪 @VPNHubMaRKeT ⚡️  @VpnHubMa...
   obfs: salamander
   obfs-password: tel:@VPNHubMaRKeT
   password: VPNHubMaRKeT
