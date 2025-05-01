@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇫🇷1 |  2.7MB/s
+  name: 2|🇫🇷1 |  2.7MB/s
   port: 17235
   server: a842afb9-sutj40-suyhjm-1hhyy.cm5.p5pv.com
   tls: false
@@ -10,7 +10,7 @@ proxies:
   uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 1|🇫🇷3 |  2.1MB/s
+  name: 2|🇫🇷3 |  2.1MB/s
   network: ws
   port: 443
   server: 129.151.254.48
@@ -25,7 +25,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇫🇷4 |  1.1MB/s
+  name: 2|🇫🇷4 |  1.1MB/s
   port: 17235
   server: a194ab3e-surog0-sy0g8x-1cc8s.cm5.p5pv.com
   tls: false
@@ -34,7 +34,7 @@ proxies:
 - alterId: 0
   cipher: auto
   ip-version: dual
-  name: 1|🇫🇷5 |  1.9MB/s
+  name: 2|🇫🇷5 |  1.9MB/s
   network: tcp
   port: 17235
   server: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
@@ -43,7 +43,7 @@ proxies:
   uuid: 18c0664c-74f1-11ee-b51e-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 1|🇫🇷7 |  3.5MB/s
+  name: 2|🇫🇷7 |  3.5MB/s
   network: ws
   port: 443
   server: 172.67.154.84

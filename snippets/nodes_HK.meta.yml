@@ -1,21 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 13608d41-56b9-4125-b0bf-88a494f6f6a7
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: af41a881-fbc8-42bc-aeb8-ef133cb1ae2c
+  port: 36143
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: af41a881-fbc8-42bc-aeb8-ef133cb1ae2c
+  port: 36145
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 02 | 1x HK
+  password: 78895340-8022-43c3-853e-9013863e03cb
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 13608d41-56b9-4125-b0bf-88a494f6f6a7
+  name: 1|🇭🇰香港家宽 03 | 1x HK
+  password: 78895340-8022-43c3-853e-9013863e03cb
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰1 |  5.0MB/s
+  name: 2|🇭🇰1 |  5.0MB/s
   network: tcp
   port: 54220
   reality-opts:
@@ -27,7 +41,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰2 |  6.2MB/s
+  name: 2|🇭🇰2 |  6.2MB/s
   network: tcp
   port: 62157
   reality-opts:
@@ -39,7 +53,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰3 |  1.1MB/s
+  name: 2|🇭🇰3 |  1.1MB/s
   network: tcp
   port: 54220
   reality-opts:
@@ -51,7 +65,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰4 |  1.7MB/s
+  name: 2|🇭🇰4 |  1.7MB/s
   network: tcp
   port: 23657
   reality-opts:
@@ -64,7 +78,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇭🇰5 |  1.0MB/s
+  name: 2|🇭🇰5 |  1.0MB/s
   port: 4136
   server: 8020e29c-submo0-t0t1z3-1qgn.d.volczijie.com
   tls: false
@@ -72,7 +86,7 @@ proxies:
   uuid: 564b440a-700f-11ee-a90c-f23c9313b177
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰6 |  1.3MB/s
+  name: 2|🇭🇰6 |  1.3MB/s
   network: tcp
   port: 35853
   reality-opts:
@@ -85,7 +99,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 994
   flow: xtls-rprx-vision
-  name: 1|🇭🇰7 |  1.2MB/s
+  name: 2|🇭🇰7 |  1.2MB/s
   network: tcp
   port: 35853
   reality-opts:
@@ -97,7 +111,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰8 |  1.8MB/s
+  name: 2|🇭🇰8 |  1.8MB/s
   network: tcp
   port: 12597
   reality-opts:
@@ -109,7 +123,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 2
   cipher: auto
-  name: 1|🇭🇰9 |  1.3MB/s
+  name: 2|🇭🇰9 |  1.3MB/s
   network: ws
   port: 8080
   server: c027a484-svlb40-szcku7-153sp.hk3.p5pv.com
@@ -124,7 +138,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰10 |  2.4MB/s
+  name: 2|🇭🇰10 |  2.4MB/s
   network: tcp
   port: 33782
   reality-opts:
@@ -137,14 +151,14 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇭🇰11 |  2.0MB/s
+  name: 2|🇭🇰11 |  2.0MB/s
   port: 15228
   server: 34cabfa3-surog0-tc9wl2-py5w.cm.plebai.net
   tls: false
   type: vmess
   uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
 - client-fingerprint: chrome
-  name: 1|🇭🇰12 |  4.8MB/s
+  name: 2|🇭🇰12 |  4.8MB/s
   password: b6200af42ccadea353f5b5856dd20d70
   port: 39001
   server: 120.233.128.68
@@ -153,7 +167,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 1|🇭🇰13 |  3.0MB/s
+  name: 2|🇭🇰13 |  3.0MB/s
   network: ws
   port: 8080
   server: 36c38fee-svdwg0-swd5ff-f1v1.hk3.p5pv.com
@@ -167,7 +181,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 887
   flow: xtls-rprx-vision
-  name: 1|🇭🇰14 |  1.4MB/s
+  name: 2|🇭🇰14 |  1.4MB/s
   network: tcp
   port: 46716
   reality-opts:
@@ -179,7 +193,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰15 |  4.8MB/s
+  name: 2|🇭🇰15 |  4.8MB/s
   network: tcp
   port: 20550
   reality-opts:
@@ -193,7 +207,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇭🇰16 |  1.1MB/s
+  name: 2|🇭🇰16 |  1.1MB/s
   network: ws
   port: 455
   server: 3510b612-svlxc0-sw531k-aqho.hkt.east.wctype.com
@@ -206,7 +220,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 1|🇭🇰17 |  2.2MB/s
+  name: 2|🇭🇰17 |  2.2MB/s
   network: ws
   port: 8102
   server: 3e1c8931-svhls0-t4yfev-1rz31.wtt5.p5pv.com
@@ -220,7 +234,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇭🇰18 |  1.1MB/s
+  name: 2|🇭🇰18 |  1.1MB/s
   network: tcp
   port: 40387
   reality-opts:
@@ -232,7 +246,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - alterId: 2
   cipher: auto
-  name: 1|🇭🇰19 |  4.0MB/s
+  name: 2|🇭🇰19 |  4.0MB/s
   network: ws
   port: 8080
   server: c027a484-svlb40-szcku7-153sp.hk3.p5pv.com
@@ -245,7 +259,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|🇭🇰20 |  3.6MB/s
+  name: 2|🇭🇰20 |  3.6MB/s
   network: tcp
   port: 15229
   server: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
@@ -256,7 +270,7 @@ proxies:
   ws-headers:
     Host: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
   ws-path: /
-- name: 10|香港🇭🇰 HY2
+- name: 11|香港🇭🇰 HY2
   password: e20abb22a245edb0
   port: 8443
   server: fast.yxmm.xyz
@@ -265,7 +279,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 11|🇭🇰 香港|@ripaojiedian
+  name: 12|🇭🇰 香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
   port: 40021
@@ -279,7 +293,7 @@ proxies:
     path: /dl_media
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港2|@ripaojiedian
+  name: 12|🇭🇰 香港2|@ripaojiedian
   password: 91a41f4e02dc
   plugin: v2ray-plugin
   plugin-opts:
@@ -295,14 +309,14 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港3|@ripaojiedian
+  name: 12|🇭🇰 香港3|@ripaojiedian
   password: 92uGfGQsAPq+HoB43r4u5b8lioGZrD/YTrvMUFbjgD8=
   port: 56999
   server: 175.178.13.108
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 11,12|香港4|@ripaojiedian
+  name: 12,13|香港4|@ripaojiedian
   network: tcp
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
@@ -313,7 +327,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港5|@ripaojiedian
+  name: 12|🇭🇰 香港5|@ripaojiedian
   port: 41291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -324,7 +338,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇭🇰 香港6|@ripaojiedian
+  name: 12|🇭🇰 香港6|@ripaojiedian
   port: 42375
   server: 120.198.71.214
   skip-cert-verify: false
@@ -333,7 +347,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 11,12|香港7|@ripaojiedian
+  name: 12,13|香港7|@ripaojiedian
   network: tcp
   password: VMhGp5wEIyCDf90T
   port: 42303
@@ -341,7 +355,7 @@ proxies:
   skip-cert-verify: false
   sni: hk06.run.place
   type: trojan
-- name: 12|香港|@ripaojiedian
+- name: 13|香港|@ripaojiedian
   network: ws
   password: a38c9e28-9960-4e31-9f18-ed2495a756aa
   port: 40021
@@ -354,7 +368,7 @@ proxies:
     path: '%2Fdl_media'
 - alterId: 0
   cipher: auto
-  name: 12|香港5|@ripaojiedian
+  name: 13|香港5|@ripaojiedian
   network: tcp
   port: '41291'
   server: 183.236.51.38
@@ -364,7 +378,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 12|香港6|@ripaojiedian
+  name: 13|香港6|@ripaojiedian
   network: tcp
   port: '42375'
   server: 120.198.71.214
@@ -372,17 +386,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 02 | 1x HK
-  password: ccaec776-03cb-4dff-8919-351d51d0fbe2
-  port: 36143
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港住宅IP 03 | 1x HK
-  password: ccaec776-03cb-4dff-8919-351d51d0fbe2
-  port: 36145
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

@@ -1,21 +1,28 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 01 | 1x HK
-  password: 13608d41-56b9-4125-b0bf-88a494f6f6a7
-  port: 31141
-  server: free.2apzhfa.xyz
+  name: 0|🇭🇰 香港 01 | 1x HK
+  password: af41a881-fbc8-42bc-aeb8-ef133cb1ae2c
+  port: 36141
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 13608d41-56b9-4125-b0bf-88a494f6f6a7
+  name: 0|🇬🇧 英国住宅IP 01 | 1x UK
+  password: af41a881-fbc8-42bc-aeb8-ef133cb1ae2c
+  port: 36271
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 78895340-8022-43c3-853e-9013863e03cb
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - flow: ''
   mode: ''
-  name: 1|🇬🇧1 |  5.9MB/s
+  name: 2|🇬🇧1 |  5.9MB/s
   network: ws
   port: 443
   server: 45.8.211.230
@@ -30,7 +37,7 @@ proxies:
     path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧2 |  5.2MB/s
+  name: 2|🇬🇧2 |  5.2MB/s
   network: tcp
   port: 49699
   reality-opts:
@@ -42,7 +49,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧3 |  5.2MB/s
+  name: 2|🇬🇧3 |  5.2MB/s
   network: tcp
   port: 49699
   reality-opts:
@@ -54,7 +61,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧4 |  2.0MB/s
+  name: 2|🇬🇧4 |  2.0MB/s
   network: tcp
   port: 50123
   reality-opts:
@@ -66,7 +73,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧5 |  5.4MB/s
+  name: 2|🇬🇧5 |  5.4MB/s
   network: tcp
   port: 35311
   reality-opts:
@@ -78,7 +85,7 @@ proxies:
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1|🇬🇧6 |  3.9MB/s
+  name: 2|🇬🇧6 |  3.9MB/s
   network: tcp
   port: 14659
   reality-opts:
@@ -88,7 +95,7 @@ proxies:
   tls: true
   type: vless
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- name: 10|Hysteria 🇬🇧 @v2meowcf
+- name: 11|Hysteria 🇬🇧 @v2meowcf
   password: QtgdPIrjSirZNtFJM01JQUPMvEVfih
   port: 443
   server: 178.236.237.84
@@ -96,17 +103,3 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 01 | 1x HK
-  password: ccaec776-03cb-4dff-8919-351d51d0fbe2
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: ccaec776-03cb-4dff-8919-351d51d0fbe2
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
-  udp: true

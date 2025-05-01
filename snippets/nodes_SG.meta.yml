@@ -1,21 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: 13608d41-56b9-4125-b0bf-88a494f6f6a7
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: af41a881-fbc8-42bc-aeb8-ef133cb1ae2c
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: af41a881-fbc8-42bc-aeb8-ef133cb1ae2c
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 03 | 1x SG
+  password: af41a881-fbc8-42bc-aeb8-ef133cb1ae2c
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 78895340-8022-43c3-853e-9013863e03cb
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: 13608d41-56b9-4125-b0bf-88a494f6f6a7
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 78895340-8022-43c3-853e-9013863e03cb
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: 13608d41-56b9-4125-b0bf-88a494f6f6a7
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 78895340-8022-43c3-853e-9013863e03cb
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
@@ -23,7 +44,7 @@ proxies:
 - client-fingerprint: chrome
   delay: 660
   flow: xtls-rprx-vision
-  name: 1|🇸🇬1 |  2.2MB/s
+  name: 2|🇸🇬1 |  2.2MB/s
   network: tcp
   port: 44003
   reality-opts:
@@ -36,7 +57,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇸🇬2 |  2.7MB/s
+  name: 2|🇸🇬2 |  2.7MB/s
   port: 4135
   server: db462a5d-sudhc0-syoixd-bm0y.d.volczijie.com
   tls: false
@@ -44,7 +65,7 @@ proxies:
   uuid: fb8812ae-dcb5-11ef-a57d-f23c9313b177
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 1,13|CN_speednode_0016
+  name: 2,14|CN_speednode_0016
   network: tcp
   port: 56127
   reality-opts:
@@ -59,7 +80,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇸🇬4 |  1.3MB/s
+  name: 2|🇸🇬4 |  1.3MB/s
   port: 4137
   server: 120.233.64.140
   tls: false
@@ -68,7 +89,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇸🇬5 |  1.0MB/s
+  name: 2|🇸🇬5 |  1.0MB/s
   port: 4137
   server: a38c20dc-sudhc0-svm3vt-czv5.c.volczijie.com
   tls: false
@@ -77,7 +98,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇸🇬6 |  1.7MB/s
+  name: 2|🇸🇬6 |  1.7MB/s
   port: 3683
   server: 183.240.179.191
   tls: false
@@ -85,7 +106,7 @@ proxies:
   uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
 - alterId: 0
   cipher: auto
-  name: 1|🇸🇬7 |  6.0MB/s
+  name: 2|🇸🇬7 |  6.0MB/s
   network: tcp
   port: 17231
   server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
@@ -99,7 +120,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇸🇬8 |  3.3MB/s
+  name: 2|🇸🇬8 |  3.3MB/s
   port: 3683
   server: 0a0ca27f-su7b40-tf38me-cum1.b.fosant.com
   tls: false
@@ -108,7 +129,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇸🇬9 |  3.0MB/s
+  name: 2|🇸🇬9 |  3.0MB/s
   port: 4137
   server: d0f55eaf-submo0-t0t1z3-1qgn.c.volczijie.com
   tls: false
@@ -116,7 +137,7 @@ proxies:
   uuid: 564b440a-700f-11ee-a90c-f23c9313b177
 - alterId: 0
   cipher: auto
-  name: 1|🇸🇬10 |  1.8MB/s
+  name: 2|🇸🇬10 |  1.8MB/s
   network: tcp
   port: 17231
   server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
@@ -130,7 +151,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇸🇬11 |  2.9MB/s
+  name: 2|🇸🇬11 |  2.9MB/s
   port: 4135
   server: 55ae775c-sukw00-sw1e10-7yd9.d.volczijie.com
   tls: false
@@ -139,7 +160,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇸🇬12 |  1.6MB/s
+  name: 2|🇸🇬12 |  1.6MB/s
   network: tcp
   port: 17231
   server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
@@ -149,7 +170,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇸🇬13 |  2.3MB/s
+  name: 2|🇸🇬13 |  2.3MB/s
   port: 3683
   server: fc1bb096-suh6o0-svqrrs-4cwg.b.fosant.com
   tls: false
@@ -157,7 +178,7 @@ proxies:
   uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
 - alterId: 0
   cipher: auto
-  name: 1|🇸🇬14 |  1.2MB/s
+  name: 2|🇸🇬14 |  1.2MB/s
   port: 17231
   server: 9e083647-sv2sg0-t35mzx-1pp0x.cm5.p5pv.com
   tls: false
@@ -166,7 +187,7 @@ proxies:
 - client-fingerprint: ''
   flow: ''
   mode: ''
-  name: 1|🇸🇬15 |  3.1MB/s
+  name: 2|🇸🇬15 |  3.1MB/s
   network: ws
   port: 80
   server: 170.114.46.6
@@ -182,13 +203,13 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 1|🇸🇬16 |  1.8MB/s
+  name: 2|🇸🇬16 |  1.8MB/s
   port: 4135
   server: e0ee2db1-submo0-su9w3p-4mce.d.volczijie.com
   tls: false
   type: vmess
   uuid: 06c625ea-5902-11ee-9e87-f23c9313b177
-- name: 10|Hysteria 🇸🇬 @v2meowcf
+- name: 11|Hysteria 🇸🇬 @v2meowcf
   password: 4vAy2oj2RhV6TlM8YUCCIWkj1KDfgH
   port: 443
   server: 146.19.100.138
@@ -196,7 +217,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|新加坡
+- name: 11|新加坡
   password: a914681a-8dda-4c98-8468-c313f5539b14
   port: 2056
   server: sg3.eyucdn.xyz
@@ -204,7 +225,7 @@ proxies:
   sni: sg3.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: '10|Hysteria 🇸🇬 @v2meowcf #1'
+- name: '11|Hysteria 🇸🇬 @v2meowcf #1'
   password: wSu8KVl38ul4t9a2eA5foAVaS9MR5U
   port: 443
   server: 103.195.189.54
@@ -215,7 +236,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|新加坡|@ripaojiedian
+  name: 12,13|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -231,7 +252,7 @@ proxies:
     path: /oooo
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡|@ripaojiedian 2
+  name: 12|🇸🇬 新加坡|@ripaojiedian 2
   password: 21e251c3-139c-4b81-b352-3b60734029e9
   port: 35501
   server: gw.liangyuandianwan.com
@@ -239,7 +260,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇸🇬 新加坡2|@ripaojiedian
+  name: 12|🇸🇬 新加坡2|@ripaojiedian
   password: 04a3ce12-5889-477f-a0b6-dbdee2ae198b
   port: 5021
   server: blog.andnsqd.com
@@ -247,30 +268,9 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 11|🇸🇬 狮城特殊|@ripaojiedian
+  name: 12|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
   server: 18.141.239.83
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: ccaec776-03cb-4dff-8919-351d51d0fbe2
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: ccaec776-03cb-4dff-8919-351d51d0fbe2
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 03 | 1x SG
-  password: ccaec776-03cb-4dff-8919-351d51d0fbe2
-  port: 36175
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
