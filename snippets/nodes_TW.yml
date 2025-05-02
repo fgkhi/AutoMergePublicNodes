@@ -1,28 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: b978f5af-3652-4b03-94b3-e0c294f101fc
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: b978f5af-3652-4b03-94b3-e0c294f101fc
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: b978f5af-3652-4b03-94b3-e0c294f101fc
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇹🇼2 |  5.1MB/s
+  name: 1|🇹🇼2 |  5.1MB/s
   network: tcp
   port: 3687
   server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
@@ -33,6 +12,27 @@ proxies:
   ws-headers:
     Host: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: 1ec33555-5cb0-4e4e-80ec-3265f55abe3e
+  port: 31241
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: 1ec33555-5cb0-4e4e-80ec-3265f55abe3e
+  port: 31243
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: 1ec33555-5cb0-4e4e-80ec-3265f55abe3e
+  port: 31245
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
