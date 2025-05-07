@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇰🇷 韩国 01 | 1x KR
+  password: 34bbcf31-fe78-454d-a083-fba399f3dd11
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
 - name: 14|KR_speednode_0019
   network: ws
   port: 12365
