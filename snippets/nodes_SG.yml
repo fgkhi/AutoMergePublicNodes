@@ -1,28 +1,42 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: dc210e23-fead-4b47-846f-492a262780be
+  name: 0|🇸🇬 新加坡 01 | 1x SG
+  password: 949b2f55-13d5-4fb3-a048-c43b1a6578f5
+  port: 36171
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇸🇬 新加坡 02 | 1x SG
+  password: 949b2f55-13d5-4fb3-a048-c43b1a6578f5
+  port: 36173
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: 18bf9b55-1847-42bf-8ff9-fdd12e038ca8
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: dc210e23-fead-4b47-846f-492a262780be
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: 18bf9b55-1847-42bf-8ff9-fdd12e038ca8
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: dc210e23-fead-4b47-846f-492a262780be
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: 18bf9b55-1847-42bf-8ff9-fdd12e038ca8
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 1|🇸🇬1 |  6.2MB/s|54%|Youtube|Ope...
+  name: 2|🇸🇬1 |  6.2MB/s|54%|Youtube|Ope...
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
@@ -31,20 +45,6 @@ proxies:
   protocol-param: ''
   server: cm2.xcone.xyz
   type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 01 | 1x SG
-  password: a6cf54e4-de8d-4777-aff2-34c8cb32467f
-  port: 36171
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇸🇬 新加坡 02 | 1x SG
-  password: a6cf54e4-de8d-4777-aff2-34c8cb32467f
-  port: 36173
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
