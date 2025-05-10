@@ -1,27 +1,27 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 01 | 1x SG
-  password: fa8177a6-52fc-4ad2-8f0c-2a0e72b5ae2f
+  name: 1|🇸🇬新加坡 01 | 1x SG
+  password: a7d18ead-ec57-45ab-9629-b603b54b811c
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 02 | 1x SG
-  password: fa8177a6-52fc-4ad2-8f0c-2a0e72b5ae2f
+  name: 1|🇸🇬新加坡 02 | 1x SG
+  password: a7d18ead-ec57-45ab-9629-b603b54b811c
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬新加坡 03 | 1x SG
-  password: fa8177a6-52fc-4ad2-8f0c-2a0e72b5ae2f
+  name: 1|🇸🇬新加坡 03 | 1x SG
+  password: a7d18ead-ec57-45ab-9629-b603b54b811c
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 1|🇸🇬1 |  2.4MB/s|54%|Youtube|Ope...
+  name: 2|🇸🇬1 |  2.4MB/s|54%|Youtube|Ope...
   obfs: tls1.2_ticket_auth
   obfs-param: sg2-cdn-route.couldflare-cdn.com
   password: uiACqrIr
