@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪德国 01 | 1x DE
-  password: a91c9447-c391-4b30-b3a9-d12a69aab63f
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   http-opts:
     headers: {}
@@ -130,10 +123,3 @@ proxies:
   udp: true
   uuid: ce462cc3-9983-45da-b030-728fb7b5684e
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: fc70fb2c-370b-4351-87e3-c40d9c4602d5
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
