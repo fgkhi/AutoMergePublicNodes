@@ -1,47 +1,46 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: c93e66d9-013b-4980-94a1-958b294348d8
+  name: 0|🇹🇼 台湾 01 | 1x TW
+  password: 3a1c0d1d-e0b3-4753-9f7a-1696d1769ac4
+  port: 36241
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 02 | 1x TW
+  password: 3a1c0d1d-e0b3-4753-9f7a-1696d1769ac4
+  port: 36243
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇹🇼 台湾 03 | 1x TW
+  password: 3a1c0d1d-e0b3-4753-9f7a-1696d1769ac4
+  port: 36245
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇹🇼台湾 01 | 1x TW
+  password: 8c453846-9419-41ec-b5b2-d72e3d10f332
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: c93e66d9-013b-4980-94a1-958b294348d8
+  name: 2|🇹🇼台湾 02 | 1x TW
+  password: 8c453846-9419-41ec-b5b2-d72e3d10f332
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: c93e66d9-013b-4980-94a1-958b294348d8
+  name: 2|🇹🇼台湾 03 | 1x TW
+  password: 8c453846-9419-41ec-b5b2-d72e3d10f332
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 2|🇹🇼1 |  2.5MB/s|Youtube|Openai|...
-  password: cacb4d4fa26f4eed25e4d17a6370083c
-  port: 443
-  server: tw01.sqx001.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: dmpyoary@mayorlogistic.com
-- alterId: 0
-  cipher: auto
-  delay: 1689
-  h2-opts: {}
-  http-opts: {}
-  name: 2|🇹🇼2 |  2.9MB/s|0%|Disney|Youtu...
-  network: tcp
-  port: 3690
-  server: 3ffa084b-sukw00-sw1e10-7yd9.b.fosant.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
 - client-fingerprint: chrome
   name: 12,13|台湾|@ripaojiedian
   network: tcp
