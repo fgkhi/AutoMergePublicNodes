@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 01 | 1x US Los Angeles
-  password: d5f76a4e-fe30-4ba4-b075-3bf0dec4004c
-  port: 31211
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 3e357c0d-788c-47d2-becb-6af0ce5beda3
+  port: 36211
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: d5f76a4e-fe30-4ba4-b075-3bf0dec4004c
-  port: 31213
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 3e357c0d-788c-47d2-becb-6af0ce5beda3
+  port: 36213
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸美国 03 | 1x US Washington
-  password: d5f76a4e-fe30-4ba4-b075-3bf0dec4004c
-  port: 31215
-  server: free.2apzhfa.xyz
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 3e357c0d-788c-47d2-becb-6af0ce5beda3
+  port: 36215
+  server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 2
@@ -253,10 +253,31 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 01 | 1x US Los Angeles
+  password: a4c69c2f-0c43-499f-8037-e5c528123b60
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: a4c69c2f-0c43-499f-8037-e5c528123b60
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇺🇸美国 03 | 1x US Washington
+  password: a4c69c2f-0c43-499f-8037-e5c528123b60
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -272,7 +293,7 @@ proxies:
     path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -285,7 +306,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国4|@ripaojiedian
+  name: 12,13|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
@@ -302,7 +323,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国5|@ripaojiedian
+  name: 12|🇺🇸 美国5|@ripaojiedian
   port: 46759
   server: 120.198.71.216
   skip-cert-verify: false
@@ -312,7 +333,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 12|美国5|@ripaojiedian
+  name: 13|美国5|@ripaojiedian
   network: tcp
   port: '46759'
   server: 120.198.71.216
@@ -320,7 +341,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|US_speednode_0065
+- name: 14|US_speednode_0065
   network: ws
   password: Aimer
   port: 2096
