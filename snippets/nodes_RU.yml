@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇷🇺俄罗斯 01 | 1x RU
+  password: 87afd0ea-10b9-4cd9-9640-2c1ab6456422
+  port: 31511
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: 13|RU_speednode_0051
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
@@ -52,9 +59,9 @@ proxies:
       Host: icecream.955850.xyz
     path: /proxyip=45.67.215.234:443
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺俄罗斯 01 | 1x RU
-  password: 68abb5de-e867-4436-9449-d1648e92a9d4
-  port: 31511
-  server: free.2apzhfa.xyz
+  name: 14|🇷🇺 俄罗斯 01 | 1x RU
+  password: 4d08b3a5-b5f8-444f-9f8a-7e88c63cfc5f
+  port: 36511
+  server: free.2weradf.xyz
   type: ss
   udp: true
