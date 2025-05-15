@@ -1,7 +1,7 @@
 proxies:
 - auth: dongtaiwang.com
   client-fingerprint: chrome
-  name: 0|🇫🇷1 |  1.4MB/s|15%|Openai
+  name: 1|🇫🇷1 |  1.4MB/s|15%|Openai
   password: dongtaiwang.com
   port: 4489
   server: 51.158.205.126
@@ -9,7 +9,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - client-fingerprint: chrome
-  name: 0|🇫🇷2 |  2.2MB/s|30%|Youtube|Ope...
+  name: 1|🇫🇷2 |  2.2MB/s|30%|Youtube|Ope...
   password: '!!str 74260665780162200'
   port: '443'
   server: 13.37.39.124
@@ -20,7 +20,7 @@ proxies:
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
-  name: 0|🇫🇷3 |  2.7MB/s|58%|Youtube|Ope...
+  name: 1|🇫🇷3 |  2.7MB/s|58%|Youtube|Ope...
   network: grpc
   port: '1210'
   reality-opts:

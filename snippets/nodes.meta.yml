@@ -1,6 +1,6 @@
 proxies:
 - fast-open: true
-  name: 0|🇷🇺1 |  1.5MB/s|0%
+  name: 1|🇷🇺1 |  1.5MB/s|0%
   password: dongtaiwang.com
   port: 10011
   server: hy2.694463.xyz
@@ -10,7 +10,7 @@ proxies:
 - alpn:
   - h3
   disable-sni: false
-  name: 0|🇷🇺2 |  4.6MB/s|50%
+  name: 1|🇷🇺2 |  4.6MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -26,7 +26,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: 0|🇺🇸1 |  5.0MB/s|47%|Openai
+  name: 1|🇺🇸1 |  5.0MB/s|47%|Openai
   port: 17549
   server: 208.87.243.151
   skip-cert-verify: true
@@ -34,7 +34,7 @@ proxies:
   type: hysteria
   up: 11 Mbps
 - flow: xtls-rprx-vision
-  name: 0|🇺🇸2 |  1.9MB/s|30%|Openai
+  name: 1|🇺🇸2 |  1.9MB/s|30%|Openai
   network: tcp
   port: 443
   reality-opts:
@@ -49,7 +49,7 @@ proxies:
   uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
 - down: ''
   fingerprint: ''
-  name: 0|🇬🇧1 |  1.4MB/s|61%|Netflix|Dis...
+  name: 1|🇬🇧1 |  1.4MB/s|61%|Netflix|Dis...
   obfs: ''
   obfs-password: ''
   password: nfsn666
@@ -59,7 +59,7 @@ proxies:
   sni: ld-arm.nfsn666.gq
   type: hysteria2
   up: ''
-- name: 0|🇺🇸3 |  3.5MB/s|67%|Netflix|Ope...
+- name: 1|🇺🇸3 |  3.5MB/s|67%|Netflix|Ope...
   network: tcp
   port: 443
   server: 51.81.18.62
@@ -69,7 +69,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-- name: 0,13|US_speednode_0074
+- name: 1,13|US_speednode_0074
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 443
   server: fae244f0-swb8g0-swy6li-tni2.sj.gotochinatown.net
@@ -78,7 +78,7 @@ proxies:
   type: http
   udp: true
   username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- name: 0|🇺🇸5 |  5.3MB/s|0%|Openai
+- name: 1|🇺🇸5 |  5.3MB/s|0%|Openai
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 443
   server: f67b0a3c-swd340-swy6li-tni2.sj.gotochinatown.net
@@ -86,13 +86,13 @@ proxies:
   tls: true
   type: http
   username: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- name: 0|🇺🇸6 |  2.8MB/s|0%|Openai
+- name: 1|🇺🇸6 |  2.8MB/s|0%|Openai
   port: 443
   server: 30e8c0db-svn5s0-t1bnjq-1krtb.sj.gotochinatown.net
   tls: true
   type: socks5
 - flow: xtls-rprx-vision
-  name: 0|🇨🇦1 |  2.4MB/s|2%|Youtube|Open...
+  name: 1|🇨🇦1 |  2.4MB/s|2%|Youtube|Open...
   network: tcp
   port: 56565
   reality-opts:
@@ -103,13 +103,13 @@ proxies:
   tls: true
   type: vless
   uuid: b1867b10-e968-44d1-9182-a674ef81ecb7
-- name: 0|🇺🇸7 |  5.6MB/s|Openai
+- name: 1|🇺🇸7 |  5.6MB/s|Openai
   port: 443
   server: a165488e-svlb40-t28b6o-ef48.los.gotochinatown.net
   sni: a165488e-svlb40-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸8 |  3.1MB/s|46%|Openai|Gemi...
+- name: 1|🇺🇸8 |  3.1MB/s|46%|Openai|Gemi...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 5541c006-swexs0-swy6li-tni2.cu.plebai.net
@@ -118,31 +118,31 @@ proxies:
   tfo: false
   type: trojan
   udp: true
-- name: 0|🇺🇸9 |  2.0MB/s|Openai
+- name: 1|🇺🇸9 |  2.0MB/s|Openai
   port: 443
   server: db402f78-svfr40-t1bnjq-1krtb.los.gotochinatown.net
   sni: db402f78-svfr40-t1bnjq-1krtb.los.gotochinatown.net
   tls: true
   type: socks5
 - cipher: aes-256-cfb
-  name: 0|🇰🇷1 |  1.8MB/s|75%|Netflix|You...
+  name: 1|🇰🇷1 |  1.8MB/s|75%|Netflix|You...
   password: qwerREWQ@@
   port: 11389
   server: 221.150.109.89
   type: ss
-- name: 0|🇺🇸10 |  1.6MB/s|0%|Openai
+- name: 1|🇺🇸10 |  1.6MB/s|0%|Openai
   port: 443
   server: 3329823a-sw9ds0-swy6li-tni2.sv.plebai.net
   sni: 3329823a-sw9ds0-swy6li-tni2.sv.plebai.net
   tls: true
   type: socks5
-- name: 0|🇺🇸11 |  1.4MB/s|0%|Openai
+- name: 1|🇺🇸11 |  1.4MB/s|0%|Openai
   port: 443
   server: 347f200e-sw7j40-t1bnjq-1krtb.sj.gotochinatown.net
   sni: 347f200e-sw7j40-t1bnjq-1krtb.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸12 |  1.3MB/s|0%|Youtube|Ope...
+- name: 1|🇺🇸12 |  1.3MB/s|0%|Youtube|Ope...
   network: ws
   port: 443
   server: wow.quicky.dpdns.org
@@ -155,50 +155,50 @@ proxies:
       Host: us.quicky.dpdns.org
     path: /fastus
 - auth: dongtaiwang.com
-  name: 0|🇫🇷1 |  1.4MB/s|15%|Openai
+  name: 1|🇫🇷1 |  1.4MB/s|15%|Openai
   password: dongtaiwang.com
   port: 4489
   server: 51.158.205.126
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
-- name: 0|🇺🇸13 |  3.0MB/s|Openai
+- name: 1|🇺🇸13 |  3.0MB/s|Openai
   port: 443
   server: 98cac2fa-svp0g0-t1bnjq-1krtb.los.gotochinatown.net
   sni: 98cac2fa-svp0g0-t1bnjq-1krtb.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸14 |  1.9MB/s|0%|Openai
+- name: 1|🇺🇸14 |  1.9MB/s|0%|Openai
   port: 443
   server: 1757b2d3-svwf40-swy6li-tni2.sj.gotochinatown.net
   sni: 1757b2d3-svwf40-swy6li-tni2.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸15 |  2.2MB/s|0%|Openai
+- name: 1|🇺🇸15 |  2.2MB/s|0%|Openai
   port: 443
   server: 4453d106-sw9ds0-swy6li-tni2.sj.gotochinatown.net
   sni: 4453d106-sw9ds0-swy6li-tni2.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸16 |  1.1MB/s|0%|Openai
+- name: 1|🇺🇸16 |  1.1MB/s|0%|Openai
   port: 443
   server: 77b153ed-svqv40-swy6li-tni2.sj.gotochinatown.net
   sni: 77b153ed-svqv40-swy6li-tni2.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸17 |  1.5MB/s|0%|Openai
+- name: 1|🇺🇸17 |  1.5MB/s|0%|Openai
   port: 443
   server: fdbb8d8d-sw3ts0-swy6li-tni2.sv.plebai.net
   sni: fdbb8d8d-sw3ts0-swy6li-tni2.sv.plebai.net
   tls: true
   type: socks5
 - cipher: aes-256-cfb
-  name: 0|🇰🇷2 |  4.4MB/s|44%|Netflix|Dis...
+  name: 1|🇰🇷2 |  4.4MB/s|44%|Netflix|Dis...
   password: qwerREWQ@@
   port: 15098
   server: p222.panda001.net
   type: ss
-- name: 0|🇺🇸18 |  5.4MB/s|0%|Openai
+- name: 1|🇺🇸18 |  5.4MB/s|0%|Openai
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 443
   server: c887cfc0-swb8g0-t1bnjq-1krtb.sv.plebai.net
@@ -208,7 +208,7 @@ proxies:
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 64
   cipher: auto
-  name: 0|🇯🇵1 |  4.9MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  4.9MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -222,19 +222,19 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
-- name: 0|🇺🇸19 |  3.9MB/s|0%|Openai
+- name: 1|🇺🇸19 |  3.9MB/s|0%|Openai
   port: 443
   server: 20f478f4-sw3ts0-t1bnjq-1krtb.sj.gotochinatown.net
   sni: 20f478f4-sw3ts0-t1bnjq-1krtb.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸20 |  5.1MB/s|Openai
+- name: 1|🇺🇸20 |  5.1MB/s|Openai
   port: 443
   server: 5ec02733-svsps0-t1bnjq-1krtb.los.gotochinatown.net
   sni: 5ec02733-svsps0-t1bnjq-1krtb.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸21 |  3.6MB/s|0%|Openai
+- name: 1|🇺🇸21 |  3.6MB/s|0%|Openai
   port: 443
   server: ef1fe606-sw9ds0-t1bnjq-1krtb.sj.gotochinatown.net
   sni: ef1fe606-sw9ds0-t1bnjq-1krtb.sj.gotochinatown.net
@@ -242,7 +242,7 @@ proxies:
   type: socks5
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸22 |  5.7MB/s|32%|Openai
+  name: 1|🇺🇸22 |  5.7MB/s|32%|Openai
   network: ws
   port: 2096
   server: 141.101.120.253
@@ -254,7 +254,7 @@ proxies:
     headers:
       Host: 1746882891.speed.adl.cccp.freefly.pp.ua
     path: /
-- name: 0|🇩🇪1 |  5.7MB/s|20%|Openai
+- name: 1|🇩🇪1 |  5.7MB/s|20%|Openai
   network: ws
   port: '2082'
   server: www.speedtest.net
@@ -268,13 +268,13 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
   xudp: true
-- name: 0|🇺🇸23 |  1.1MB/s
+- name: 1|🇺🇸23 |  1.1MB/s
   port: 443
   server: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   sni: f7c80a8d-svc1s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇭🇰1 |  5.0MB/s|0%|Netflix|Disn...
+- name: 1|🇭🇰1 |  5.0MB/s|0%|Netflix|Disn...
   network: ws
   password: bpb-trojan
   port: 443
@@ -290,14 +290,14 @@ proxies:
   - h3
   auth_str: dongtaiwang.com
   down: 1000 Mbps
-  name: 0|🇷🇺3 |  2.1MB/s|50%
+  name: 1|🇷🇺3 |  2.1MB/s|50%
   port: 10803
   server: 185.22.155.71
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria
   up: 1000 Mbps
-- name: 0,13|US_speednode_0076
+- name: 1,13|US_speednode_0076
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 443
   server: e277c040-swd340-t1bnjq-1krtb.los.gotochinatown.net
@@ -307,7 +307,7 @@ proxies:
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - down: ''
   fingerprint: ''
-  name: '0,9|عضو+کانال+بشید+👈+VPNTV20@ #3'
+  name: '1,9|عضو+کانال+بشید+👈+VPNTV20@ #3'
   obfs: ''
   obfs-password: ''
   password: b72ba5d5-2d5e-45b7-93b5-236d343baa7c
@@ -318,7 +318,7 @@ proxies:
   tls: false
   type: hysteria2
   up: ''
-- name: 0|🇺🇸26 |  5.7MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸26 |  5.7MB/s|46%|Openai|Gem...
   password: 408e7148-df67-11ed-8e13-f23c91cfbbc9
   port: '15229'
   server: 18c36079-swb8g0-swwhoz-1me9w.cu.plebai.net
@@ -326,7 +326,7 @@ proxies:
   sni: 18c36079-swb8g0-swwhoz-1me9w.cu.plebai.net
   type: trojan
   udp: true
-- name: 0|🇺🇸27 |  1.2MB/s|0%|Youtube
+- name: 1|🇺🇸27 |  1.2MB/s|0%|Youtube
   network: ws
   password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae
   port: 443
@@ -338,7 +338,7 @@ proxies:
     headers:
       Host: DDd.890604.FIlEGear-sG.Me
     path: '%2FmZr1mA5hub7QHHkQBzYO'
-- name: 0|🇺🇸28 |  5.5MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸28 |  5.5MB/s|46%|Openai|Gem...
   password: b93c66cc-00ed-11ec-8673-f23c9164ca5d
   port: '15229'
   server: 2e113de4-swb8g0-sxoons-1a3sy.cu.plebai.net
@@ -348,7 +348,7 @@ proxies:
   udp: true
 - client-fingerprint: random
   delay: 827
-  name: 0|🇺🇸29 |  1.9MB/s|0%|Disney|Open...
+  name: 1|🇺🇸29 |  1.9MB/s|0%|Disney|Open...
   network: ws
   port: 2087
   server: 104.16.117.93
@@ -363,7 +363,7 @@ proxies:
     path: /?ed=2560
 - alpn:
   - http/1.1
-  name: 0|🇺🇸30 |  4.8MB/s|50%|Openai
+  name: 1|🇺🇸30 |  4.8MB/s|50%|Openai
   network: ws
   password: 895552fa-6284-4c1d-ba00-3944e0c7c626
   port: '443'
@@ -379,7 +379,7 @@ proxies:
     path: /By7cEmOrNRS58yeduy9AOG
 - alterId: 0
   cipher: auto
-  name: 0|🇺🇸31 |  2.7MB/s|14%|Openai
+  name: 1|🇺🇸31 |  2.7MB/s|14%|Openai
   network: ws
   port: 2053
   server: 104.21.80.1
@@ -394,7 +394,7 @@ proxies:
 - alpn:
   - http/1.1
   delay: 2059
-  name: 0|🇺🇸32 |  4.4MB/s|0%|Openai
+  name: 1|🇺🇸32 |  4.4MB/s|0%|Openai
   network: ws
   port: 443
   server: 104.21.25.95
@@ -411,21 +411,21 @@ proxies:
     path: /AMpQdWyvpaPkb7QHHkQBzYO
   xudp: true
 - delay: 2029
-  name: 0|🇺🇸33 |  5.1MB/s|Openai
+  name: 1|🇺🇸33 |  5.1MB/s|Openai
   port: 443
   server: 11ca0a78-svqv40-t28b6o-ef48.los.gotochinatown.net
   sni: 11ca0a78-svqv40-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
 - delay: 2028
-  name: 0|🇺🇸34 |  1.9MB/s|Openai
+  name: 1|🇺🇸34 |  1.9MB/s|Openai
   port: 443
   server: 42279e1c-svp0g0-t28b6o-ef48.los.gotochinatown.net
   sni: 42279e1c-svp0g0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
 - delay: 900
-  name: 0|🇸🇬1 |  1.8MB/s|61%|Youtube|Ope...
+  name: 1|🇸🇬1 |  1.8MB/s|61%|Youtube|Ope...
   password: 25d55ad283aa400af464c76d713c07ad
   port: 8444
   server: singapore02.sqx001.com
@@ -434,48 +434,48 @@ proxies:
   type: http
   udp: true
   username: podbbylf@mayorlogistic.com
-- name: 0|🇺🇸35 |  3.1MB/s|Openai
+- name: 1|🇺🇸35 |  3.1MB/s|Openai
   port: 443
   server: fde84327-svjgg0-t1bnjq-1krtb.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸36 |  2.8MB/s|0%|Openai
+- name: 1|🇺🇸36 |  2.8MB/s|0%|Openai
   port: 443
   server: 5d6a4c96-svy9s0-swy6li-tni2.sj.gotochinatown.net
   sni: 5d6a4c96-svy9s0-swy6li-tni2.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸37 |  2.1MB/s|0%|Openai
+- name: 1|🇺🇸37 |  2.1MB/s|0%|Openai
   port: 443
   server: becc42e9-sw1z40-swy6li-tni2.sj.gotochinatown.net
   sni: becc42e9-sw1z40-swy6li-tni2.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸38 |  2.4MB/s|0%|Openai
+- name: 1|🇺🇸38 |  2.4MB/s|0%|Openai
   port: 443
   server: 82289c96-svlb40-t1bnjq-1krtb.sj.gotochinatown.net
   sni: 82289c96-svlb40-t1bnjq-1krtb.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸39 |  2.6MB/s|Openai
+- name: 1|🇺🇸39 |  2.6MB/s|Openai
   port: 443
   server: 7b32e8a2-sw5og0-swy6li-tni2.los.gotochinatown.net
   sni: 7b32e8a2-sw5og0-swy6li-tni2.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸40 |  1.6MB/s|Openai
+- name: 1|🇺🇸40 |  1.6MB/s|Openai
   port: 443
   server: f1d3cc44-svn5s0-t28b6o-ef48.los.gotochinatown.net
   sni: f1d3cc44-svn5s0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸41 |  1.7MB/s|Openai
+- name: 1|🇺🇸41 |  1.7MB/s|Openai
   port: 443
   server: 5f99ea51-sw04g0-t1bnjq-1krtb.los.gotochinatown.net
   sni: 5f99ea51-sw04g0-t1bnjq-1krtb.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇫🇮1 |  5.5MB/s|0%|Netflix|Open...
+- name: 1|🇫🇮1 |  5.5MB/s|0%|Netflix|Open...
   network: ws
   port: 443
   server: zula.ir
@@ -490,7 +490,7 @@ proxies:
       host: cr77.hedieh.dpdns.org
     path: /?ed=2560fp=chrome
 - flow: xtls-rprx-vision
-  name: 0|🇺🇸42 |  2.6MB/s|30%|Openai
+  name: 1|🇺🇸42 |  2.6MB/s|30%|Openai
   network: tcp
   port: 443
   reality-opts:
@@ -503,17 +503,17 @@ proxies:
   tls: true
   type: vless
   uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- name: 0|🇺🇸43 |  4.2MB/s|0%|Openai
+- name: 1|🇺🇸43 |  4.2MB/s|0%|Openai
   port: 443
   server: 180a9468-sw5og0-t1bnjq-1krtb.sv.plebai.net
   tls: true
   type: socks5
-- name: 0|🇺🇸44 |  3.8MB/s|0%|Openai
+- name: 1|🇺🇸44 |  3.8MB/s|0%|Openai
   port: 443
   server: ca6fc118-svsps0-swy6li-tni2.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸45 |  2.5MB/s|62%|Disney|Gem...
+- name: 1|🇺🇸45 |  2.5MB/s|62%|Disney|Gem...
   network: ws
   port: 443
   server: 104.18.80.243
@@ -526,7 +526,7 @@ proxies:
       Host: 0229.patterdeng.pp.ua
     path: /proxyip=ProxyIP.Oracle.cmliussss.net
 - auth: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b
-  name: 0|🇺🇸46 |  1.2MB/s
+  name: 1|🇺🇸46 |  1.2MB/s
   password: 48c1e014-28d6-11ec-a0fc-f23c913c8d2b
   port: 8443
   server: 7c8eb5c8-sw3ts0-sxlsd4-3z3v.hy2.gotochinatown.net
@@ -534,7 +534,7 @@ proxies:
   type: hysteria2
   udp: true
 - flow: xtls-rprx-vision
-  name: 0|🇺🇸47 |  5.1MB/s|30%|Openai
+  name: 1|🇺🇸47 |  5.1MB/s|30%|Openai
   network: tcp
   port: 443
   reality-opts:
@@ -547,19 +547,19 @@ proxies:
   tls: true
   type: vless
   uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
-- name: 0|🇺🇸48 |  1.4MB/s|0%|Openai
+- name: 1|🇺🇸48 |  1.4MB/s|0%|Openai
   port: 443
   server: e21747ae-swexs0-swy6li-tni2.sv.plebai.net
   tls: true
   type: socks5
-- name: 0|🇺🇸49 |  3.7MB/s|0%|Openai
+- name: 1|🇺🇸49 |  3.7MB/s|0%|Openai
   port: 443
   server: d24ab7c0-svp0g0-t1bnjq-1krtb.sj.gotochinatown.net
   tls: true
   type: socks5
 - flow: ''
   mode: ''
-  name: 0|🇺🇸50 |  2.7MB/s|50%|Openai
+  name: 1|🇺🇸50 |  2.7MB/s|50%|Openai
   network: ws
   port: 443
   server: 104.21.21.190
@@ -572,13 +572,13 @@ proxies:
     headers:
       Host: 1wwwwdf.890606.xyz
     path: /XcQF058rNJ3gc4aj
-- name: 0|🇺🇸51 |  2.6MB/s|Openai
+- name: 1|🇺🇸51 |  2.6MB/s|Openai
   port: 443
   server: 4c7dc40e-svn5s0-swy6li-tni2.los.gotochinatown.net
   tls: true
   type: socks5
 - flow: xtls-rprx-vision
-  name: 0|🇺🇸52 |  1.2MB/s|30%|Openai
+  name: 1|🇺🇸52 |  1.2MB/s|30%|Openai
   network: tcp
   port: 443
   reality-opts:
@@ -593,7 +593,7 @@ proxies:
   uuid: 7f93e196-1b2f-4a42-8051-5815554c05db
 - alpn:
   - http/1.1
-  name: 0|🇺🇸53 |  1.2MB/s|50%|Openai
+  name: 1|🇺🇸53 |  1.2MB/s|50%|Openai
   network: ws
   port: 443
   server: 172.67.149.43
@@ -610,7 +610,7 @@ proxies:
     path: /XcQF058rNJ3gc4aj
   xudp: true
 - allowInsecure: ''
-  name: 0|🇺🇸54 |  3.0MB/s|50%|Openai
+  name: 1|🇺🇸54 |  3.0MB/s|50%|Openai
   network: ws
   password: 5453ae26-250d-4e79-b4ec-016baf806865
   port: 443
@@ -623,29 +623,29 @@ proxies:
     headers:
       Host: 1ssdddffffhhhjjjj.20220420.pp.ua
     path: /OYzPAeaZdXUq2d6J3gc4aj
-- name: 0|🇺🇸55 |  1.4MB/s|Openai
+- name: 1|🇺🇸55 |  1.4MB/s|Openai
   port: 443
   server: e277c040-swd340-t1bnjq-1krtb.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸56 |  1.3MB/s|0%|Openai
+- name: 1|🇺🇸56 |  1.3MB/s|0%|Openai
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 443
   server: a772db34-swb8g0-t1bnjq-1krtb.sj.gotochinatown.net
   tls: true
   type: http
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- name: 0|🇺🇸57 |  1.5MB/s|0%|Openai
+- name: 1|🇺🇸57 |  1.5MB/s|0%|Openai
   port: 443
   server: 7d400c66-svwf40-t1bnjq-1krtb.sj.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇺🇸58 |  1.4MB/s|Openai
+- name: 1|🇺🇸58 |  1.4MB/s|Openai
   port: 443
   server: 88316701-svhls0-t28b6o-ef48.los.gotochinatown.net
   tls: true
   type: socks5
-- name: 0|🇫🇷2 |  2.2MB/s|30%|Youtube|Ope...
+- name: 1|🇫🇷2 |  2.2MB/s|30%|Youtube|Ope...
   password: '74260665780162200'
   port: '443'
   server: 13.37.39.124
@@ -653,7 +653,7 @@ proxies:
   sni: noble-minnow.shiner427.skin
   type: trojan
   udp: true
-- name: 0|🇫🇮2 |  5.6MB/s|0%|Netflix|Disn...
+- name: 1|🇫🇮2 |  5.6MB/s|0%|Netflix|Disn...
   network: ws
   port: '443'
   server: 104.21.69.44
@@ -671,7 +671,7 @@ proxies:
   xudp: true
 - alpn:
   - http/1.1
-  name: 0|🇺🇸59 |  4.9MB/s|30%|Openai
+  name: 1|🇺🇸59 |  4.9MB/s|30%|Openai
   network: ws
   port: '443'
   server: 172.67.133.248
@@ -689,7 +689,7 @@ proxies:
   xudp: true
 - alpn:
   - http/1.1
-  name: 0|🇺🇸60 |  2.1MB/s|32%|Openai|Gem...
+  name: 1|🇺🇸60 |  2.1MB/s|32%|Openai|Gem...
   network: ws
   password: 2734c14b-e4ce-48b3-b3de-f80788cb4c47
   port: '443'
@@ -706,7 +706,7 @@ proxies:
     path: /bdtuD5eD7Q29WxRG8DqNAB
 - alpn:
   - h2http/1.1
-  name: 0|🇳🇱1 |  1.8MB/s|0%|Openai
+  name: 1|🇳🇱1 |  1.8MB/s|0%|Openai
   network: ws
   port: '443'
   server: www.speedtest.net
@@ -722,7 +722,7 @@ proxies:
         like Gecko) Chrome/45.0.2454.93 Safari/537.36
     path: /
   xudp: true
-- name: 0|🇺🇸61 |  2.7MB/s|0%|Disney|Open...
+- name: 1|🇺🇸61 |  2.7MB/s|0%|Disney|Open...
   network: ws
   port: '80'
   server: 104.24.229.98
@@ -738,7 +738,7 @@ proxies:
   xudp: true
 - alpn:
   - http/1.1
-  name: 0|🇺🇸62 |  5.6MB/s|50%|Openai
+  name: 1|🇺🇸62 |  5.6MB/s|50%|Openai
   network: ws
   port: '443'
   server: 172.67.153.179
@@ -756,7 +756,7 @@ proxies:
   xudp: true
 - alpn:
   - http/1.1
-  name: 0|🇺🇸63 |  2.3MB/s|30%|Openai
+  name: 1|🇺🇸63 |  2.3MB/s|30%|Openai
   network: ws
   port: '443'
   server: 172.67.175.139
@@ -774,7 +774,7 @@ proxies:
   xudp: true
 - alpn:
   - http/1.1
-  name: 0|🇺🇸64 |  5.3MB/s|50%|Openai
+  name: 1|🇺🇸64 |  5.3MB/s|50%|Openai
   network: ws
   port: '443'
   server: 172.67.205.22
@@ -792,7 +792,7 @@ proxies:
   xudp: true
 - alpn:
   - http/1.1
-  name: 0|🇺🇸65 |  4.3MB/s|50%|Openai
+  name: 1|🇺🇸65 |  4.3MB/s|50%|Openai
   network: ws
   port: '443'
   server: 104.21.88.226
@@ -812,7 +812,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 0|🇳🇱2 |  3.0MB/s|44%|Openai
+  name: 1|🇳🇱2 |  3.0MB/s|44%|Openai
   network: tcp
   port: '80'
   reality-opts:
@@ -827,7 +827,7 @@ proxies:
   xudp: true
 - alpn:
   - http/1.1
-  name: 0|🇺🇸66 |  2.5MB/s|29%|Openai
+  name: 1|🇺🇸66 |  2.5MB/s|29%|Openai
   network: ws
   password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
   port: '443'
@@ -843,7 +843,7 @@ proxies:
     path: /ptGwaGzcA4KNAXX
 - grpc-opts:
     grpc-service-name: CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config
-  name: 0|🇫🇷3 |  2.7MB/s|58%|Youtube|Ope...
+  name: 1|🇫🇷3 |  2.7MB/s|58%|Youtube|Ope...
   network: grpc
   port: '1210'
   reality-opts:
@@ -857,7 +857,7 @@ proxies:
   uuid: d69f9fc1-0da0-49fd-8783-b0e0a06e0db9
   xudp: true
 - client-fingerprint: random
-  name: 0|🇫🇮3 |  1.3MB/s|Netflix|Disney|...
+  name: 1|🇫🇮3 |  1.3MB/s|Netflix|Disney|...
   network: ws
   password: trojan
   port: '8443'
@@ -873,7 +873,7 @@ proxies:
     path: /?ed=2560
 - alpn:
   - h2http/1.1
-  name: 0|🇳🇱3 |  2.1MB/s|0%
+  name: 1|🇳🇱3 |  2.1MB/s|0%
   network: ws
   port: '2096'
   server: www.speedtest.net
@@ -890,7 +890,7 @@ proxies:
     path: /
   xudp: true
 - client-fingerprint: random
-  name: 0|🇫🇮4 |  1.4MB/s|20%|Disney|Yout...
+  name: 1|🇫🇮4 |  1.4MB/s|20%|Disney|Yout...
   network: ws
   password: trojan
   port: '8443'
@@ -906,7 +906,7 @@ proxies:
     path: /?ed=2560
 - alpn:
   - http/1.1
-  name: 0|🇺🇸67 |  4.6MB/s|30%
+  name: 1|🇺🇸67 |  4.6MB/s|30%
   network: ws
   port: '443'
   server: 104.21.25.95
@@ -922,237 +922,13 @@ proxies:
         (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
     path: /h1iXYtqUZkDQMvgKagyIefJfM0OQ
   xudp: true
-- name: 0|🇺🇸68 |  3.8MB/s|Openai|Gemini
+- name: 1|🇺🇸68 |  3.8MB/s|Openai|Gemini
   password: xxoo
   port: '443'
   server: us.blazeppn.info
   skip-cert-verify: false
   sni: us.blazeppn.info
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 01 | 1x HK
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31141
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 01 | 1x TW
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31241
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 02 | 1x TW
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31243
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 03 | 1x TW
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31245
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 01 | 1x JP
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31111
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 02 | 1x JP
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31113
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 03 | 1x JP
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31115
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 01 | 1x SG
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31171
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 02 | 1x SG
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31173
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 03 | 1x SG
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31175
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 01 | 1x KR
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31311
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 02 | 1x KR
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31313
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇵🇭菲律宾 01 | 1x PH
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31341
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 01 | 1x US Los Angeles
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 03 | 1x US Washington
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 01 | 1x UK
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇭泰国01  | 1x TH
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31741
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇲🇾马来西亚01 | 1x MY
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31721
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇲🇾马来西亚02 | 1x MY
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31722
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇮🇳印度 01 | 1x IN
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31371
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇦🇺澳大利亚 01 | 1x AU
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31411
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 01 | 1x CA
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31441
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 01 | 1x DE
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31471
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺俄罗斯 01 | 1x RU
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31511
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇷土耳其 01 | 1x TR
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31571
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇦乌克兰 01 | 1x UA
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31611
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇻🇳越南 01 | 1x VN
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31641
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇧🇷巴西 01 | 1x BR
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31671
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇮🇩印度尼西亚 01 | 1x ID
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31677
-  server: free.2apzhfa.xyz
-  type: ss
   udp: true
 - name: 9|عضو+کانال+بشید+👈+VPNTV20@
   obfs: salamander
@@ -2445,219 +2221,226 @@ proxies:
       Host: icecream.955850.xyz
     path: /proxyip=160.123.255.243:443&proxyIP=null
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 01 | 1x HK
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36141
-  server: free.2weradf.xyz
+  name: 14|🇭🇰香港 01 | 1x HK
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31141
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 02 | 1x HK
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36143
-  server: free.2weradf.xyz
+  name: 14|🇭🇰香港 02 | 1x HK
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31143
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36145
-  server: free.2weradf.xyz
+  name: 14|🇭🇰香港家宽 03 | 1x HK
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 01 | 1x TW
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36241
-  server: free.2weradf.xyz
+  name: 14|🇹🇼台湾 01 | 1x TW
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31241
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 02 | 1x TW
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36243
-  server: free.2weradf.xyz
+  name: 14|🇹🇼台湾 02 | 1x TW
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31243
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇼 台湾 03 | 1x TW
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36245
-  server: free.2weradf.xyz
+  name: 14|🇹🇼台湾 03 | 1x TW
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31245
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 01 | 1x JP
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36111
-  server: free.2weradf.xyz
+  name: 14|🇯🇵日本 01 | 1x JP
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31111
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 02 | 1x JP
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36113
-  server: free.2weradf.xyz
+  name: 14|🇯🇵日本 02 | 1x JP
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31113
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇯🇵 日本 03 | 1x JP
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36115
-  server: free.2weradf.xyz
+  name: 14|🇯🇵日本 03 | 1x JP
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31115
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 01 | 1x SG
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36171
-  server: free.2weradf.xyz
+  name: 14|🇸🇬新加坡 01 | 1x SG
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31171
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇸🇬 新加坡 02 | 1x SG
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36173
-  server: free.2weradf.xyz
+  name: 14|🇸🇬新加坡 02 | 1x SG
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31173
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇰🇷 韩国 01 | 1x KR
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36311
-  server: free.2weradf.xyz
+  name: 14|🇸🇬新加坡 03 | 1x SG
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31175
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇵🇭 菲律宾 01 | 1x PH
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36341
-  server: free.2weradf.xyz
+  name: 14|🇰🇷韩国 01 | 1x KR
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31311
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 01 | 1x US Los Angeles
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36211
-  server: free.2weradf.xyz
+  name: 14|🇰🇷韩国 02 | 1x KR
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31313
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36213
-  server: free.2weradf.xyz
+  name: 14|🇵🇭菲律宾 01 | 1x PH
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31341
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸 美国 03 | 1x US Washington
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36215
-  server: free.2weradf.xyz
+  name: 14|🇺🇸美国 01 | 1x US Los Angeles
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31211
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36271
-  server: free.2weradf.xyz
+  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31213
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇲🇾马来西亚 01 | 1x MY
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36721
-  server: free.2weradf.xyz
+  name: 14|🇺🇸美国 03 | 1x US Washington
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31215
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇲🇾马来西亚 02 | 1x MY
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36722
-  server: free.2weradf.xyz
+  name: 14|🇬🇧英国家宽 01 | 1x UK
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31271
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇮🇳西班牙 01 | 1x ES
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36741
-  server: free.2weradf.xyz
+  name: 14|🇹🇭泰国01  | 1x TH
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31741
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇭泰国 01 | 1x TH
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36731
-  server: free.2weradf.xyz
+  name: 14|🇲🇾马来西亚01 | 1x MY
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31721
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇮🇳 印度 01 | 1x IN
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36371
-  server: free.2weradf.xyz
+  name: 14|🇲🇾马来西亚02 | 1x MY
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31722
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇦🇺 澳大利亚 01 | 1x AU
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36411
-  server: free.2weradf.xyz
+  name: 14|🇮🇳印度 01 | 1x IN
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31371
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇨🇦 加拿大 01 | 1x CA
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36441
-  server: free.2weradf.xyz
+  name: 14|🇦🇺澳大利亚 01 | 1x AU
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31411
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇩🇪 德国 01 | 1x DE
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36471
-  server: free.2weradf.xyz
+  name: 14|🇨🇦加拿大 01 | 1x CA
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31441
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇷🇺 俄罗斯 01 | 1x RU
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36511
-  server: free.2weradf.xyz
+  name: 14|🇩🇪德国 01 | 1x DE
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31471
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇹🇷 土耳其 01 | 1x TR
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36571
-  server: free.2weradf.xyz
+  name: 14|🇷🇺俄罗斯 01 | 1x RU
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31511
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇦 乌克兰 01 | 1x UA
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36611
-  server: free.2weradf.xyz
+  name: 14|🇹🇷土耳其 01 | 1x TR
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31571
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇻🇳 越南 01 | 1x VN
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36641
-  server: free.2weradf.xyz
+  name: 14|🇺🇦乌克兰 01 | 1x UA
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31611
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇧🇷 巴西 01 | 1x BR
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36671
-  server: free.2weradf.xyz
+  name: 14|🇻🇳越南 01 | 1x VN
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31641
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇮🇩 印度尼西亚 01 | 1x ID
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36677
-  server: free.2weradf.xyz
+  name: 14|🇧🇷巴西 01 | 1x BR
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31671
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇮🇩印度尼西亚 01 | 1x ID
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31677
+  server: free.2apzhfa.xyz
   type: ss
   udp: true

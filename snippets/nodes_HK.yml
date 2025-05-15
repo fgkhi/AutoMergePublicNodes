@@ -1,5 +1,5 @@
 proxies:
-- name: 0|🇭🇰1 |  5.0MB/s|0%|Netflix|Disn...
+- name: 1|🇭🇰1 |  5.0MB/s|0%|Netflix|Disn...
   network: ws
   password: bpb-trojan
   port: 443
@@ -11,20 +11,6 @@ proxies:
     headers:
       Host: skwygx.top
     path: /tr?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 02 | 1x HK
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 03 | 1x HK
-  password: 13bd6d10-c71d-4968-a316-3ab85dab2de1
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   name: 11,12|香港|@ripaojiedian
   network: tcp
@@ -127,16 +113,16 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 02 | 1x HK
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36143
-  server: free.2weradf.xyz
+  name: 14|🇭🇰香港 02 | 1x HK
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31143
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 8db0be2c-dd64-4dcb-b391-bf55b2ec0d5b
-  port: 36145
-  server: free.2weradf.xyz
+  name: 14|🇭🇰香港家宽 03 | 1x HK
+  password: 68abb5de-e867-4436-9449-d1648e92a9d4
+  port: 31145
+  server: free.2apzhfa.xyz
   type: ss
   udp: true
