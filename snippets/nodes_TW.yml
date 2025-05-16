@@ -1,46 +1,35 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 01 | 1x TW
-  password: c569bd34-c65f-4fd7-ad3c-7bb64933289c
+  password: 3880e3e6-a3fb-4d75-bbec-a48194438b5d
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 02 | 1x TW
-  password: c569bd34-c65f-4fd7-ad3c-7bb64933289c
+  password: 3880e3e6-a3fb-4d75-bbec-a48194438b5d
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇹🇼台湾 03 | 1x TW
-  password: c569bd34-c65f-4fd7-ad3c-7bb64933289c
+  password: 3880e3e6-a3fb-4d75-bbec-a48194438b5d
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 01 | 1x TW
-  password: df926df1-cad6-4523-99ff-8911931b6867
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 1|🇹🇼2 |  1.2MB/s|6%|Netflix|Disn...
+  port: 20016
+  server: i.needss.top
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 02 | 1x TW
-  password: df926df1-cad6-4523-99ff-8911931b6867
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|🇹🇼 台湾 03 | 1x TW
-  password: df926df1-cad6-4523-99ff-8911931b6867
-  port: 36245
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
+  uuid: 61b159b3-860b-460b-a2e2-3c4ad3a42a23
 - client-fingerprint: chrome
   name: 12,13|台湾|@ripaojiedian
   network: tcp
