@@ -1,43 +1,17 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 02 | 1x HK
-  password: 5d30d789-4b00-43ac-b794-606d73f7746d
-  port: 31143
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港家宽 03 | 1x HK
-  password: 5d30d789-4b00-43ac-b794-606d73f7746d
-  port: 31145
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港 02 | 1x HK
-  password: 3ee33d6b-aa50-4bfb-a53b-23e06073ae8d
+  name: 0|🇭🇰 香港 02 | 1x HK
+  password: ec351650-4500-4b93-81ed-fc3de28ded97
   port: 36143
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰 香港住宅IP 03 | 1x HK
-  password: 3ee33d6b-aa50-4bfb-a53b-23e06073ae8d
+  name: 0|🇭🇰 香港住宅IP 03 | 1x HK
+  password: ec351650-4500-4b93-81ed-fc3de28ded97
   port: 36145
   server: free.2weradf.xyz
   type: ss
-  udp: true
-- cipher: chacha20-ietf
-  delay: 763
-  name: 2|🇭🇰1 |  1.9MB/s|16%|Disney
-  obfs: tls1.2_ticket_auth
-  obfs-param: ''
-  password: sGWdzYDx5J
-  port: 43125
-  protocol: auth_aes128_md5
-  protocol-param: ''
-  server: csilicovolcanoconiosis.godeove.xyz
-  type: ssr
   udp: true
 - cipher: aes-256-gcm
   client-fingerprint: chrome
@@ -156,3 +130,42 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 14|HK_speednode_0059
+  port: 20550
+  reality-opts:
+    public-key: cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8
+  server: hkt-ty-line-1.sudatech.store
+  servername: www.paypal.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d317da5-47c5-4db4-933f-16d1094668db
+- name: 14|HK_speednode_0060
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: us.madison.eu.org
+  skip-cert-verify: true
+  sni: skwygx.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560
+- name: 14|HK_speednode_0061
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: us.madison.eu.org
+  skip-cert-verify: false
+  sni: skwygx.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr
