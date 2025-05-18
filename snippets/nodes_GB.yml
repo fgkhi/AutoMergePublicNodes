@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧英国家宽 01 | 1x UK
-  password: 8b9c17d4-1e8a-423f-b9a7-c2e524fa686c
-  port: 31271
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
 - name: 14|GB_speednode_0098
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
