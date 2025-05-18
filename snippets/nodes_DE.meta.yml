@@ -1,19 +1,12 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇩🇪德国 01 | 1x DE
-  password: f2c0a8f6-7cb2-4a68-8c38-76a56dd1736a
+  password: 48d9adfe-340e-4aa9-8442-78511a925773
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪 德国 01 | 1x DE
-  password: 9b307160-aa66-49ef-8996-b686f154a4ae
-  port: 36471
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- name: 2|🇩🇪1 |  1.5MB/s|0%|Openai
+- name: 1|🇩🇪1 |  1.5MB/s|0%|Openai
   network: ws
   port: '80'
   server: 104.17.148.22
@@ -27,7 +20,7 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 2|🇩🇪2 |  1.3MB/s|0%|Openai
+- name: 1|🇩🇪2 |  1.3MB/s|0%|Openai
   network: ws
   port: '80'
   server: www.speedtest.net
@@ -41,7 +34,7 @@ proxies:
         like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
   xudp: true
-- name: 2,14|US_speednode_0240
+- name: 1,13|US_speednode_0240
   network: ws
   port: 2082
   server: 104.17.148.22
@@ -55,7 +48,7 @@ proxies:
     headers:
       Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
     path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- name: 2,14|US_speednode_0221
+- name: 1,13|US_speednode_0221
   network: ws
   port: 8880
   server: www.speedtest.net
@@ -73,7 +66,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -89,7 +82,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: 2|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
+  name: 1|🇩🇪6 |  4.3MB/s|0%|Disney|Opena...
   network: tcp
   port: 443
   server: 204.10.194.78
@@ -99,7 +92,7 @@ proxies:
   udp: true
   uuid: b8bd42a9-551f-419d-b70d-4aefdd2cb074
   xudp: true
-- name: 14|DE_speednode_0035
+- name: 13|DE_speednode_0035
   network: ws
   port: 8880
   server: 89.116.46.20
@@ -113,7 +106,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 14|DE_speednode_0036
+- name: 13|DE_speednode_0036
   password: telegram-id-directvpn
   port: 22223
   server: 3.120.242.252
@@ -121,7 +114,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 14|DE_speednode_0037
+- name: 13|DE_speednode_0037
   password: telegram-id-privatevpns
   port: 22222
   server: 3.120.242.252
@@ -129,7 +122,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 14|DE_speednode_0038
+- name: 13|DE_speednode_0038
   network: ws
   port: 8443
   server: 5.104.75.130
@@ -143,7 +136,7 @@ proxies:
     headers:
       Host: CiR346yL3b.DeRaKhT.iNfO
     path: /
-- name: 14|DE_speednode_0039
+- name: 13|DE_speednode_0039
   network: ws
   port: 22224
   server: 3.120.242.252
@@ -157,3 +150,10 @@ proxies:
     headers:
       Host: trojan.burgerip.co.uk
     path: /telegram-channel-vlessconfig
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 | 1x DE
+  password: dfc65d0e-8c33-4070-97b8-5626fb35ac23
+  port: 36471
+  server: free.2weradf.xyz
+  type: ss
+  udp: true

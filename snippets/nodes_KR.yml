@@ -1,28 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 01 | 1x KR
-  password: f2c0a8f6-7cb2-4a68-8c38-76a56dd1736a
+  password: 48d9adfe-340e-4aa9-8442-78511a925773
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 0|🇰🇷韩国 02 | 1x KR
-  password: f2c0a8f6-7cb2-4a68-8c38-76a56dd1736a
+  password: 48d9adfe-340e-4aa9-8442-78511a925773
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷 韩国 01 | 1x KR
-  password: 9b307160-aa66-49ef-8996-b686f154a4ae
-  port: 36311
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 2,12|🇰🇷 韩国|@ripaojiedian
+  name: 1,11|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
@@ -30,7 +23,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国2|@ripaojiedian
+  name: 11|🇰🇷 韩国2|@ripaojiedian
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 6666
   server: 3.34.139.2
@@ -38,13 +31,13 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国3|@ripaojiedian
+  name: 11|🇰🇷 韩国3|@ripaojiedian
   password: 1601e3c29c8db1a88942cf0cad731bf3
   port: 3306
   server: 43.131.255.175
   tfo: false
   type: ss
-- name: 14|KR_speednode_0123
+- name: 13|KR_speednode_0123
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -57,3 +50,10 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=149.129.8.215:443&proxyIP=null
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 01 | 1x KR
+  password: dfc65d0e-8c33-4070-97b8-5626fb35ac23
+  port: 36311
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
