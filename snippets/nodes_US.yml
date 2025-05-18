@@ -1,5 +1,47 @@
 proxies:
-- name: 0,13|CN_speednode_0028
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: dceab3a6-026f-4380-af8d-7d7325448670
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: dceab3a6-026f-4380-af8d-7d7325448670
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: dceab3a6-026f-4380-af8d-7d7325448670
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: d7389e28-afd5-4aca-bac3-289e3651c47d
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: d7389e28-afd5-4aca-bac3-289e3651c47d
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: d7389e28-afd5-4aca-bac3-289e3651c47d
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 2,14|CN_speednode_0028
   password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
   port: 15229
   server: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net
@@ -7,7 +49,7 @@ proxies:
   sni: f1e4e0ee-swin40-t12cnj-1ol97.cu.plebai.net
   type: trojan
   udp: true
-- name: 0,13|CN_speednode_0027
+- name: 2,14|CN_speednode_0027
   password: d30d2718-91d5-11ef-b635-f23c9164ca5d
   port: 15229
   server: 0ce06474-swin40-tba9vx-1qlps.cu.plebai.net
@@ -16,43 +58,22 @@ proxies:
   type: trojan
   udp: true
 - ip-version: dual
-  name: 0|🇺🇸72 |  4.3MB/s|Openai
+  name: 2|🇺🇸72 |  4.3MB/s|Openai
   password: RlzoEILU
   port: 7815
   server: 36.151.251.59
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 0|🇺🇸73 |  1.8MB/s|46%|Openai|Gem...
+- name: 2|🇺🇸73 |  1.8MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 5abd5e38-swgsg0-swy6li-tni2.cu.plebai.net
   skip-cert-verify: false
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 01 | 1x US Los Angeles
-  password: b7e2005c-2bfc-471b-9f60-5a96cb033cec
-  port: 36211
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
-  password: b7e2005c-2bfc-471b-9f60-5a96cb033cec
-  port: 36213
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸 美国 03 | 1x US Washington
-  password: b7e2005c-2bfc-471b-9f60-5a96cb033cec
-  port: 36215
-  server: free.2weradf.xyz
-  type: ss
-  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇺🇸 美国2|@ripaojiedian
+  name: 12|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -65,7 +86,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国|@ripaojiedian
+  name: 12,13|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -82,7 +103,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国4|@ripaojiedian
+  name: 12,13|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
@@ -99,7 +120,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,12|美国5|@ripaojiedian
+  name: 12,13|美国5|@ripaojiedian
   network: ws
   port: '22641'
   server: tk.hzlt.tkddns.xyz
@@ -113,7 +134,7 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
-- name: 13|US_speednode_0178
+- name: 14|US_speednode_0178
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -126,7 +147,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=160.79.105.81:443
-- name: 13|US_speednode_0185
+- name: 14|US_speednode_0185
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -139,7 +160,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=192.0.54.194:443&proxyIP=null
-- name: 13|US_speednode_0196
+- name: 14|US_speednode_0196
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -152,7 +173,7 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=192.0.54.184:443&proxyIP=null
-- name: 13|US_speednode_0219
+- name: 14|US_speednode_0219
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
@@ -165,32 +186,11 @@ proxies:
     headers:
       Host: icecream.955850.xyz
     path: /proxyip=160.79.105.169:443&proxyIP=null
-- name: 13|US_speednode_0275
+- name: 14|US_speednode_0275
   password: a07cebde-351d-4ad3-8045-3cd0aa3f586c
   port: 443
   server: mg7.gy6688.xyz
   skip-cert-verify: true
   sni: mg7.gy6688.xyz
   type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 01 | 1x US Los Angeles
-  password: 3ad49e76-3b4e-4ca5-85f4-612e51e171fd
-  port: 31211
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国家宽 02 | 1x US Los Angeles
-  password: 3ad49e76-3b4e-4ca5-85f4-612e51e171fd
-  port: 31213
-  server: free.2apzhfa.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇺🇸美国 03 | 1x US Washington
-  password: 3ad49e76-3b4e-4ca5-85f4-612e51e171fd
-  port: 31215
-  server: free.2apzhfa.xyz
-  type: ss
   udp: true

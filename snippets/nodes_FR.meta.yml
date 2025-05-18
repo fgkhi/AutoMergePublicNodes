@@ -5,7 +5,7 @@ proxies:
   auth_str: dongtaiwang.com
   delay: 1086
   down: '100'
-  name: 0|🇫🇷1 |  5.6MB/s|25%|Youtube|Ope...
+  name: 2|🇫🇷1 |  5.6MB/s|25%|Youtube|Ope...
   obfs: ''
   port: 15010
   protocol: ''
@@ -15,7 +15,7 @@ proxies:
   type: hysteria
   up: '100'
 - client-fingerprint: chrome
-  name: 0|🇫🇷2 |  1.7MB/s|36%|Openai
+  name: 2|🇫🇷2 |  1.7MB/s|36%|Openai
   network: ws
   port: '2096'
   server: whatismyipaddress.com
@@ -32,7 +32,7 @@ proxies:
     path: ''
   xudp: true
 - client-fingerprint: chrome
-  name: 0|🇫🇷3 |  1.7MB/s|36%|Openai
+  name: 2|🇫🇷3 |  1.7MB/s|36%|Openai
   network: ws
   port: '2096'
   server: whatismyipaddress.com
@@ -50,7 +50,7 @@ proxies:
   xudp: true
 - down: ''
   fingerprint: ''
-  name: 0|🇫🇷4 |  6.0MB/s|15%|Openai
+  name: 2|🇫🇷4 |  6.0MB/s|15%|Openai
   obfs: ''
   obfs-password: ''
   password: dongtaiwang.com
@@ -62,7 +62,7 @@ proxies:
   up: ''
 - auth: dongtaiwang.com
   client-fingerprint: chrome
-  name: 0|🇫🇷5 |  5.3MB/s|15%|Openai
+  name: 2|🇫🇷5 |  5.3MB/s|15%|Openai
   password: dongtaiwang.com
   port: 4489
   server: 51.158.205.126
@@ -70,7 +70,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - client-fingerprint: chrome
-  name: 0|🇫🇷6 |  1.5MB/s|36%|Openai
+  name: 2|🇫🇷6 |  1.5MB/s|36%|Openai
   network: ws
   port: '2096'
   server: whatismyipaddress.com
@@ -88,7 +88,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,13|FR_speednode_0045
+  name: 2,14|FR_speednode_0045
   port: 24957
   reality-opts:
     public-key: Ok7Mg4VmHT4Typ9HydPSmHI55BgLONFk5ppLGiL8n1A
@@ -100,7 +100,7 @@ proxies:
   type: vless
   udp: true
   uuid: ef1fdecb-e56f-4996-9b6a-da7ddb7f7c8d
-- name: 0|🇫🇷8 |  1.2MB/s|36%|Openai
+- name: 2|🇫🇷8 |  1.2MB/s|36%|Openai
   network: ws
   port: 2096
   server: 104.19.223.79
@@ -114,7 +114,7 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
     path: /
-- name: 0|🇫🇷9 |  2.8MB/s|36%|Openai
+- name: 2|🇫🇷9 |  2.8MB/s|36%|Openai
   network: ws
   port: 2096
   server: 104.19.222.79
@@ -128,7 +128,7 @@ proxies:
     headers:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
     path: /
-- name: 13|FR_speednode_0040
+- name: 14|FR_speednode_0040
   network: ws
   port: 8880
   server: 185.16.110.20
@@ -142,7 +142,7 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
-- name: 13|FR_speednode_0041
+- name: 14|FR_speednode_0041
   password: telegram-id-directvpn
   port: 22223
   server: 15.188.156.39
@@ -150,7 +150,7 @@ proxies:
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: 13|FR_speednode_0042
+- name: 14|FR_speednode_0042
   network: ws
   port: 443
   server: 185.16.110.70
@@ -164,7 +164,7 @@ proxies:
     headers:
       Host: 0229.patterdeng.pp.ua
     path: /?ed=2560
-- name: 13|FR_speednode_0043
+- name: 14|FR_speednode_0043
   network: ws
   port: 22224
   server: 15.188.156.39
@@ -178,7 +178,7 @@ proxies:
     headers:
       Host: trojan.burgerip.co.uk
     path: /telegram-channel-vlessconfig
-- name: 13|FR_speednode_0044
+- name: 14|FR_speednode_0044
   network: ws
   password: 6884d714-d3c4-4b49-aa20-767ea92837d6
   port: 443
