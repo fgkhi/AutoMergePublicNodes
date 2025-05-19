@@ -1,4 +1,46 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 01 | 1x US Los Angeles
+  password: 14ea907b-78a6-4608-bb6e-f190a23d7b44
+  port: 36211
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国住宅IP 02 | 1x US Los Angel...
+  password: 14ea907b-78a6-4608-bb6e-f190a23d7b44
+  port: 36213
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇺🇸 美国 03 | 1x US Washington
+  password: 14ea907b-78a6-4608-bb6e-f190a23d7b44
+  port: 36215
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 01 | 1x US Los Angeles
+  password: 8bd7355d-2e8f-4c19-a0bd-b5c9503a0199
+  port: 31211
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国家宽 02 | 1x US Los Angeles
+  password: 8bd7355d-2e8f-4c19-a0bd-b5c9503a0199
+  port: 31213
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇺🇸美国 03 | 1x US Washington
+  password: 8bd7355d-2e8f-4c19-a0bd-b5c9503a0199
+  port: 31215
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 2|🇺🇸1 |  4.4MB/s|30%|Openai
