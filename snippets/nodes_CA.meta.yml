@@ -1,4 +1,18 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇨🇦 加拿大 01 | 1x CA
+  password: 986fa205-9bb4-42f0-8182-3331fc8f9243
+  port: 36441
+  server: free.2weradf.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|🇨🇦加拿大 01 | 1x CA
+  password: 063e2d80-8f08-4743-944b-c5bc40292b02
+  port: 31441
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
 - name: '11|Channel id: @ShadowProxy66🇨🇦'
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
@@ -7,7 +21,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 14|CA_speednode_0015
+- name: 14|CA_speednode_0013
   network: ws
   port: 8880
   server: 74.49.214.29
@@ -21,7 +35,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 14|CA_speednode_0016
+- name: 14|CA_speednode_0014
   network: ws
   port: 8880
   server: 74.49.215.29
@@ -37,7 +51,7 @@ proxies:
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 14|CA_speednode_0017
+  name: 14|CA_speednode_0015
   port: 25536
   reality-opts:
     public-key: t4dzgL6Q-l6Y8d-Z0FSEvtAygZFDQqg0FPHn7Qxg90M
