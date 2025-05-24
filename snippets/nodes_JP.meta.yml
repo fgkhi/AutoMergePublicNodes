@@ -1,28 +1,49 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 01 | 1x JP
-  password: d1876c5e-1979-4767-bfa7-77a729e3d4dc
+  name: 0|🇯🇵日本 01 | 1x JP
+  password: 83913f2f-97a1-4f41-adab-105bd80ac75b
+  port: 31111
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵日本 02 | 1x JP
+  password: 83913f2f-97a1-4f41-adab-105bd80ac75b
+  port: 31113
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵日本 03 | 1x JP
+  password: 83913f2f-97a1-4f41-adab-105bd80ac75b
+  port: 31115
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 01 | 1x JP
+  password: 081f2d6d-c44a-483a-9507-7bc514de305e
   port: 36111
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 02 | 1x JP
-  password: d1876c5e-1979-4767-bfa7-77a729e3d4dc
+  name: 1|🇯🇵 日本 02 | 1x JP
+  password: 081f2d6d-c44a-483a-9507-7bc514de305e
   port: 36113
   server: free.2weradf.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 03 | 1x JP
-  password: d1876c5e-1979-4767-bfa7-77a729e3d4dc
+  name: 1|🇯🇵 日本 03 | 1x JP
+  password: 081f2d6d-c44a-483a-9507-7bc514de305e
   port: 36115
   server: free.2weradf.xyz
   type: ss
   udp: true
 - alterId: 64
   cipher: auto
-  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
