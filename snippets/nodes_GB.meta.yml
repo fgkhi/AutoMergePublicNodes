@@ -1,19 +1,19 @@
 proxies:
-- name: 13|GB_speednode_0044
-  network: ws
-  port: 8880
-  server: 109.176.239.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇭🇰香港 01 | 1x HK
+  password: 2b0bba13-e0fc-4b4f-b75e-3d8bc3f89fa1
+  port: 31141
+  server: free.2apzhfa.xyz
+  type: ss
   udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0045
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇬🇧英国家宽 01 | 1x UK
+  password: 2b0bba13-e0fc-4b4f-b75e-3d8bc3f89fa1
+  port: 31271
+  server: free.2apzhfa.xyz
+  type: ss
+  udp: true
+- name: 14|GB_speednode_0036
   network: ws
   port: 8880
   server: 25.129.196.29
@@ -27,21 +27,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0046
-  network: ws
-  port: 8880
-  server: 80.93.202.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0047
+- name: 14|GB_speednode_0037
   network: ws
   port: 8880
   server: 25.129.197.29
@@ -55,10 +41,10 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0048
+- name: 14|GB_speednode_0038
   network: ws
   port: 8880
-  server: 25.26.27.29
+  server: 80.93.202.29
   servername: hk.laoyoutiao.link
   skip-cert-verify: false
   tls: false
@@ -69,63 +55,7 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0049
-  network: ws
-  port: 8880
-  server: 25.25.25.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0050
-  network: ws
-  port: 8880
-  server: 94.247.142.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0051
-  network: ws
-  port: 8880
-  server: 25.129.199.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0052
-  network: ws
-  port: 8880
-  server: 194.36.55.29
-  servername: hk.laoyoutiao.link
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
-  ws-opts:
-    headers:
-      Host: hk.laoyoutiao.link
-    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- name: 13|GB_speednode_0053
+- name: 14|GB_speednode_0039
   network: ws
   port: 8880
   server: 25.129.198.29
@@ -139,17 +69,87 @@ proxies:
     headers:
       Host: hk.laoyoutiao.link
     path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇭🇰 香港 01 | 1x HK
-  password: cf3c7d5f-45c5-4e0d-8d8e-38f92104bba0
-  port: 36141
-  server: free.2weradf.xyz
-  type: ss
+- name: 14|GB_speednode_0040
+  network: ws
+  port: 8880
+  server: 194.36.55.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 14|🇬🇧 英国住宅IP 01 | 1x UK
-  password: cf3c7d5f-45c5-4e0d-8d8e-38f92104bba0
-  port: 36271
-  server: free.2weradf.xyz
-  type: ss
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0041
+  network: ws
+  port: 8880
+  server: 25.129.199.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
   udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0042
+  network: ws
+  port: 8880
+  server: 94.247.142.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0043
+  network: ws
+  port: 8880
+  server: 25.25.25.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0044
+  network: ws
+  port: 8880
+  server: 109.176.239.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
+- name: 14|GB_speednode_0045
+  network: ws
+  port: 8880
+  server: 25.26.27.29
+  servername: hk.laoyoutiao.link
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf
+  ws-opts:
+    headers:
+      Host: hk.laoyoutiao.link
+    path: /TelegramU0001F1E8U0001F1F3 @MxlShare @WangCai2 /?ed=2560
