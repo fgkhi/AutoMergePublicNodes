@@ -1,23 +1,9 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 官网：htel4v.allbluess.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36471
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 101 官网：0xoxxx.mikasass01....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31471
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -26,3 +12,10 @@ proxies:
   tls: true
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 官网：6301si.allbluess.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36471
+  server: freea.glyphara.com
+  type: ss
+  udp: true

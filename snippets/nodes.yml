@@ -1,448 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 01 官网：twrgnc.allbluess.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36141
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港 02 官网：2x10cf.allbluess.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36143
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰 香港住宅IP 03 官网：ectkon.allblue...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36145
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 01 官网：dmk850.allbluess.c...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36241
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 02 官网：de7625.allbluess.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36243
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼 台湾 03 官网：v1f16s.allbluess.c...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36245
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 01 官网：nyvees.allbluess.c...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36111
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 02 官网：suaaz1.allbluess.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36113
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵 日本 03 官网：g3p1fg.abclouds1.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36115
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 01 官网：gd7i96.abclouds1....
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36171
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬 新加坡 02 官网：3quik9.abclouds1....
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36173
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇰🇷 韩国 01 官网：q5069k.abclouds1.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36311
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇵🇭 菲律宾 01 官网：d1k6a8.abclouds1....
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36341
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 01 官网：glnr1u.abclouds1.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36211
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国住宅IP 02 官网：pkk50v.allblue...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36213
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇸 美国 03 官网：a5wd3f.allbluess.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36215
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇬🇧 英国住宅IP 01 官网：w64u1n.abcloud...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36271
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇲🇾马来西亚 01 官网：s2eyke.allbluess....
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36721
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇲🇾马来西亚 02 官网：j0ff8e.abclouds1....
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36722
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇮🇳西班牙 01 官网：oc22hk.allbluess.c...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36741
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇭泰国 01 官网：mmn2vb.abclouds1.pr...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36731
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇮🇳 印度 01 官网：yq7hoj.abclouds1.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36371
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇦🇺 澳大利亚 01 官网：vywr03.allbluess...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36411
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇨🇦 加拿大 01 官网：p87qj9.allbluess....
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36441
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇩🇪 德国 01 官网：htel4v.allbluess.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36471
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺 俄罗斯 01 官网：l0rzp5.allbluess....
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36511
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇷 土耳其 01 官网：qw37xx.abclouds1....
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36571
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇺🇦 乌克兰 01 官网：frnmqi.allbluess....
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36611
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇻🇳 越南 01 官网：zo15g8.allbluess.p...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36641
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇧🇷 巴西 01 官网：ljgc51.allbluess.c...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36671
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇮🇩 印度尼西亚 01 官网：pfvetk.abclouds...
-  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
-  port: 36677
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 101 官网：x97y71.mccloudb6.p...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31141
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港 102 官网：fp3bh4.mikasass.pr...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31143
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇭🇰香港家宽 103 官网：vib22j.mikasass0...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31145
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 101 官网：mq4p38.mikasass.pr...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31241
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 102 官网：aio3ut.mikasass.pr...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31243
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇼台湾 103 官网：bfmw83.mikasass.pr...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31245
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 101 官网：oapm7u.mccloudb6.p...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31111
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 102 官网：982bb3.mccloudb6.p...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31113
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 103 官网：f624rl.mikasass.pr...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31115
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 101 官网：im0yhz.mccloudb6....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31171
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 102 官网：vff3qw.mccloudb6....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31173
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇸🇬新加坡 103 官网：0y8hh9.mikasass.p...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31175
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 101 官网：gfkn75.mccloudb6.p...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31311
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇰🇷韩国 102 官网：p9q3r5.mikasass.pr...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31313
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇵🇭菲律宾 101 官网：10aglk.mccloudb6....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31341
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 101 官网：tstfdf.mikasass01....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31211
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国家宽 102 官网：emq9e6.mccloudb6...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31213
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇸美国 103 官网：yk4jdv.mikasass.pr...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31215
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇬🇧英国家宽 101 官网：ohdpfu.mikasass0...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31271
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇭泰国101   官网：mj5dsy.mccloudb6....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31741
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇲🇾马来西亚 101 官网：gosn33.mikasass....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31721
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇲🇾马来西亚 102 官网：ev4g7u.mikasass....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31722
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇮🇳印度 101 官网：ggqgpy.mikasass01....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31371
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇦🇺澳大利亚 101 官网：x5wh6j.mikasass0...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31411
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇨🇦加拿大 101 官网：m7ssa9.mikasass01...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31441
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇩🇪德国 101 官网：0xoxxx.mikasass01....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31471
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇷🇺俄罗斯 101 官网：cwlge3.mikasass01...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31511
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇹🇷土耳其 101 官网：lkztdn.mccloudb6....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31571
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇺🇦乌克兰 101 官网：mwrugo.mikasass.p...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31611
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇻🇳越南 101 官网：3r8uny.mikasass01....
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31641
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇧🇷巴西 101 官网：0snj94.mikasass.pr...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31671
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇮🇩印度尼西亚 101 官网：9pasl5.mikasass...
-  password: ea1dc83f-7c7b-4984-af14-08071a162186
-  port: 31677
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -457,7 +16,7 @@ proxies:
       Host: centos7
     path: /634c5c4f9782
 - cipher: aes-256-cfb
-  name: 2|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
+  name: 1|🌀3-SK |  5.0MB/s|0%|Youtube|Op...
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 156.146.40.194
@@ -465,7 +24,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
+  name: 1|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -473,7 +32,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 2|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸45 |  2.5MB/s|46%|Openai|Gem...
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
@@ -482,7 +41,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🌀4-TH |  2.6MB/s|55%|Netflix|O...
+  name: 1|🌀4-TH |  2.6MB/s|55%|Netflix|O...
   network: ws
   port: 443
   server: 38.47.96.30
@@ -496,14 +55,14 @@ proxies:
       Host: th.lzj520hxw.dpdns.org
     path: /lzjjj
 - cipher: aes-256-cfb
-  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
+  name: 1|🇰🇷2 |  1.5MB/s|44%|Openai
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
   type: ss
 - alterId: 2
   cipher: auto
-  name: 2|🇺🇸62 |  3.3MB/s|Openai|Gemini
+  name: 1|🇺🇸62 |  3.3MB/s|Openai|Gemini
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -519,7 +78,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 2|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
+  name: 1|🇩🇪5 |  1.4MB/s|0%|Youtube|Open...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -530,7 +89,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -542,14 +101,14 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: 2|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸63 |  2.1MB/s|46%|Openai|Gem...
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   skip-cert-verify: false
   sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
-- name: 2|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
+- name: 1|🇺🇸64 |  1.3MB/s|46%|Openai|Gem...
   password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
   port: 15229
   server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
@@ -558,21 +117,21 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: 12|tg频道:@ripaojiedian
+  name: 11|tg频道:@ripaojiedian
   password: awsps0501
   port: 443
   server: 54.248.176.238
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 12|🇭🇰 香港|@ripaojiedian
+  name: 11|🇭🇰 香港|@ripaojiedian
   password: ENYGONDU94UW1G6X
   port: 15010
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 12|🇭🇰 香港2|@ripaojiedian
+  name: 11|🇭🇰 香港2|@ripaojiedian
   password: 91a41f4e02dc
   plugin: v2ray-plugin
   plugin-opts:
@@ -588,7 +147,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 12|🇭🇰 香港3|@ripaojiedian
+  name: 11|🇭🇰 香港3|@ripaojiedian
   port: 35921
   server: 120.198.71.216
   skip-cert-verify: false
@@ -598,7 +157,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 12|🇭🇰 香港4|@ripaojiedian
+  name: 11|🇭🇰 香港4|@ripaojiedian
   port: 19504
   server: 43.247.135.192
   skip-cert-verify: false
@@ -608,7 +167,7 @@ proxies:
   uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
 - alterId: 2
   cipher: auto
-  name: 12,13|香港7|@ripaojiedian
+  name: 11,12|香港7|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -623,7 +182,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -634,7 +193,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 11|🇯🇵 日本2|@ripaojiedian
   password: 04e28ee6e6b0
   plugin: v2ray-plugin
   plugin-opts:
@@ -650,7 +209,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 12|🇯🇵 日本3|@ripaojiedian
+  name: 11|🇯🇵 日本3|@ripaojiedian
   port: 55002
   server: 183.237.84.53
   skip-cert-verify: false
@@ -659,13 +218,13 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
-  name: 12|🇰🇷 韩国|@ripaojiedian
+  name: 11|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 11389
   server: p231.panda004.net
   tfo: false
   type: ss
-- name: 12,13|韩国2|@ripaojiedian
+- name: 11,12|韩国2|@ripaojiedian
   network: tcp
   password: RlzoEILU
   port: 44907
@@ -675,7 +234,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 12,13|新加坡|@ripaojiedian
+  name: 11,12|新加坡|@ripaojiedian
   network: ws
   port: '30812'
   server: v12.heduian.link
@@ -691,7 +250,7 @@ proxies:
     path: /oooo
 - alterId: 64
   cipher: auto
-  name: 12|🇸🇬 新加坡2|@ripaojiedian
+  name: 11|🇸🇬 新加坡2|@ripaojiedian
   port: 49121
   server: 183.236.51.38
   skip-cert-verify: false
@@ -700,28 +259,28 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
-  name: 12|🇸🇬 新加坡3|@ripaojiedian
+  name: 11|🇸🇬 新加坡3|@ripaojiedian
   password: 0JR5J197C0KDI6O5
   port: 16002
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 12|🇸🇬 新加坡4|@ripaojiedian
+  name: 11|🇸🇬 新加坡4|@ripaojiedian
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
   port: 9898
   server: 18.140.199.169
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: 12|🇸🇬 新加坡5|@ripaojiedian
+  name: 11|🇸🇬 新加坡5|@ripaojiedian
   password: FXLEJQN4Y4G6ZUHJ
   port: 16014
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -733,7 +292,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 12,13|美国|@ripaojiedian
+  name: 11,12|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -748,14 +307,14 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: chacha20-ietf-poly1305
-  name: 12|🇺🇸 美国3|@ripaojiedian
+  name: 11|🇺🇸 美国3|@ripaojiedian
   password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5
   port: 23340
   server: 120.233.147.197
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 12|🇻🇳 越南|@ripaojiedian
+  name: 11|🇻🇳 越南|@ripaojiedian
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.38
@@ -763,7 +322,7 @@ proxies:
   type: ss
 - alterId: 64
   cipher: auto
-  name: 13|香港3|@ripaojiedian
+  name: 12|香港3|@ripaojiedian
   network: tcp
   port: '35921'
   server: 120.198.71.216
@@ -773,7 +332,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|香港4|@ripaojiedian
+  name: 12|香港4|@ripaojiedian
   network: tcp
   port: '19504'
   server: 43.247.135.192
@@ -783,7 +342,7 @@ proxies:
   uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
 - alterId: 64
   cipher: auto
-  name: 13|日本3|@ripaojiedian
+  name: 12|日本3|@ripaojiedian
   network: tcp
   port: '55002'
   server: 183.237.84.53
@@ -793,7 +352,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|日本5|@ripaojiedian
+  name: 12|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -803,7 +362,7 @@ proxies:
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
 - alterId: 64
   cipher: auto
-  name: 13|新加坡2|@ripaojiedian
+  name: 12|新加坡2|@ripaojiedian
   network: tcp
   port: '49121'
   server: 183.236.51.38
@@ -811,11 +370,228 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 14|CN_speednode_0017
+- name: 13|CN_speednode_0017
   password: RlzoEILU
   port: 28296
   server: 36.151.251.60
   skip-cert-verify: true
   sni: cdn.egvra.cn
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 01 官网：fxx5e3.abclouds1.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36141
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港 02 官网：rfje98.allbluess.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36143
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰 香港住宅IP 03 官网：64ehbp.allblue...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36145
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 01 官网：xb7l1z.allbluess.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36241
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 02 官网：5k0c8b.allbluess.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36243
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇼 台湾 03 官网：3rqab9.abclouds1.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36245
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本 01 官网：qrmrsu.allbluess.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36111
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本 02 官网：7ehdvz.allbluess.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36113
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵 日本 03 官网：75avju.abclouds1.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36115
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 01 官网：lschhe.allbluess....
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36171
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇸🇬 新加坡 02 官网：6yw4sy.allbluess....
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36173
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇰🇷 韩国 01 官网：6azrnl.allbluess.c...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36311
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇵🇭 菲律宾 01 官网：jllckk.allbluess....
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36341
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 01 官网：dcxdlt.allbluess.c...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36211
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国住宅IP 02 官网：x0craj.allblue...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36213
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸 美国 03 官网：ubepwo.allbluess.c...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36215
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇬🇧 英国住宅IP 01 官网：n2sh5s.abcloud...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36271
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇲🇾马来西亚 01 官网：2i21ek.abclouds1....
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36721
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇲🇾马来西亚 02 官网：8xbiao.allbluess....
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36722
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇮🇳西班牙 01 官网：6sop8p.abclouds1.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36741
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇭泰国 01 官网：7ow2m5.allbluess.pr...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36731
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇮🇳 印度 01 官网：kf97mo.allbluess.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36371
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇦🇺 澳大利亚 01 官网：l4x49m.allbluess...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36411
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇨🇦 加拿大 01 官网：6z9nvy.abclouds1....
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36441
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇩🇪 德国 01 官网：6301si.allbluess.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36471
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇷🇺 俄罗斯 01 官网：91g33w.abclouds1....
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36511
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇹🇷 土耳其 01 官网：ddd4kp.abclouds1....
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36571
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇦 乌克兰 01 官网：dzshor.allbluess....
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36611
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇻🇳 越南 01 官网：jdanfj.allbluess.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36641
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇧🇷 巴西 01 官网：nt06il.allbluess.p...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36671
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇮🇩 印度尼西亚 01 官网：8z18jl.abclouds...
+  password: a01bc349-f3a7-4f56-9c56-53f8f1ed746c
+  port: 36677
+  server: freea.glyphara.com
+  type: ss
   udp: true
