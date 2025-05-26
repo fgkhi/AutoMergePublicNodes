@@ -1,44 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 101 官网：4ox1x0.mikasass01....
-  password: 63c266ea-0904-4c3e-a592-a6d08c334746
-  port: 31111
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 102 官网：a5p8o7.mccloudb6.p...
-  password: 63c266ea-0904-4c3e-a592-a6d08c334746
-  port: 31113
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 103 官网：n0wm2e.mikasass.pr...
-  password: 63c266ea-0904-4c3e-a592-a6d08c334746
-  port: 31115
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 01 官网：6e88se.allbluess.c...
-  password: fb42ef44-df38-456c-882f-ca6de1fbbe87
+  name: 0|🇯🇵 日本 01 官网：nyvees.allbluess.c...
+  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
   port: 36111
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 02 官网：lk046b.abclouds1.p...
-  password: fb42ef44-df38-456c-882f-ca6de1fbbe87
+  name: 0|🇯🇵 日本 02 官网：suaaz1.allbluess.p...
+  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
   port: 36113
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 03 官网：js8kxm.abclouds1.p...
-  password: fb42ef44-df38-456c-882f-ca6de1fbbe87
+  name: 0|🇯🇵 日本 03 官网：g3p1fg.abclouds1.p...
+  password: 42c00f56-87fb-4851-a9a3-5d4e24df6873
   port: 36115
   server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 101 官网：oapm7u.mccloudb6.p...
+  password: ea1dc83f-7c7b-4984-af14-08071a162186
+  port: 31111
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 102 官网：982bb3.mccloudb6.p...
+  password: ea1dc83f-7c7b-4984-af14-08071a162186
+  port: 31113
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵日本 103 官网：f624rl.mikasass.pr...
+  password: ea1dc83f-7c7b-4984-af14-08071a162186
+  port: 31115
+  server: freem.vidalith.com
   type: ss
   udp: true
 - alterId: 64
