@@ -1,23 +1,44 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 101 | 1x JP
-  password: 4aaf000d-12a1-43af-9116-14e1d427c198
+  name: 0|🇯🇵日本 101 官网：4ox1x0.mikasass01....
+  password: 63c266ea-0904-4c3e-a592-a6d08c334746
   port: 31111
-  server: free.2apzhfa.xyz
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 102 | 1x JP
-  password: 4aaf000d-12a1-43af-9116-14e1d427c198
+  name: 0|🇯🇵日本 102 官网：a5p8o7.mccloudb6.p...
+  password: 63c266ea-0904-4c3e-a592-a6d08c334746
   port: 31113
-  server: free.2apzhfa.xyz
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵日本 103 | 1x JP
-  password: 4aaf000d-12a1-43af-9116-14e1d427c198
+  name: 0|🇯🇵日本 103 官网：n0wm2e.mikasass.pr...
+  password: 63c266ea-0904-4c3e-a592-a6d08c334746
   port: 31115
-  server: free.2apzhfa.xyz
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 01 官网：6e88se.allbluess.c...
+  password: fb42ef44-df38-456c-882f-ca6de1fbbe87
+  port: 36111
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 02 官网：lk046b.abclouds1.p...
+  password: fb42ef44-df38-456c-882f-ca6de1fbbe87
+  port: 36113
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|🇯🇵 日本 03 官网：js8kxm.abclouds1.p...
+  password: fb42ef44-df38-456c-882f-ca6de1fbbe87
+  port: 36115
+  server: freea.glyphara.com
   type: ss
   udp: true
 - alterId: 64
