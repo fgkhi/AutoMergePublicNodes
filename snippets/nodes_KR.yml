@@ -1,24 +1,24 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|🇰🇷2 |  1.5MB/s|44%|Openai
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 2|16🇰🇷韩国|官网：米卡莎.xyz
-  password: 645d9ada-2ea6-4edd-b65f-c677ee9add3a
+  name: 1|16🇰🇷韩国|官网：m5c3cloud.pro
+  password: b061cd96-4a76-4bc1-9bfe-219c2543e778
   port: 31311
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|17🇰🇷韩国|官网：m5c3cloud.pro
-  password: 645d9ada-2ea6-4edd-b65f-c677ee9add3a
+  name: 1|17🇰🇷韩国|官网：m5c3cloud.pro
+  password: b061cd96-4a76-4bc1-9bfe-219c2543e778
   port: 31313
   server: freem.vidalith.com
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 2|🇰🇷2 |  1.5MB/s|44%|Openai
+  password: qwerREWQ@@
+  port: 15098
+  server: 125.141.31.72
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 12|🇰🇷 韩国|@ripaojiedian

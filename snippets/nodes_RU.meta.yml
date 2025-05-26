@@ -1,9 +1,16 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|31🇷🇺俄罗斯|官网：m5c3cloud.pro
+  password: b061cd96-4a76-4bc1-9bfe-219c2543e778
+  port: 31511
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - alpn:
   - h3
   client-fingerprint: chrome
   disable-sni: false
-  name: 1|🇷🇺1 |  2.5MB/s|50%
+  name: 2|🇷🇺1 |  2.5MB/s|50%
   password: f3ba3679-f2f4-465f-92a5-de320b775a88
   port: 43516
   reduce-rtt: false
@@ -15,13 +22,6 @@ proxies:
   udp-relay-mode: native
   uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
   version: 5
-- cipher: chacha20-ietf-poly1305
-  name: 2|31🇷🇺俄罗斯|官网：m5c3cloud.pro
-  password: 645d9ada-2ea6-4edd-b65f-c677ee9add3a
-  port: 31511
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - name: '11|Channel id: @ShadowProxy66🇷🇺'
   password: dongtaiwang.com
   port: 12904
