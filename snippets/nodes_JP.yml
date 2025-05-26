@@ -1,49 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 101 官网：https://acwbtq.m5c...
-  password: 45544a07-c113-4d6a-be9c-51f5dcc4f08a
-  port: 31111
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 102 官网：https://米卡莎.xyz
-  password: 45544a07-c113-4d6a-be9c-51f5dcc4f08a
-  port: 31113
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇯🇵日本 103 官网：https://米卡莎.xyz
-  password: 45544a07-c113-4d6a-be9c-51f5dcc4f08a
-  port: 31115
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 101 官网：https://蓝色海洋.xyz
-  password: 287e6439-72b0-443b-840d-5a12afbc3636
-  port: 36111
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 102 官网：https://mryxwc.ab...
-  password: 287e6439-72b0-443b-840d-5a12afbc3636
-  port: 36113
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|🇯🇵 日本 103 官网：https://蓝色海洋.xyz
-  password: 287e6439-72b0-443b-840d-5a12afbc3636
-  port: 36115
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
-  name: 2|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
+  name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -59,7 +17,7 @@ proxies:
     path: /634c5c4f9782
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本|@ripaojiedian
+  name: 11|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -71,7 +29,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本2|@ripaojiedian
+  name: 11|🇯🇵 日本2|@ripaojiedian
   password: 04e28ee6e6b0
   plugin: v2ray-plugin
   plugin-opts:
@@ -88,7 +46,7 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 12|🇯🇵 日本3|@ripaojiedian
+  name: 11|🇯🇵 日本3|@ripaojiedian
   port: 55002
   server: 183.237.84.53
   skip-cert-verify: false
@@ -98,7 +56,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 13|日本3|@ripaojiedian
+  name: 12|日本3|@ripaojiedian
   network: tcp
   port: '55002'
   server: 183.237.84.53
@@ -108,7 +66,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 13|日本5|@ripaojiedian
+  name: 12|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -116,3 +74,24 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 101 官网：https://46ldde.mik...
+  password: 9e2929e9-2de5-47cf-96da-94d83101c5b3
+  port: 31111
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 102 官网：https://zomqcb.m5c...
+  password: 9e2929e9-2de5-47cf-96da-94d83101c5b3
+  port: 31113
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇯🇵日本 103 官网：https://pk3iz6.m5c...
+  password: 9e2929e9-2de5-47cf-96da-94d83101c5b3
+  port: 31115
+  server: freem.vidalith.com
+  type: ss
+  udp: true
