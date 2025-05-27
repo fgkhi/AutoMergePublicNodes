@@ -1,4 +1,25 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|16🇸🇬新加坡|官网：米卡莎.xyz
+  password: ec841fb3-ddbd-484c-8663-74c16bbaf3e3
+  port: 31171
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|17🇸🇬新加坡|官网：m5c3cloud.pro
+  password: ec841fb3-ddbd-484c-8663-74c16bbaf3e3
+  port: 31173
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|18🇸🇬新加坡|官网：m5c3cloud.pro
+  password: ec841fb3-ddbd-484c-8663-74c16bbaf3e3
+  port: 31175
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   name: 2|🇸🇬1 |  1.0MB/s|0%|Netflix|Disn...

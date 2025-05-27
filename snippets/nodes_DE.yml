@@ -1,4 +1,11 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|33🇩🇪德国|官网：m5c3cloud.pro
+  password: ec841fb3-ddbd-484c-8663-74c16bbaf3e3
+  port: 31471
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   grpc-opts:

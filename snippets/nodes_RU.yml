@@ -1,1 +1,8 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|34🇷🇺俄罗斯|官网：mikasacloud.site
+  password: ec841fb3-ddbd-484c-8663-74c16bbaf3e3
+  port: 31511
+  server: freem.vidalith.com
+  type: ss
+  udp: true
