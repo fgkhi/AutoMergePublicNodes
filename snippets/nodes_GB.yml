@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 1|4🇭🇰香港|官网：米卡莎.xyz
-  password: 508cfaa0-440e-4611-afe4-2f87d638d198
+  password: dea84044-72ca-406b-b7d2-2432436d34a6
   port: 31141
   server: freem.vidalith.com
   type: ss
