@@ -2330,22 +2330,22 @@ proxies:
       Host: nl1n.yfjc.sbs
     path: /yfjc/knl1
 - cipher: chacha20-ietf-poly1305
-  name: 14|19🇺🇸美国|官网：mikasacloud.site
-  password: 0fd9458d-841f-49b0-a919-3ccd390fbde5
+  name: 14|19🇺🇸美国|官网：米卡莎.xyz
+  password: 1589deae-8987-453b-91c9-ef6f994ac7e8
   port: 31211
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|20🇺🇸美国家宽|官网：mikasacloud.site
-  password: 0fd9458d-841f-49b0-a919-3ccd390fbde5
+  name: 14|20🇺🇸美国家宽|官网：米卡莎.xyz
+  password: 1589deae-8987-453b-91c9-ef6f994ac7e8
   port: 31213
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|21🇺🇸美国|官网：m5c3cloud.pro
-  password: 0fd9458d-841f-49b0-a919-3ccd390fbde5
+  name: 14|21🇺🇸美国|官网：mikasacloud.site
+  password: 1589deae-8987-453b-91c9-ef6f994ac7e8
   port: 31215
   server: freem.vidalith.com
   type: ss
