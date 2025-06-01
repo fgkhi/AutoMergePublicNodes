@@ -13,8 +13,8 @@ proxies:
   type: vmess
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - cipher: chacha20-ietf-poly1305
-  name: 2|29🇩🇪德国|官网：米卡莎.xyz
-  password: b28a7a3b-2e9f-4a6a-a1d6-c49144dbed28
+  name: 14|29🇩🇪德国|官网：m5c3cloud.pro
+  password: 0fd9458d-841f-49b0-a919-3ccd390fbde5
   port: 31471
   server: freem.vidalith.com
   type: ss

@@ -35,30 +35,9 @@ proxies:
   sni: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|19🇺🇸美国|官网：米卡莎.xyz
-  password: b28a7a3b-2e9f-4a6a-a1d6-c49144dbed28
-  port: 31211
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|20🇺🇸美国家宽|官网：mikasacloud.site
-  password: b28a7a3b-2e9f-4a6a-a1d6-c49144dbed28
-  port: 31213
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|21🇺🇸美国|官网：mikasacloud.site
-  password: b28a7a3b-2e9f-4a6a-a1d6-c49144dbed28
-  port: 31215
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国2|@ripaojiedian
+  name: 11|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -71,7 +50,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
+  name: 11,12|美国|@ripaojiedian
   network: ws
   port: '30832'
   server: v32.heduian.link
@@ -88,7 +67,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 12,13|美国5|@ripaojiedian
+  name: 11,12|美国5|@ripaojiedian
   network: ws
   port: '30828'
   server: 111.26.109.79
@@ -104,9 +83,30 @@ proxies:
     path: /oooo
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 12|🇺🇸 美国4|@ripaojiedian
+  name: 11|🇺🇸 美国4|@ripaojiedian
   password: 26270a5c-cc66-4bb5-b058-c75d09d615e5
   port: 54322
   server: cm55-zz.moonwang.xyz
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|19🇺🇸美国|官网：mikasacloud.site
+  password: 0fd9458d-841f-49b0-a919-3ccd390fbde5
+  port: 31211
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|20🇺🇸美国家宽|官网：mikasacloud.site
+  password: 0fd9458d-841f-49b0-a919-3ccd390fbde5
+  port: 31213
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|21🇺🇸美国|官网：m5c3cloud.pro
+  password: 0fd9458d-841f-49b0-a919-3ccd390fbde5
+  port: 31215
+  server: freem.vidalith.com
+  type: ss
+  udp: true

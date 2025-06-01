@@ -5,25 +5,38 @@ proxies:
   port: 15098
   server: 125.141.31.72
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 2|16🇰🇷韩国|官网：mikasacloud.site
-  password: b28a7a3b-2e9f-4a6a-a1d6-c49144dbed28
-  port: 31311
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 2|17🇰🇷韩国|官网：米卡莎.xyz
-  password: b28a7a3b-2e9f-4a6a-a1d6-c49144dbed28
-  port: 31313
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 12|🇰🇷 韩国|@ripaojiedian
+  name: 11|🇰🇷 韩国|@ripaojiedian
   password: qwerREWQ@@
   port: 4857
   server: 125.141.26.12
   tfo: false
   type: ss
+- name: 13|KR_speednode_0103
+  network: ws
+  password: Aimer
+  port: 12088
+  server: 112.184.209.63
+  skip-cert-verify: false
+  sni: epme.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epme.ambercc.filegear-sg.me
+    path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  name: 14|16🇰🇷韩国|官网：米卡莎.xyz
+  password: 0fd9458d-841f-49b0-a919-3ccd390fbde5
+  port: 31311
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|17🇰🇷韩国|官网：m5c3cloud.pro
+  password: 0fd9458d-841f-49b0-a919-3ccd390fbde5
+  port: 31313
+  server: freem.vidalith.com
+  type: ss
+  udp: true
