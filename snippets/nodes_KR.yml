@@ -1,16 +1,9 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|16🇰🇷韩国|官网：mikasacloud.site
-  password: 9f3393d1-6f1e-4024-8f3c-8fd5aa3bb4b9
-  port: 31311
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|17🇰🇷韩国|官网：mikasacloud.site
-  password: 9f3393d1-6f1e-4024-8f3c-8fd5aa3bb4b9
-  port: 31313
-  server: freem.vidalith.com
+  name: 0|16🇰🇷韩国|官网：a5b3cloud.pro
+  password: 28dffa11-f5ce-4557-b863-9bfefec0fee2
+  port: 36311
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -27,39 +20,17 @@ proxies:
   server: 125.141.26.12
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 11|🇰🇷 韩国2|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11|🇰🇷 韩国3|@ripaojiedian
-  port: 17232
-  server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 12|韩国3|@ripaojiedian
-  network: tcp
-  port: '17232'
-  server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
-  name: 14|16🇰🇷韩国|官网：蓝色海洋.xyz
-  password: 3cb0dca0-df1e-45dd-aa40-3bc775a65937
-  port: 36311
-  server: freea.glyphara.com
+  name: 14|16🇰🇷韩国|官网：mikasacloud.site
+  password: 516a97a6-9cef-4287-8011-f8fe8344348c
+  port: 31311
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|17🇰🇷韩国|官网：m5c3cloud.pro
+  password: 516a97a6-9cef-4287-8011-f8fe8344348c
+  port: 31313
+  server: freem.vidalith.com
   type: ss
   udp: true

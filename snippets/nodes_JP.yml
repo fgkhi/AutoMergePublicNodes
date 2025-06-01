@@ -1,23 +1,23 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|10🇯🇵日本|官网：m5c3cloud.pro
-  password: 9f3393d1-6f1e-4024-8f3c-8fd5aa3bb4b9
-  port: 31111
-  server: freem.vidalith.com
+  name: 0|11🇯🇵日本|官网：蓝色海洋.xyz
+  password: 28dffa11-f5ce-4557-b863-9bfefec0fee2
+  port: 36111
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：mikasacloud.site
-  password: 9f3393d1-6f1e-4024-8f3c-8fd5aa3bb4b9
-  port: 31113
-  server: freem.vidalith.com
+  name: 0|12🇯🇵日本|官网：a5b3cloud.pro
+  password: 28dffa11-f5ce-4557-b863-9bfefec0fee2
+  port: 36113
+  server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：米卡莎.xyz
-  password: 9f3393d1-6f1e-4024-8f3c-8fd5aa3bb4b9
-  port: 31115
-  server: freem.vidalith.com
+  name: 0|13🇯🇵日本|官网：abluecloud.xyz
+  password: 28dffa11-f5ce-4557-b863-9bfefec0fee2
+  port: 36115
+  server: freea.glyphara.com
   type: ss
   udp: true
 - alterId: 64
@@ -42,7 +42,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505250813455-t8Jl5DjrgW.download.microsoft.com
+    host: 202505160159024-hAiTvMCGlv.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -60,10 +60,39 @@ proxies:
     path: /lornlqecrjwe
     skip-cert-verify: false
     tls: true
-  port: 19363
+  port: 50494
   server: 43.226.17.17
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本3|@ripaojiedian
+  port: 17233
+  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 11|🇯🇵 日本4|@ripaojiedian
+  password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00
+  port: 32875
+  server: jg647hf446ghvw.gym0boy.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12|日本3|@ripaojiedian
+  network: tcp
+  port: '17233'
+  server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 12|日本V2|@ripaojiedian
@@ -88,23 +117,23 @@ proxies:
       Host: epme.ambercc.filegear-sg.me
     path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: 14|11🇯🇵日本|官网：abluecloud.xyz
-  password: 3cb0dca0-df1e-45dd-aa40-3bc775a65937
-  port: 36111
-  server: freea.glyphara.com
+  name: 14|10🇯🇵日本|官网：mikasacloud.site
+  password: 516a97a6-9cef-4287-8011-f8fe8344348c
+  port: 31111
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|12🇯🇵日本|官网：蓝色海洋.xyz
-  password: 3cb0dca0-df1e-45dd-aa40-3bc775a65937
-  port: 36113
-  server: freea.glyphara.com
+  name: 14|11🇯🇵日本|官网：米卡莎.xyz
+  password: 516a97a6-9cef-4287-8011-f8fe8344348c
+  port: 31113
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 14|13🇯🇵日本|官网：蓝色海洋.xyz
-  password: 3cb0dca0-df1e-45dd-aa40-3bc775a65937
-  port: 36115
-  server: freea.glyphara.com
+  name: 14|12🇯🇵日本|官网：米卡莎.xyz
+  password: 516a97a6-9cef-4287-8011-f8fe8344348c
+  port: 31115
+  server: freem.vidalith.com
   type: ss
   udp: true
