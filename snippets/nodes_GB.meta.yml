@@ -1,18 +1,26 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 0|5🇭🇰香港|官网：abluecloud.xyz
-  password: 4ed772fc-823b-4a7e-ae02-5967d686535c
+  password: 4ac2bde6-343a-4c3b-ac05-c4075a671734
   port: 36141
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 2|4🇭🇰香港|官网：m5c3cloud.pro
-  password: 475cab03-a444-4a7a-ac7a-3adc817f2f03
+  name: 1|4🇭🇰香港|官网：米卡莎.xyz
+  password: 238cc8e2-858b-482c-8ff2-3abdc62dc41f
   port: 31141
   server: freem.vidalith.com
   type: ss
   udp: true
+- name: '11|Channel id: @ShadowProxy66🇬🇧'
+  password: nfsn666
+  port: 8888
+  server: 130.162.182.250
+  skip-cert-verify: true
+  sni: ld-arm.nfsn666.gq
+  tls: false
+  type: hysteria2
 - name: 14|GB_speednode_0024
   network: ws
   port: 8880
