@@ -1,14 +1,14 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|6🇭🇰香港|官网：abluecloud.xyz
-  password: db74344d-8816-4917-8a3c-e0fab08b4fd6
+  name: 0|6🇭🇰香港|官网：蓝色海洋.xyz
+  password: 763b46fc-b42d-442d-a264-14e164073f9e
   port: 36143
   server: freea.glyphara.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
-  password: db74344d-8816-4917-8a3c-e0fab08b4fd6
+  name: 0|7🇭🇰香港住宅IP|官网：蓝色海洋.xyz
+  password: 763b46fc-b42d-442d-a264-14e164073f9e
   port: 36145
   server: freea.glyphara.com
   type: ss
@@ -28,15 +28,15 @@ proxies:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 2|5🇭🇰香港|官网：mikasacloud.site
-  password: 76a4c0f1-2751-43aa-b936-a449ea24aec1
+  name: 2|5🇭🇰香港|官网：米卡莎.xyz
+  password: 89647949-b3d6-4d8b-9f93-9ba33b74d600
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|6🇭🇰香港家宽|官网：mikasacloud.site
-  password: 76a4c0f1-2751-43aa-b936-a449ea24aec1
+  password: 89647949-b3d6-4d8b-9f93-9ba33b74d600
   port: 31145
   server: freem.vidalith.com
   type: ss
