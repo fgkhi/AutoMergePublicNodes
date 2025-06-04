@@ -1,1 +1,44 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 1|7🇹🇼台湾|官网：米卡莎.xyz
+  password: 459fc1cc-ec29-4d4e-b6b5-0b5c7dd26f27
+  port: 31241
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|8🇹🇼台湾|官网：m5c3cloud.pro
+  password: 459fc1cc-ec29-4d4e-b6b5-0b5c7dd26f27
+  port: 31243
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|9🇹🇼台湾|官网：mikasacloud.site
+  password: 459fc1cc-ec29-4d4e-b6b5-0b5c7dd26f27
+  port: 31245
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 2|🇹🇼1 |  1.4MB/s|0%|Netflix|Yout...
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 12|🇹🇼 台湾|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 09499c8:182394
+    mode: tls
+  port: 2377
+  server: 60.249.35.38
+  tfo: false
+  type: ss
