@@ -1,27 +1,13 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|6🇭🇰香港|官网：a5b3cloud.pro
-  password: 93c496f4-94e2-432f-b925-8e8324349314
-  port: 36143
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
-  password: 93c496f4-94e2-432f-b925-8e8324349314
-  port: 36145
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|5🇭🇰香港|官网：m5c3cloud.pro
+  name: 0|5🇭🇰香港|官网：m5c3cloud.pro
   password: 74a25faa-e514-45d6-a4e2-772fc55d8ce7
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 1|6🇭🇰香港家宽|官网：米卡莎.xyz
+  name: 0|6🇭🇰香港家宽|官网：m5c3cloud.pro
   password: 74a25faa-e514-45d6-a4e2-772fc55d8ce7
   port: 31145
   server: freem.vidalith.com
@@ -29,7 +15,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -41,6 +27,20 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 2|6🇭🇰香港|官网：a5b3cloud.pro
+  password: 4346a916-bb03-4b05-8c5d-1f6093106570
+  port: 36143
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: 4346a916-bb03-4b05-8c5d-1f6093106570
+  port: 36145
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 12|🇭🇰 香港|@ripaojiedian
   password: '!!str 63099'
