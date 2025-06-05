@@ -1,25 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|10🇯🇵日本|官网：m5c3cloud.pro
-  password: c10cfbd4-15c5-4a4b-a36e-d07a5bcdf84d
-  port: 31111
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|11🇯🇵日本|官网：m5c3cloud.pro
-  password: c10cfbd4-15c5-4a4b-a36e-d07a5bcdf84d
-  port: 31113
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|12🇯🇵日本|官网：米卡莎.xyz
-  password: c10cfbd4-15c5-4a4b-a36e-d07a5bcdf84d
-  port: 31115
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - alterId: 64
   cipher: auto
   name: 1|🇯🇵1 |  1.8MB/s|54%|Youtube|Ope...
@@ -36,9 +15,30 @@ proxies:
     headers:
       Host: centos7
     path: /634c5c4f9782
+- cipher: chacha20-ietf-poly1305
+  name: 2|10🇯🇵日本|官网：mikasacloud.site
+  password: a1012734-1025-4593-b2cd-581fd1f5d717
+  port: 31111
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|11🇯🇵日本|官网：m5c3cloud.pro
+  password: a1012734-1025-4593-b2cd-581fd1f5d717
+  port: 31113
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|12🇯🇵日本|官网：m5c3cloud.pro
+  password: a1012734-1025-4593-b2cd-581fd1f5d717
+  port: 31115
+  server: freem.vidalith.com
+  type: ss
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本|@ripaojiedian
+  name: 12|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -50,7 +50,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本2|@ripaojiedian
+  name: 12|🇯🇵 日本2|@ripaojiedian
   password: 60a930c17ff0
   plugin: v2ray-plugin
   plugin-opts:
@@ -66,7 +66,7 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本3|@ripaojiedian
+  name: 12|🇯🇵 日本3|@ripaojiedian
   password: 4VWFR9NJLC1NGM7Q
   port: 18006
   server: ti3hyra4.slashdevslashnetslashtun.net
@@ -74,7 +74,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 11|🇯🇵 日本4|@ripaojiedian
+  name: 12|🇯🇵 日本4|@ripaojiedian
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -86,7 +86,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 12|日本V2|@ripaojiedian
+  name: 13|日本V2|@ripaojiedian
   network: kcp
   port: '50951'
   server: 8.211.154.107
