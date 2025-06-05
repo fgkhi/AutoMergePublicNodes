@@ -1,49 +1,7 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|6🇭🇰香港|官网：a5b3cloud.pro
-  password: 5c4fd71f-dbdd-4873-b453-f71273571806
-  port: 36143
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
-  password: 5c4fd71f-dbdd-4873-b453-f71273571806
-  port: 36145
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 1|4🇭🇰香港01|官网：mikasacloud.site
-  port: 21141
-  reality-opts:
-    public-key: Eups6Prbvg15cmO6xyumiyHSDnXyxdPpHot__djonlo
-    short-id: ef355cf1
-  server: freem.vidalith.com
-  servername: dimsum01.roamspheretours.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d694b9e4-2cf7-4c3c-b518-13d86697fc62
-- cipher: chacha20-ietf-poly1305
-  name: 1|6🇭🇰香港|官网：mikasacloud.site
-  password: d694b9e4-2cf7-4c3c-b518-13d86697fc62
-  port: 31143
-  server: freem.vidalith.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|7🇭🇰香港家宽|官网：m5c3cloud.pro
-  password: d694b9e4-2cf7-4c3c-b518-13d86697fc62
-  port: 31145
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 0|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -55,6 +13,34 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1|5🇭🇰香港|官网：mikasacloud.site
+  password: b3be2b1d-efe9-48ab-9a74-1a9a01a3ccfa
+  port: 31143
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|6🇭🇰香港家宽|官网：mikasacloud.site
+  password: b3be2b1d-efe9-48ab-9a74-1a9a01a3ccfa
+  port: 31145
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|6🇭🇰香港|官网：abluecloud.xyz
+  password: 0fa2d5e3-3971-4af2-af13-6dacc51b010c
+  port: 36143
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 2|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: 0fa2d5e3-3971-4af2-af13-6dacc51b010c
+  port: 36145
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - name: '11|Channel id: @ShadowProxy66🇭🇰'
   password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
   port: 443
