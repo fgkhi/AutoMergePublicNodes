@@ -1,7 +1,21 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 0|6🇭🇰香港|官网：a5b3cloud.pro
+  password: 5dccfcb2-41ea-4cb8-99b2-ec44015d0cdf
+  port: 36143
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 0|7🇭🇰香港住宅IP|官网：a5b3cloud.pro
+  password: 5dccfcb2-41ea-4cb8-99b2-ec44015d0cdf
+  port: 36145
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 0|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
+  name: 1|🇭🇰1 |  1.8MB/s|15%|Disney|Yout...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -13,20 +27,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 1|6🇭🇰香港|官网：abluecloud.xyz
-  password: 14c30927-d9a6-4a5e-8933-f52b281bd391
-  port: 36143
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 1|7🇭🇰香港住宅IP|官网：abluecloud.xyz
-  password: 14c30927-d9a6-4a5e-8933-f52b281bd391
-  port: 36145
-  server: freea.glyphara.com
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 2|4🇭🇰香港01|官网：米卡莎.xyz
@@ -40,44 +40,21 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: f551c589-25e1-4778-b0b6-13b28aabbe61
+  uuid: 5802f15f-b6cb-40f5-886e-f52fdac45fea
 - cipher: chacha20-ietf-poly1305
-  name: 2|6🇭🇰香港|官网：m5c3cloud.pro
-  password: f551c589-25e1-4778-b0b6-13b28aabbe61
+  name: 2|6🇭🇰香港|官网：mikasacloud.site
+  password: 5802f15f-b6cb-40f5-886e-f52fdac45fea
   port: 31143
   server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 2|7🇭🇰香港家宽|官网：mikasacloud.site
-  password: f551c589-25e1-4778-b0b6-13b28aabbe61
+  password: 5802f15f-b6cb-40f5-886e-f52fdac45fea
   port: 31145
   server: freem.vidalith.com
   type: ss
   udp: true
-- name: '11|Channel id: @ShadowProxy66🇭🇰'
-  password: 5d110f18-5a37-4db3-8cf6-f0bced38a1ae
-  port: 443
-  server: 89.185.27.133
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇭🇰 #1'
-  password: NTA0MDg5OjEzMzI4ODo3YjA2ZDIyYThhN2M3NjRm
-  port: 3074
-  server: 47.76.232.205
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '11|Channel id: @ShadowProxy66🇭🇰 #2'
-  password: 53bdfd4a-7f38-4cb6-b07e-49974de1a800
-  port: 22106
-  server: 160.22.156.7
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
