@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇭🇰香港 101 | 1x HK
-  password: cb2b2f72-2fe3-4fe7-b9d9-00d1384d07e4
-  port: 31141
-  server: freem.vidalith.com
-  type: ss
-  udp: true
 - name: '10|Channel id: @ShadowProxy66🇬🇧'
   password: e48d6377dda26840
   port: 42353
@@ -26,3 +19,10 @@ proxies:
   type: vless
   udp: true
   uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇭🇰香港 101 | 1x HK
+  password: 4b8ec88b-0873-4864-9567-e841f9fb46e8
+  port: 31141
+  server: freem.vidalith.com
+  type: ss
+  udp: true
