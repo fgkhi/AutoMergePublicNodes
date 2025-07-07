@@ -109,6 +109,14 @@ proxies:
   sni: hysteria.de.vpnfree.org
   tls: false
   type: hysteria2
+- name: '10|@Filter_breaker | Germany #3'
+  password: w7x8y9z0-3456-7bcd-8abc-9012abcdef90
+  port: 443
+  server: 185.146.173.3400
+  skip-cert-verify: false
+  sni: hysteria.de.vpnfree.org
+  tls: false
+  type: hysteria2
 - name: 14|DE_speednode_0006
   network: ws
   port: 8880
