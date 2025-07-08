@@ -1660,7 +1660,7 @@ proxies:
         Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
-- name: '9,10|@meli_proxyy #9'
+- name: '9,10|@meli_proxyy #7'
   password: nfsn666
   port: 8888
   server: 45.207.222.138
@@ -1676,16 +1676,6 @@ proxies:
   server: 138.2.61.132
   skip-cert-verify: false
   sni: jp-odhdjfjcj.gzcloud.shop
-  tls: false
-  type: hysteria2
-- name: '10|@meli_proxyy #1'
-  obfs: salamander
-  obfs-password: rPvCrCom7ETCNOvA
-  password: 0c4c1a89-5645-4fc2-9e3b-ab09aa44e933
-  port: 13563
-  server: 62.72.163.159
-  skip-cert-verify: false
-  sni: h2.gzcloud.shop
   tls: false
   type: hysteria2
 - name: 10|@V2rayNG3
@@ -1722,7 +1712,56 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|USA-Hysteria2-@Filter_breaker
+- name: 10| @game_file2020
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17169
+  server: au.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|🇦🇺 @game_file2020
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17275
+  server: au.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|🇦🇺 @game_file2020 #1'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17887
+  server: au.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10| @game_file2020 #1'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17129
+  server: uk.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|🇬🇧 @game_file2020
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17383
+  server: uk.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|🇬🇧 @game_file2020 #1'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17571
+  server: uk.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '10|🇬🇧 @game_file2020 #2'
+  password: 621187c3-859d-4682-aac1-cd4500f9690e
+  port: 17970
+  server: uk.saigonfly.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 10|🇺USA-Hysteria2-@Filter_breaker
   password: 627712cf-d0e1-4545-81fb-241e7fda0284
   port: 443
   server: 108.181.23.241
@@ -1746,7 +1785,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|@meli_proxyy #5'
+- name: '10|@meli_proxyy #3'
   password: 627712cf-d0e1-4545-81fb-241e7fda0284
   port: 443
   server: 192.9.176.249
@@ -1770,7 +1809,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|@meli_proxyy #7'
+- name: '10|@meli_proxyy #5'
   password: 8418fb71-419d-4fc3-8b29-d7fee8de76c7
   port: 443
   server: 104.168.34.109
@@ -1838,13 +1877,6 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '10|@vpnv2rayNGv #5'
-  password: Wo9rLCYw6gzcfTgIu11mhBVciVs
-  port: 29282
-  server: 47.74.34.102
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: 10| ران👈vpnowl@
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -1900,7 +1932,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|@meli_proxyy #8'
+- name: '10|@meli_proxyy #6'
   password: be81e21d-02d8-4a60-a07e-c2202a50a549
   port: 26923
   server: yjjdhl.yunjijd.xyz
