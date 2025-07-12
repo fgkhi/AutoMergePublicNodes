@@ -2546,7 +2546,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '10| 𝐧: @vpnz4  🇫'
+- name: '10| 𝐧: @vpnz4  '
   obfs: salamander
   obfs-password: The_Sefr-salamdash
   password: user12.myserverSEFR097
