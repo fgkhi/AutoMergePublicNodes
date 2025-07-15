@@ -1722,7 +1722,7 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: 9,10|آما 🇩🇪 @V2xay
+- name: 9,10|آمان 🇩🇪 @V2xay
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -1999,14 +1999,6 @@ proxies:
   server: us3do.interld123456789.com
   skip-cert-verify: true
   sni: 1231231.1234567890spcloud.com
-  tls: false
-  type: hysteria2
-- name: 10|@Darktunnel_official
-  password: 60543cda-8960-49c9-9ac5-0a9acb316e07
-  port: 26923
-  server: yjjdhl.yunjijd.xyz
-  skip-cert-verify: true
-  sni: yjjdhl.yunjijd.xyz
   tls: false
   type: hysteria2
 - name: 10| @game_file2020
