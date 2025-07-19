@@ -1813,6 +1813,22 @@ proxies:
   sni: gb.gomeow.online
   tls: false
   type: hysteria2
+- name: 9|@_
+  password: 196d331c-9a7d-4a8a-990e-f8babff27412
+  port: 35789
+  server: jpcn286.s2fjeyeeyafe.bond
+  skip-cert-verify: true
+  sni: jpcn286.s2fjeyeeyafe.bond
+  tls: false
+  type: hysteria2
+- name: 9|@ᴅᴀɪʟʏ_ᴄᴏɴꜰɪɢꜱ
+  password: 196d331c-9a7d-4a8a-990e-f8babff27412
+  port: 35789
+  server: us10.s2fjeyeeyafe.bond
+  skip-cert-verify: true
+  sni: us10.s2fjeyeeyafe.bond
+  tls: false
+  type: hysteria2
 - name: '9|@V2rayNG3 #2'
   obfs: salamander
   obfs-password: de8287cd33b05fa3
@@ -2022,13 +2038,13 @@ proxies:
   sni: pichondan.com
   tls: false
   type: hysteria2
-- name: '9|@Daily_Configs #1'
+- name: 9|ما  @V2xay
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   port: 35000
   server: 77.90.52.69
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: pichondan.com
   tls: false
   type: hysteria2
@@ -2151,7 +2167,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '9|@Daily_Configs #3'
+- name: '9|@Daily_Configs #1'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
