@@ -1,4 +1,12 @@
 proxies:
+- name: '9|SG #1'
+  password: 3hszBhqVsUhqOOFWJlev6k6Tkc
+  port: 22509
+  server: 54.255.144.66
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
 - name: '9|SG #2'
   password: 5OiuCsPmULZ0lJwts89fegLJE
   port: 17193
@@ -19,14 +27,6 @@ proxies:
   password: XON4wZ0sXe1YaqFY2FeM7uZY4
   port: 15221
   server: 122.248.205.111
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: 9|🍰30@oneclickvpnkeys
-  password: Y5kSCRNcOSz5YQUkjehzVXeT2mk
-  port: 19298
-  server: 175.41.154.215
   skip-cert-verify: true
   sni: bing.com
   tls: false
