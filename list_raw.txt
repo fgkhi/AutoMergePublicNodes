@@ -85,6 +85,7 @@ hysteria2://AtTK3tiEA0@p1.punchline.ir:19037?insecure=1&obfs=salamander&obfs-pas
 hysteria2://AtTK3tiEA0@p1.punchline.ir:2087?insecure=1&obfs=salamander&obfs-password=bleepbloop#10%7C%40V2rayNG3%20%235
 hysteria2://AtTK3tiEA0@p1.punchline.ir:44929?insecure=1&obfs=salamander&obfs-password=bluhbluh#10%7C%40V2rayNG3%20%236
 hysteria2://Bz0jKM83wa@android.yas-nowin.ir:443?sni=android.yas-nowin.ir#10%7C%F0%9F%87%A9%F0%9F%87%AA%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%86%20%E2%9E%A0%20%D9%87%D9%85%D9%87%20%D8%A7%D9%BE%D8%B1%D8%A7%D8%AA%D9%88%D8%B1%D9%87%D8%A7%20%D8%AF%D8%A7%D9%86%D9%84...
+hysteria2://J7VnJazPBw@91.98.34.130:443?insecure=0&sni=android.yas-nowin.ir#10%7C%40ELFV2RAY
 hysteria2://J7VnJazPBw@android.yas-nowin.ir:443?insecure=0&sni=android.yas-nowin.ir#10%7C%F0%9F%87%A9%F0%9F%87%AA%F0%9D%97%9A%F0%9D%97%B2%F0%9D%97%BF%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%BB%F0%9D%98%86%20%E2%9E%A0%20%D9%87%D9%85%D9%87%20%D8%A7%D9%BE%D8%B1%D8%A7%D8%AA%D9%88%D8%B1%D9%87%D8%A7%20%231
 hysteria2://KevinZakarian@179.61.132.96:8443?insecure=1&sni=179.61.132.96&obfs=salamander&obfs-password=KevinZakarian#10%7C%2B%40Azarakhsh_Proxy%2B
 hysteria2://NjEkAYYNqFKUbrksyW1COBtdpU@47.239.220.214:2428?insecure=1#10%7C%40Daily_Configs%20%233
