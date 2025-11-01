@@ -432,13 +432,13 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '10|MCI-@V2rayAlpha--3 #2'
+- name: '10|@Daily_Configs #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
   port: 36600
   server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
@@ -554,7 +554,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '10|@Daily_Configs #3'
+- name: '10|@Daily_Configs #4'
   password: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
   port: 30000
   server: de3.oomz.ru
