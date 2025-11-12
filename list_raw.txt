@@ -1,6 +1,7 @@
 hysteria2://Yet-Another-Public-Config-1@206.71.158.37:35000?insecure=1&sni=YAPC-1.afshin.ir&obfs=salamander&obfs-password=Yet-Another-Public-Config-1#9%2C10%7C%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7%20%2318
 hysteria2://a2678c97b8d79059@46.62.152.236:443?insecure=1&obfs=salamander&obfs-password=9242a8bf#9%7C%40NoForcedheaven
-hysteria2://10822856-7452-43ec-b35b-6f24ea33530f@chervhill.hajalii.com:29662?insecure=0&sni=chervhill.hajalii.com&obfs=salamander&obfs-password=xFGh9dsyreJV9sMs1RUnFbwRdon#10%7C%40Mr_Config_Group%E2%9C%8C%EF%B8%8F
+hysteria2://05fd3f79-dca0-4358-a803-c8d4711c17a3@lsyd1.lansecs.top:58338?insecure=1&sni=lsyd1.lansecs.top#10%7CMCI-IR--%40V2rayAlpha-16
+hysteria2://10822856-7452-43ec-b35b-6f24ea33530f@chervhill.hajalii.com:29662?insecure=0&sni=chervhill.hajalii.com&obfs=salamander&obfs-password=xFGh9dsyreJV9sMs1RUnFbwRdon#10%7C%40Mr_Config_Group
 hysteria2://123456@192.3.85.237:443?insecure=1&sni=bing.com#10%7C%40V2rayNG3
 hysteria2://15cca331-9e92-449d-93b0-25f82203595f@gb.gomeow.online:20309?insecure=0&sni=gb.gomeow.online#10%7C%40V2rayNG3%20%231
 hysteria2://17cdeb6c-f046-11ee-bdac-f23c93141fad@3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk:1743?insecure=0#10%7C%40v2ray_configs_pool%F0%9F%94%B7
@@ -10,15 +11,25 @@ hysteria2://20050105zhu@204.44.110.129:51541?insecure=1&sni=www.bing.com#10%7CAl
 hysteria2://22f2c759db51b3d0@109.120.135.123:12122?insecure=1&sni=www.bing.com&obfs=salamander&obfs-password=de8287cd33b05fa3#10%7C%40V2rayNG3%20%232
 hysteria2://2429bee3-e0c1-47dd-b420-75e6512b184b@129.153.59.26:30300?insecure=1&sni=www.bing.com#10%7C%40sunflowerplato
 hysteria2://2429bee3-e0c1-47dd-b420-75e6512b184b@40.233.82.111:30300?insecure=1&sni=www.bing.com#10%7CAll-%40V2rayAlpha--15
-hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@amsterdam.nezhasu.com:443?insecure=1&sni=Amsterdam.nezhasu.com#10%7CAll-%40V2ray_Alpha--7
-hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@falankefu1.nezhasu.com:443?insecure=1&sni=falankefu1.nezhasu.com#10%7CAll-%40V2ray_Alpha--5
+hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@amsterdam.nezhasu.com:443?insecure=1&sni=Amsterdam.nezhasu.com#10%7CMCI-IR--%40V2rayAlpha-17
+hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@ashburn.nezhasu.com:443?insecure=1&sni=ashburn.nezhasu.com#10%7CMCI-IR--%40V2rayAlpha-15
+hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@batam3.nezhasu.com:443?insecure=1&sni=batam3.nezhasu.com#10%7CMCI-IR--%40V2rayAlpha-13
+hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@falankefu1.nezhasu.com:443?insecure=1&sni=falankefu1.nezhasu.com#10%7CMCI-IR--%40V2rayAlpha-14
+hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@gy6.nezhasu.com:443?insecure=1&sni=gy6.nezhasu.com#10%7CMCI-IR--%40V2rayAlpha-12
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@lundun1.nezhasu.com:443?insecure=1&sni=lundun1.nezhasu.com#10%7CAll-%40V2ray_Alpha--1
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@lundun2.nezhasu.com:443?insecure=1&sni=lundun2.nezhasu.com#10%7CAll-%40V2ray_Alpha--2
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@lundun3.nezhasu.com:443?insecure=1&sni=lundun3.nezhasu.com#10%7CAll-%40V2ray_Alpha--3
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@lundun4.nezhasu.com:443?insecure=1&sni=lundun4.nezhasu.com#10%7CAll-%40V2ray_Alpha--4
 hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@marseille-1.nezhasu.com:443?insecure=1&sni=marseille-1.nezhasu.com#10%7CAll-%40V2ray_Alpha--6
+hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@mumbai-1.nezhasu.com:443?insecure=1&sni=mumbai-1.nezhasu.com#10%7CMCI-IR--%40V2rayAlpha-1
+hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@mumbai-2.nezhasu.com:443?insecure=1&sni=mumbai-2.nezhasu.com#10%7CMCI-IR--%40V2rayAlpha-2
+hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@mumbai-3.nezhasu.com:443?insecure=1&sni=mumbai-3.nezhasu.com#10%7CMCI-IR--%40V2rayAlpha-3
+hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@mumbai-4.nezhasu.com:443?insecure=1&sni=mumbai-4.nezhasu.com#10%7CMCI-IR--%40V2rayAlpha-4
+hysteria2://2b195c17-5ff5-4b0d-a809-210b92212394@yn2.nezhasu.com:443?insecure=1&sni=yn2.nezhasu.com#10%7CMCI-IR--%40V2rayAlpha-11
 hysteria2://2b67ONZROv%2BfRVMxB94BSw%3D%3D@5.231.70.79:443?insecure=1&sni=bing.com#10%7CMCI-%40V2rayAlpha--2
 hysteria2://30c075af-9555-4671-b70e-43e3cfb2e707@31.57.241.25:7009?insecure=1&sni=d.eans.top#10%7Chttps%3A//t.me/Selinc
+hysteria2://338ce171-d764-4610-8fd5-6688b0d321f0@193.123.76.141:30102?insecure=1&sni=du.wish.ml#10%7CMCI-IR--%40V2rayAlpha-8
+hysteria2://338ce171-d764-4610-8fd5-6688b0d321f0@91.149.238.71:30102?insecure=1#10%7CMCI-IR--%40V2rayAlpha-6
 hysteria2://4a25ab9e-66e3-435a-97a4-276b5c3a1947@hk.xn--9kqw1xbnu.shop:443?insecure=1#10%7CAll-%40V2rayAlpha--3
 hysteria2://537d7098-fdbe-11ef-8ebc-f23c93141fad@6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk:1743?insecure=0#10%7C%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7%20%232
 hysteria2://537d7098-fdbe-11ef-8ebc-f23c93141fad@825eee23-t4un40-tcj7b6-d70y.la.shifen.uk:1743?insecure=0&sni=825eee23-t4un40-tcj7b6-d70y.la.shifen.uk#10%7C%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7%20%233
@@ -59,6 +70,7 @@ hysteria2://937f8940-ad8a-409f-93c3-4d6249af628f@de3.oomz.ru:30000?insecure=1&sn
 hysteria2://94931862-1484-11f0-9ab7-f23c95b6f51d@98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk:1743?insecure=0#10%7C%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7%20%2310
 hysteria2://9772ecf2-6732-4bfb-a8b1-f48af577c76c@113.192.61.19:63979?insecure=1&sni=www.bing.com#10%7C%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7%20%2311
 hysteria2://9772ecf2-6732-4bfb-a8b1-f48af577c76c@113.192.61.19:63979?insecure=1&sni=🔒 [By EbraSha] #10%7C%F0%9F%94%B7%F0%9F%86%94%40v2ray_configs_pool%F0%9F%94%B7%20%2312
+hysteria2://9ec830fd-79da-4706-a964-cb227d7198db@135.148.82.248:33333?insecure=1#10%7CMCI-IR--%40V2rayAlpha-7
 hysteria2://%40azadi_az_inja_migzare@all-v4.dgi000.store:443?insecure=0&sni=all-v4.dgi000.store&obfs=salamander&obfs-password=@azadi_az_inja_migzare#10%7C%40V2rayNG3%20%2310
 hysteria2://AtTK3tiEA0@p1.punchline.ir:19037?insecure=1&obfs=salamander&obfs-password=bipbip#10%7C%40V2rayNG3%20%2311
 hysteria2://AtTK3tiEA0@p1.punchline.ir:2087?insecure=1&obfs=salamander&obfs-password=bleepbloop#10%7C%40V2rayNG3%20%2312

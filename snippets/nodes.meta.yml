@@ -18,7 +18,15 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 10|@Mr_Config_Group✌️
+- name: 10|MCI-IR--@V2rayAlpha-16
+  password: 05fd3f79-dca0-4358-a803-c8d4711c17a3
+  port: 58338
+  server: lsyd1.lansecs.top
+  skip-cert-verify: true
+  sni: lsyd1.lansecs.top
+  tls: false
+  type: hysteria2
+- name: 10|@Mr_Config_Group
   obfs: salamander
   obfs-password: xFGh9dsyreJV9sMs1RUnFbwRdon
   password: 10822856-7452-43ec-b35b-6f24ea33530f
@@ -100,7 +108,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 10|All-@V2ray_Alpha--7
+- name: 10|MCI-IR--@V2rayAlpha-17
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: amsterdam.nezhasu.com
@@ -108,12 +116,36 @@ proxies:
   sni: Amsterdam.nezhasu.com
   tls: false
   type: hysteria2
-- name: 10|All-@V2ray_Alpha--5
+- name: 10|MCI-IR--@V2rayAlpha-15
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: ashburn.nezhasu.com
+  skip-cert-verify: true
+  sni: ashburn.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 10|MCI-IR--@V2rayAlpha-13
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: batam3.nezhasu.com
+  skip-cert-verify: true
+  sni: batam3.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 10|MCI-IR--@V2rayAlpha-14
   password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
   server: falankefu1.nezhasu.com
   skip-cert-verify: true
   sni: falankefu1.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 10|MCI-IR--@V2rayAlpha-12
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: gy6.nezhasu.com
+  skip-cert-verify: true
+  sni: gy6.nezhasu.com
   tls: false
   type: hysteria2
 - name: 10|All-@V2ray_Alpha--1
@@ -156,6 +188,46 @@ proxies:
   sni: marseille-1.nezhasu.com
   tls: false
   type: hysteria2
+- name: 10|MCI-IR--@V2rayAlpha-1
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: mumbai-1.nezhasu.com
+  skip-cert-verify: true
+  sni: mumbai-1.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 10|MCI-IR--@V2rayAlpha-2
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: mumbai-2.nezhasu.com
+  skip-cert-verify: true
+  sni: mumbai-2.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 10|MCI-IR--@V2rayAlpha-3
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: mumbai-3.nezhasu.com
+  skip-cert-verify: true
+  sni: mumbai-3.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 10|MCI-IR--@V2rayAlpha-4
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: mumbai-4.nezhasu.com
+  skip-cert-verify: true
+  sni: mumbai-4.nezhasu.com
+  tls: false
+  type: hysteria2
+- name: 10|MCI-IR--@V2rayAlpha-11
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: yn2.nezhasu.com
+  skip-cert-verify: true
+  sni: yn2.nezhasu.com
+  tls: false
+  type: hysteria2
 - name: 10|MCI-@V2rayAlpha--2
   password: 2b67ONZROv+fRVMxB94BSw==
   port: 443
@@ -170,6 +242,21 @@ proxies:
   server: 31.57.241.25
   skip-cert-verify: true
   sni: d.eans.top
+  tls: false
+  type: hysteria2
+- name: 10|MCI-IR--@V2rayAlpha-8
+  password: 338ce171-d764-4610-8fd5-6688b0d321f0
+  port: 30102
+  server: 193.123.76.141
+  skip-cert-verify: true
+  sni: du.wish.ml
+  tls: false
+  type: hysteria2
+- name: 10|MCI-IR--@V2rayAlpha-6
+  password: 338ce171-d764-4610-8fd5-6688b0d321f0
+  port: 30102
+  server: 91.149.238.71
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: 10|All-@V2rayAlpha--3
@@ -507,6 +594,13 @@ proxies:
   server: 113.192.61.19
   skip-cert-verify: true
   sni: '🔒 [By EbraSha] '
+  tls: false
+  type: hysteria2
+- name: 10|MCI-IR--@V2rayAlpha-7
+  password: 9ec830fd-79da-4706-a964-cb227d7198db
+  port: 33333
+  server: 135.148.82.248
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '10|@V2rayNG3 #10'
