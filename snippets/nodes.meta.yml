@@ -686,7 +686,7 @@ proxies:
   sni: hk1.shiyuandian.shop
   tls: false
   type: hysteria2
-- name: '10|🇳🇱@FreakConfig #3'
+- name: '10|🇳🇱@FreakConfig #4'
   obfs: salamander
   obfs-password: SjSQ10UvLYEztFdQKTJQFA8imEc4W
   password: asrnovin_ir
@@ -879,7 +879,7 @@ proxies:
   sni: johannesburg-4.nezhasu.com
   tls: false
   type: hysteria2
-- name: 10|𝗝𝗼𝗶𝗻 ➠ @Daily_Configs 🫆
+- name: '10|𝗝𝗼𝗶𝗻 ➠ @Daily_Configs  #1'
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 443
   server: 89.168.80.242
@@ -955,7 +955,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|𝗝𝗼𝗶𝗻 ➠ @Daily_Configs 🫆 #1'
+- name: '10|@V2ray1_Ng #4'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
   password: e20cc63dc06088fba56bf786860aadaf
