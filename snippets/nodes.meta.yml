@@ -61,16 +61,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '10|@hopev2ray '
-  obfs: salamander
-  obfs-password: Telegram-->@Ln2Ray
-  password: Telegram-->@Ln2Ray
-  port: 45000
-  server: gavazn.lnmarketplace.net
-  skip-cert-verify: true
-  sni: gavazn.55994421.xyz
-  tls: false
-  type: hysteria2
 - name: 10|@hopev2ray
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
@@ -91,7 +81,7 @@ proxies:
   sni: YAPC-1.afshin.i
   tls: false
   type: hysteria2
-- name: 10|⚡Telegram = @vmessorg
+- name: '10|⚡Telegram = @SOSkeyNET #2'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
