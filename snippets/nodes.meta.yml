@@ -7,6 +7,32 @@ proxies:
   sni: 🔒
   tls: false
   type: hysteria2
+- name: 9|44@oneclickvpnkeys
+  password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+  port: 35000
+  server: 129.151.251.122
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  tls: false
+  type: hysteria2
+- name: 9|📤57@oneclickvpnkeys
+  password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+  port: 35000
+  server: 143.47.32.143
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  tls: false
+  type: hysteria2
+- name: 9,10|🌀Telegram= @vpn_openet 🌀
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+  password: 75193bef8d8fe82341e02dd083dc1399
+  port: 989
+  server: dd.openaccessnode.com
+  skip-cert-verify: false
+  sni: dd.ircybersec.org
+  tls: false
+  type: hysteria2
 - name: 9|2
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -30,7 +56,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 9|35@oneclickvpnkeys
+- name: '9|@Trick_mobil #4'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram-->@Ln2Ray
@@ -71,7 +97,6 @@ proxies:
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 206.71.158.40
-  skip-cert-verify: true
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
@@ -101,7 +126,15 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: 9|27@oneclickvpnkeys
+- name: 9|35@oneclickvpnkeys
+  password: f40ca239-4a76-4808-b56c-84d4e9969939
+  port: 50000
+  server: 129.151.193.163
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
+- name: 9|📤27@oneclickvpnkeys
   password: f40ca239-4a76-4808-b56c-84d4e9969939
   port: 65535
   server: 132.145.28.17
@@ -115,16 +148,6 @@ proxies:
   server: 132.145.52.10
   skip-cert-verify: true
   sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: 10|🌀Telegram= @vpn_openet 🌀
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
-  password: 75193bef8d8fe82341e02dd083dc1399
-  port: 989
-  server: dd.openaccessnode.com
-  skip-cert-verify: false
-  sni: dd.ircybersec.org
   tls: false
   type: hysteria2
 - name: '10|@en_vpn/  '
@@ -165,7 +188,15 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: 10| T.me/V2HUBIR | Join Now ✅️
+- name: 10|@Spartan_YT
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.41
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '10| Telegram: @wiki_tajrobe'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -175,7 +206,7 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: 10|configraygan_1
+- name: 10|کانفیگ ایان = t.me/arisping
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
