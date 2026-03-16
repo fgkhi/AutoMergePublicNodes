@@ -55,27 +55,21 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 10|Telegram:@config_proxy 😍
-  password: 020c5523-7fbf-4130-9509-8f2281505837
-  port: 34561
-  server: hkt.sevenka.top
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: 10|@V2HUBIR
-  password: 2c833c5d-cbcc-4afb-89ba-d17dc39db6f0
-  port: 47974
-  server: 75.127.13.83
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 10|8@oneclickvpnkeys
+- name: 10|🚜8@oneclickvpnkeys
   password: 46a64503-b76f-45b4-9948-6bac86e8d29e
   port: 21927
   server: de.xn--ehqa22b.site
   skip-cert-verify: true
   sni: de.xn--ehqa22b.site
+  tls: false
+  type: hysteria2
+- name: '10|Telegram:@config_proxy '
+  obfs: none
+  password: 8b39d955-b242-40f3-ba29-e558a9b7096b
+  port: 2056
+  server: db1.mangshe.xyz
+  skip-cert-verify: true
+  sni: db1.mangshe.xyz
   tls: false
   type: hysteria2
 - name: 10|+@Azarakhsh_Proxy+
