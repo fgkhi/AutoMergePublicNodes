@@ -45,5 +45,5 @@ vless://afcac633-0e1a-46c3-bef2-cc01cc0097c8@85.234.114.53:22231?allowInsecure=0
 vless://4706d9c3-eec0-4666-9d84-e608a200e872@194.226.169.36:443?allowInsecure=0&sni=yahoo.com&fp=chrome&security=tls#13%7CRU_speednode_0045
 vless://9287f532-4150-48ff-a755-64b21e30e9c3@217.26.24.101:23151?allowInsecure=0&sni=cms-res-web.online.sberbank.ru&flow=xtls-rprx-vision-udp443&fp=chrome&security=tls#13%7CRU_speednode_0047
 vless://e277ac9b-3225-4381-a9fb-3585419f7142@kobe.ns.cloudflare.com:443?allowInsecure=0&sni=35cdnws.frnstatic.info&alpn=http/1.1&type=ws&host=35cdnws.frnstatic.info&path=/35cdnwsfp=firefox&security=tls#13%7CUS_speednode_0054
-hhy2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000/?insecure=1&sni=api.kermanshahi.org&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi&note=@FreeOnlineVPN# - DE - @FreeOnlineVPN
 hhysteria2://Masir_Sefid@18.194.238.82:54040?security=tls&obfs=salamander&obfs-password=Masir_Sefid&insecure=0&sni=qus.masir-sefid.shop#@meliproxyy
+hhy2://b4bd0613-ff7c-4f2f-954d-185915e6ddad@181.214.99.162:35000/?insecure=1&sni=api.kermanshahi.org&obfs=salamander&obfs-password=@JavidnamanIran-Javid-SHAH-KingRezaPahlavi&note=@FreeOnlineVPN# - DE - @FreeOnlineVPN
