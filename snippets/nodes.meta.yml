@@ -219,7 +219,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|@internet_azad_2026⚡️
+- name: 9|@tootffarangi🍓hamrah
   obfs: salamander
   obfs-password: masir_sefid
   password: masir_sefid
@@ -239,7 +239,17 @@ proxies:
   sni: content.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: 9|♾️40@oneclickvpnkeys
+- name: 9|🇳🇱51381 | ⚡️Telegram = t.me/SO...
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  port: 443
+  server: hy2.aspidnet.xyz
+  skip-cert-verify: false
+  sni: hy2.aspidnet.xyz
+  tls: false
+  type: hysteria2
+- name: 9|️40@oneclickvpnkeys
   password: zhangyang
   port: 6443
   server: 130.61.50.75
