@@ -63,6 +63,16 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: 9|74625 | Telegram = t.me/SOSkey...
+  obfs: salamander
+  obfs-password: V2RayyNGvpn$miracle$krouky
+  password: '@V2RayyNGvpn'
+  port: 443
+  server: 213.156.152.76
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
 - name: 9|  @vistav2ray  👈👈اا  ✅
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
@@ -83,7 +93,7 @@ proxies:
   sni: 179.61.132.96
   tls: false
   type: hysteria2
-- name: '9|@prrofile_purple  ♥️👈 تلگرام #1'
+- name: 9|@prrofile_purple  ♥️👈 تلگرام
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -93,7 +103,7 @@ proxies:
   sni: Api1.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: '9|@prrofile_purple  ♥️👈 تلگرام #2'
+- name: '9|@prrofile_purple  ♥️👈 تلگرام #1'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -103,7 +113,7 @@ proxies:
   sni: Api1.masir-sefid-1.my
   tls: false
   type: hysteria2
-- name: '9|@prrofile_purple  ♥️👈 تلگرام #3'
+- name: '9|@prrofile_purple  ♥️👈 تلگرام #2'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -133,7 +143,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|74504 | ️Telegram = t.me/SOSke...
+- name: 9|74504 | ⚡️Telegram = t.me/SOSk...
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
   port: 33333
   server: hy2.123266.xyz
