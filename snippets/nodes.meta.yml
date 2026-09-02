@@ -144,7 +144,7 @@ proxies:
   sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
-- name: 8,9|🇫🇮FI-@VPNine1
+- name: 8,9|5🔒@oneclickvpnkeys
   password: BPvdjudCGodsF67hRP3xgBYvcKp48coTsh6ANydLhQs=
   port: 443
   server: fin14qr.wwwinternetvideo.click
@@ -614,14 +614,6 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 9|@GozargahAzad|🇫🇮
-  password: 4savc5ig1n3549e4
-  port: 52023
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: ''
-  tls: false
-  type: hysteria2
 - name: 9|@Daily_Configs
   password: 4savc5ig1n3549e4
   port: 52023
@@ -725,7 +717,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 9|🇫🇮158327 | ⚡️Telegram = t.me/S...
+  name: '9|@vpnbaz '
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 4savc5ig1n3549e4
@@ -1318,16 +1310,6 @@ proxies:
   port: 443
   server: 45.140.205.58
   sni: ch3.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: 9|@Azaranv2ray
-  obfs: salamander
-  obfs-password: d6pv15sghiq1onts
-  password: t8t2qojzsykqazfu
-  port: 52026
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
 - name: '9|@meliproxyy #3'
