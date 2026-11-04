@@ -200,7 +200,7 @@ proxies:
   sni: bl1.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|66@oneclickvpnkeys
+- name: 9|🍪66@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.188.143
@@ -232,7 +232,7 @@ proxies:
   sni: pl3.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|61@oneclickvpnkeys
+- name: 9|🍪61@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: 13.143.189.143
@@ -255,7 +255,7 @@ proxies:
   sni: pl2.nexfile.net
   tls: false
   type: hysteria2
-- name: 9|73@oneclickvpnkeys
+- name: 9|🍪73@oneclickvpnkeys
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   port: 4444
   server: pl3.nexfile.net
@@ -282,7 +282,7 @@ proxies:
   sni: nas.aizhzo.com
   tls: false
   type: hysteria2
-- name: 9|️️@ATLAS_V2VPN️️631
+- name: 9|️@ATLAS_V2VPN️️631
   obfs: salamander
   obfs-password: hfwq51con9efdxx6
   password: f04i31zq8sy80v9b
@@ -307,16 +307,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 9|@ConfigV2RayNG
-  obfs: salamander
-  obfs-password: 7922smqtd5qm70fu
-  password: h05ff7mbgbj6dhwy
-  port: 2098
-  server: panel.trapxan.ir
-  skip-cert-verify: false
-  sni: panel.trapxan.ir
   tls: false
   type: hysteria2
 - name: 9|⏳73@oneclickvpnkeys
